@@ -1,6 +1,6 @@
 import pytest
 from datetime import datetime, timedelta
-from src.core.time_manager import TimeManager, GameDate, Season
+from village_life.core.time_manager import TimeManager, GameDate, Season
 
 @pytest.fixture
 def time_manager():
@@ -166,4 +166,47 @@ def test_day_night_cycle():
     
     # Test nighttime
     manager.game_date.hour = 22
-    assert manager.is_daytime() is False 
+    assert manager.is_daytime() is False
+
+def test_interpolation_alpha():
+    """Test the interpolation alpha value calculation."""
+    manager = TimeManager()
+    
+    # Initially alpha should be 0
+    assert manager.alpha == 0.0
+    
+    # Set accumulator to half of fixed time step
+    manager.accumulator = manager.fixed_time_step / 2
+    manager.update()
+    assert 0.0 <= manager.alpha <= 1.0
+    
+    # Set accumulator to exactly fixed time step
+    manager.accumulator = manager.fixed_time_step
+    assert manager.update() is True  # Should trigger an update
+    assert manager.alpha < 1.0  # Alpha should be reset after update
+
+def test_multiple_updates():
+    """Test multiple consecutive updates."""
+    manager = TimeManager()
+    initial_date = GameDate(
+        year=manager.game_date.year,
+        season=manager.game_date.season,
+        day=manager.game_date.day,
+        hour=manager.game_date.hour,
+        minute=manager.game_date.minute
+    )
+    
+    # Simulate multiple updates
+    for _ in range(10):
+        manager.accumulator = manager.fixed_time_step
+        manager.update()
+        
+    # Verify time has advanced
+    assert (
+        manager.game_date.minute > initial_date.minute or
+        manager.game_date.hour > initial_date.hour or
+        manager.game_date.day > initial_date.day
+    )
+    
+    # Verify alpha remains valid
+    assert 0.0 <= manager.alpha <= 1.0 

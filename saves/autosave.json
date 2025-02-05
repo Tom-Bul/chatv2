@@ -1,11 +1,21 @@
 {
   "time": {
-    "real_time": "2025-02-04T20:12:26.418506",
-    "game_time": "2025-02-04T20:12:26.418517",
-    "time_scale": 1.0
+    "real_start_time": "2025-02-05T01:32:18.450108",
+    "game_date": {
+      "year": 1,
+      "season": "SPRING",
+      "day": 1,
+      "hour": 6,
+      "minute": 1
+    },
+    "time_scale": 60.0
+  },
+  "resources": {
+    "storage_capacity": 1000.0,
+    "resources": {}
   },
   "character": {
-    "name": "Player",
+    "name": "TestChar",
     "stats": {
       "health": 100.0,
       "energy": 100.0,
@@ -22,8 +32,8 @@
     "relationships": {}
   },
   "tasks": {
-    "active": [
-      {
-        "name": "Clean Room",
-        "description": "Clean and organize your room",
-        "type": 
+    "active": [],
+    "completed": []
+  },
+  "npcs": {}
+}

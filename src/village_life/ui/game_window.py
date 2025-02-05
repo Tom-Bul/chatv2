@@ -1,13 +1,15 @@
-from PyQt6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QTextEdit
+from PyQt6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QTextEdit, QPushButton, QLabel
 from PyQt6.QtCore import Qt, QTimer
-from PyQt6.QtGui import QFont, QKeyEvent
+from PyQt6.QtGui import QFont, QKeyEvent, QPainter, QColor
 from datetime import datetime, timedelta
 from typing import Optional, List, Tuple
 from pathlib import Path
 import sys
+import logging
+import json
 
-sys.path.append(str(Path(__file__).parent.parent))
-from core.game import Game, Task, TaskType
+from village_life.core.game import Game
+from village_life.core.task import Task, TaskType, TaskStatus
 from .npc_menu import NPCMenu
 from .menu_transitions import MenuAnimator, MenuEffectManager
 
@@ -76,6 +78,7 @@ class GameWindow(QMainWindow):
             "main": AsciiMenu(["Feedback", "New Game", "Load Game", "Help", "Quit"], width=80),
             "character_creation": AsciiMenu(["Enter Name", "Start Game", "Back"], width=80),
             "game": AsciiMenu(["Character", "Tasks", "Save Game", "Help", "Feedback", "Back to Main"], width=80),
+            "character": AsciiMenu(["View Stats", "View Skills", "View Inventory", "Back"], width=80),
             "tasks": AsciiMenu(["Add Task", "View Tasks", "Complete Task", "Help", "Back"], width=80),
             "task_creation": AsciiMenu([
                 "Enter Task Name",
@@ -175,7 +178,7 @@ class GameWindow(QMainWindow):
         # Task creation state
         self.new_task = {
             "name": "",
-            "type": TaskType.CHORE,
+            "type": TaskType.GATHERING,
             "duration": None
         }
         
@@ -258,7 +261,8 @@ class GameWindow(QMainWindow):
                 lines.extend([
                     f"Date: {time_info['formatted']}",
                     f"Time: {'Day' if time_info['is_daytime'] else 'Night'}",
-                    f"Season: {time_info['season']}",
+                    f"Day Progress: {time_info['day_progress']:.1%}",
+                    f"Season Progress: {time_info['season_progress']:.1%}",
                     ""
                 ])
             
@@ -268,7 +272,7 @@ class GameWindow(QMainWindow):
                 resource_border = "═" * 72
                 lines.extend([
                     "╔═ Resources " + resource_border[11:] + "╗",
-                    f"║ Storage: {resource_info['name']} ({resource_info['stored_weight']:.1f}/{resource_info['capacity']:.1f})" + " " * 20 + "║"
+                    f"║ Storage: {resource_info['total_weight']:.1f}/{resource_info['capacity']:.1f}" + " " * 20 + "║"
                 ])
                 
                 # Group resources by category
@@ -276,19 +280,17 @@ class GameWindow(QMainWindow):
                 advanced_resources = []
                 special_resources = []
                 
-                for res_name, res_data in resource_info["resources"].items():
+                for res_data in resource_info["resources"]:
                     if not res_data:
                         continue
                         
-                    line = f"{res_name.title()}: {res_data['quantity']:.1f}"
+                    line = f"{res_data['name']}: {res_data['quantity']:.1f}"
                     if res_data['quality'] < 1.0:
                         line += f" (Quality: {res_data['quality']:.1%})"
-                    if res_data['perishable']:
-                        line += " *"
                     
-                    if res_name in ["FOOD", "WATER", "WOOD", "STONE"]:
+                    if res_data['name'] in ["FOOD", "WATER", "WOOD", "STONE"]:
                         basic_resources.append(line)
-                    elif res_name in ["METAL", "CLOTH", "TOOLS"]:
+                    elif res_data['name'] in ["METAL", "CLOTH", "TOOLS"]:
                         advanced_resources.append(line)
                     else:
                         special_resources.append(line)
@@ -313,7 +315,7 @@ class GameWindow(QMainWindow):
                     ])
                 
                 # Storage space indicator
-                space_used = resource_info["stored_weight"] / resource_info["capacity"]
+                space_used = resource_info["total_weight"] / resource_info["capacity"]
                 space_bar = "█" * int(space_used * 20)
                 space_bar = space_bar.ljust(20, "░")
                 
@@ -387,12 +389,19 @@ class GameWindow(QMainWindow):
         self.setFocus()
     
     def change_menu(self, new_menu: str) -> None:
-        """Change to a new menu with transition."""
-        if new_menu != self.current_menu:
-            self.menu_animator.start_transition(self.current_menu, new_menu)
+        """Change to a new menu."""
+        if new_menu not in self.menus:
+            logging.warning(f"Attempted to change to invalid menu: {new_menu}")
+            return
+        
+        # Store previous menu for back navigation
+        if self.current_menu != new_menu:
+            self.previous_menu = self.current_menu
             self.current_menu = new_menu
-            self.log_to_file(f"Changed menu to: {new_menu}")
-            self.setFocus()  # Ensure focus is maintained
+            
+            # Trigger menu transition animation
+            self.menu_animator.start_transition(self.previous_menu, new_menu)
+            self.effect_manager.add_effect("menu_change")
     
     def keyPressEvent(self, event: QKeyEvent) -> None:
         """Handle keyboard input."""
@@ -531,7 +540,7 @@ class GameWindow(QMainWindow):
                 self.change_menu("task_creation")
                 self.new_task = {
                     "name": "",
-                    "type": TaskType.CHORE,
+                    "type": TaskType.GATHERING,
                     "duration": None
                 }
             elif selected == "Complete Task":

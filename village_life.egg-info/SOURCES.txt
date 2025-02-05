@@ -31,7 +31,6 @@ tests/test_ai_integration.py
 tests/test_game.py
 tests/test_game_window.py
 tests/test_llm_api.py
-tests/test_menu_transitions.py
 tests/test_metal_processing.py
 tests/test_modifiers.py
 tests/test_resource_manager.py
@@ -45,6 +44,8 @@ tests/test_time_manager.py
 tests/test_weather_manager.py
 tests/test_weather_system.py
 tests/test_web_scraper.py
+tests/ui/__init__.py
+tests/ui/test_menu_transitions.py
 village_life.egg-info/PKG-INFO
 village_life.egg-info/SOURCES.txt
 village_life.egg-info/dependency_links.txt

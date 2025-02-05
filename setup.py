@@ -7,7 +7,8 @@ from setuptools import setup, find_packages
 setup(
     name="village_life",
     version="0.1.0",
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     install_requires=[
         "PyQt6>=6.8.0",
         "pytest>=8.3.4",

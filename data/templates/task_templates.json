@@ -604,5 +604,45 @@
     "difficulty_scaling": 1.3,
     "reward_scaling": 1.3,
     "is_hidden": false
+  },
+  {
+    "id": "gather_wood",
+    "name": "Gather Wood",
+    "description": "Gather wood from the nearby forest",
+    "type": "GATHERING",
+    "duration_minutes": 30,
+    "energy_cost": 10,
+    "required_tools": [],
+    "required_skills": [],
+    "required_resources": {},
+    "produced_resources": {
+      "WOOD": 5
+    },
+    "skill_experience": {
+      "GATHERING": 5
+    },
+    "min_village_level": 1,
+    "season_availability": ["spring", "summer", "autumn", "winter"],
+    "weather_availability": ["clear", "cloudy", "partly_cloudy"]
+  },
+  {
+    "id": "gather_stone",
+    "name": "Gather Stone",
+    "description": "Gather stone from the nearby quarry",
+    "type": "GATHERING",
+    "duration_minutes": 45,
+    "energy_cost": 15,
+    "required_tools": [],
+    "required_skills": [],
+    "required_resources": {},
+    "produced_resources": {
+      "STONE": 5
+    },
+    "skill_experience": {
+      "GATHERING": 5
+    },
+    "min_village_level": 1,
+    "season_availability": ["spring", "summer", "autumn", "winter"],
+    "weather_availability": ["clear", "cloudy", "partly_cloudy"]
   }
 ]

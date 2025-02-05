@@ -6,12 +6,12 @@ import json
 import yaml
 from pathlib import Path
 import time
-from ..ai import AIManager, DialogueManager, NPC, NPCRole, DialogueType
-from .time_manager import TimeManager, Season
-from .resource_manager import ResourceManager, ResourceType
-from .task_manager import TaskManager, TaskType, TaskStatus
-from .character import Character
-from .weather_manager import WeatherManager
+from village_life.ai import AIManager, DialogueManager, NPC, NPCRole, DialogueType
+from village_life.core.time_manager import TimeManager, Season
+from village_life.core.resource_manager import ResourceManager, ResourceType
+from village_life.core.task_manager import TaskManager, TaskType, TaskStatus
+from village_life.core.character import Character
+from village_life.core.weather_manager import WeatherManager
 import logging
 
 # Set up logging

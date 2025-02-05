@@ -6,8 +6,8 @@ from PyQt6.QtWidgets import QWidget, QVBoxLayout, QTextEdit
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QKeyEvent, QFont
 
-from src.core.game import Game
-from src.ai import NPC, DialogueType
+from village_life.core.game import Game
+from village_life.ai import NPC, DialogueType
 
 # Set up logging
 logging.basicConfig(

@@ -2396,3 +2396,292 @@
 [2025-02-04 22:33:44] Menu 'task_creation': moved up (selected: Create Task)
 [2025-02-04 22:33:45] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
 [2025-02-04 22:33:45] Menu 'task_creation': moved up (selected: Set Duration)
+2025-02-05 01:12:18,784 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:12:18,785 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:12:18,785 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:12:18,785 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:12:18,787 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:12:44,949 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:12:44,949 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:12:44,949 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:12:44,949 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:12:44,951 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:13:00,378 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:13:00,379 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:13:00,379 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:13:00,379 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:13:00,380 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:13:00,458 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:13:00.458559: Game started
+2025-02-05 01:13:13.687748: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:13:14.567794: Changed menu to: character_creation
+2025-02-05 01:13:14.568167: Starting character creation
+2025-02-05 01:13:20.548222: Created character: aeroniuszeq
+2025-02-05 01:13:41,057 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:13:41,057 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:13:41,057 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:13:41,057 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:13:41,058 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:13:41,130 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:13:41.130507: Game started
+2025-02-05 01:13:42.743272: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:13:43.035930: Changed menu to: character_creation
+2025-02-05 01:13:43.036004: Starting character creation
+2025-02-05 01:13:46.937170: Created character: aeroniuszeq
+2025-02-05 01:14:22,845 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:14:22,845 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:14:22,845 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:14:22,845 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:14:22,846 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:14:22,918 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:14:22.919172: Game started
+2025-02-05 01:14:24.569910: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:14:24.619794: Menu 'main': moved down (selected: Load Game)
+2025-02-05 01:14:25.599203: Menu 'main': moved up (selected: New Game)
+2025-02-05 01:14:26.047102: Changed menu to: character_creation
+2025-02-05 01:14:26.047363: Starting character creation
+2025-02-05 01:14:31.429449: Created character: aeroniuszeq
+2025-02-05 01:14:35.985878: Menu 'character_creation': moved down (selected: Start Game)
+2025-02-05 01:14:40.534137: Changed menu to: game
+2025-02-05 01:14:40.534484: Game started
+2025-02-05 01:15:06,395 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:15:06,395 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:15:06,395 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:15:06,395 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:15:06,397 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:15:06,468 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:15:06.468656: Game started
+2025-02-05 01:15:08.121461: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:15:08.419897: Changed menu to: character_creation
+2025-02-05 01:15:08.420152: Starting character creation
+2025-02-05 01:15:10.661027: Created character: test
+2025-02-05 01:15:14.036127: Menu 'character_creation': moved down (selected: Start Game)
+2025-02-05 01:15:14.546499: Changed menu to: game
+2025-02-05 01:15:14.546766: Game started
+2025-02-05 01:15:17.315468: Changed menu to: character
+2025-02-05 01:15:35,249 - village_life.core.task_template_manager - ERROR - Error loading task chains: 'is_repeatable'
+2025-02-05 01:15:35,249 - village_life.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-05 01:15:35,249 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-05 01:15:35,249 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:15:35,251 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:15:35,322 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:15:35.323241: Game started
+2025-02-05 01:17:25.092810: Game started
+2025-02-05 01:17:25.230726: Game started
+2025-02-05 01:17:25.269925: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:17:25.270248: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:17:25.321625: Game started
+2025-02-05 01:17:25.349693: Toggled help overlay
+2025-02-05 01:17:25.350010: Toggled help overlay
+2025-02-05 01:17:25.391289: Game started
+2025-02-05 01:17:25.411615: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:17:25.411883: Changed menu to: character_creation
+2025-02-05 01:17:25.411918: Starting character creation
+2025-02-05 01:17:25.434666: Game started
+2025-02-05 01:17:25.441794: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:17:25.442118: Changed menu to: character_creation
+2025-02-05 01:17:25.442156: Starting character creation
+2025-02-05 01:17:25.461202: Game started
+2025-02-05 01:17:25.477736: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:17:25.477991: Changed menu to: character_creation
+2025-02-05 01:17:25.478022: Starting character creation
+2025-02-05 01:17:25.478451: Changed menu to: main
+2025-02-05 01:18:00.658896: Game started
+2025-02-05 01:18:00.765167: Game started
+2025-02-05 01:18:00.786134: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.786454: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:18:00.797010: Game started
+2025-02-05 01:18:00.801206: Toggled help overlay
+2025-02-05 01:18:00.801503: Toggled help overlay
+2025-02-05 01:18:00.806222: Game started
+2025-02-05 01:18:00.816402: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.816720: Changed menu to: character_creation
+2025-02-05 01:18:00.816754: Starting character creation
+2025-02-05 01:18:00.839857: Game started
+2025-02-05 01:18:00.849732: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.850021: Changed menu to: character_creation
+2025-02-05 01:18:00.850056: Starting character creation
+2025-02-05 01:18:00.863938: Game started
+2025-02-05 01:18:00.867088: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.867328: Changed menu to: character_creation
+2025-02-05 01:18:00.867360: Starting character creation
+2025-02-05 01:18:00.867780: Changed menu to: main
+2025-02-05 01:18:00.871632: Game started
+2025-02-05 01:18:00.882997: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.883228: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:18:00.894901: Game started
+2025-02-05 01:18:00.914932: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:18:00.915169: Changed menu to: character_creation
+2025-02-05 01:18:00.915203: Starting character creation
+2025-02-05 01:18:00.915612: Menu 'character_creation': moved down (selected: Start Game)
+2025-02-05 01:18:00.915832: Menu 'character_creation': moved down (selected: Back)
+2025-02-05 01:18:00.916050: Changed menu to: main
+2025-02-05 01:18:00.916354: Menu 'main': moved down (selected: Load Game)
+2025-02-05 01:18:00.916544: Menu 'main': moved down (selected: Help)
+2025-02-05 01:18:00.916722: Menu 'main': moved down (selected: Quit)
+2025-02-05 01:18:00.916894: Menu 'main': moved down (selected: Feedback)
+2025-02-05 01:18:00.917056: Changed menu to: feedback
+2025-02-05 01:18:00.917079: Opened feedback menu
+2025-02-05 01:18:00.917296: Menu 'feedback': moved down (selected: View Previous Feedback)
+2025-02-05 01:18:00.917513: Menu 'feedback': moved down (selected: Back)
+2025-02-05 01:18:00.917737: Changed menu to: main
+2025-02-05 01:18:00.917760: Returned to main menu
+2025-02-05 01:18:00.928779: Game started
+2025-02-05 01:18:00.940108: Changed menu to: feedback
+2025-02-05 01:18:00.940196: Opened feedback menu
+2025-02-05 01:18:00.940495: Menu 'feedback': moved down (selected: View Previous Feedback)
+2025-02-05 01:18:00.940799: Changed menu to: main
+2025-02-05 01:18:00.941005: Changed menu to: feedback
+2025-02-05 01:18:00.941038: Opened feedback menu
+2025-02-05 01:18:00.958419: Game started
+2025-02-05 01:18:00.969146: Changed menu to: invalid_menu
+2025-02-05 01:18:00.980471: Game started
+2025-02-05 01:19:10.098904: Game started
+2025-02-05 01:19:10.186796: Game started
+2025-02-05 01:19:10.202944: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.203343: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:19:10.215298: Game started
+2025-02-05 01:19:10.219588: Toggled help overlay
+2025-02-05 01:19:10.219928: Toggled help overlay
+2025-02-05 01:19:10.227253: Game started
+2025-02-05 01:19:10.239140: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.239511: Changed menu to: character_creation
+2025-02-05 01:19:10.239562: Starting character creation
+2025-02-05 01:19:10.266637: Game started
+2025-02-05 01:19:10.271176: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.271500: Changed menu to: character_creation
+2025-02-05 01:19:10.271545: Starting character creation
+2025-02-05 01:19:10.290633: Game started
+2025-02-05 01:19:10.303143: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.303463: Changed menu to: character_creation
+2025-02-05 01:19:10.303518: Starting character creation
+2025-02-05 01:19:10.303943: Changed menu to: main
+2025-02-05 01:19:10.324652: Game started
+2025-02-05 01:19:10.334480: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.334744: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:19:10.359178: Game started
+2025-02-05 01:19:10.379614: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:10.379891: Changed menu to: character_creation
+2025-02-05 01:19:10.379932: Starting character creation
+2025-02-05 01:19:10.380377: Menu 'character_creation': moved down (selected: Start Game)
+2025-02-05 01:19:10.380606: Menu 'character_creation': moved down (selected: Back)
+2025-02-05 01:19:10.380851: Changed menu to: main
+2025-02-05 01:19:10.381181: Menu 'main': moved down (selected: Load Game)
+2025-02-05 01:19:10.381350: Menu 'main': moved down (selected: Help)
+2025-02-05 01:19:10.381517: Menu 'main': moved down (selected: Quit)
+2025-02-05 01:19:10.381682: Menu 'main': moved down (selected: Feedback)
+2025-02-05 01:19:10.381855: Changed menu to: feedback
+2025-02-05 01:19:10.381881: Opened feedback menu
+2025-02-05 01:19:10.382105: Menu 'feedback': moved down (selected: View Previous Feedback)
+2025-02-05 01:19:10.382323: Menu 'feedback': moved down (selected: Back)
+2025-02-05 01:19:10.382552: Changed menu to: main
+2025-02-05 01:19:10.382581: Returned to main menu
+2025-02-05 01:19:10.389768: Game started
+2025-02-05 01:19:10.400244: Changed menu to: feedback
+2025-02-05 01:19:10.400347: Opened feedback menu
+2025-02-05 01:19:10.400621: Menu 'feedback': moved down (selected: View Previous Feedback)
+2025-02-05 01:19:10.400875: Changed menu to: main
+2025-02-05 01:19:10.401070: Changed menu to: feedback
+2025-02-05 01:19:10.401097: Opened feedback menu
+2025-02-05 01:19:10.408759: Game started
+2025-02-05 01:19:10.418828: Changed menu to: invalid_menu
+2025-02-05 01:19:10.429910: Game started
+2025-02-05 01:19:52.514672: Game started
+2025-02-05 01:19:52.627238: Game started
+2025-02-05 01:19:52.661316: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:52.661574: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:19:52.681952: Game started
+2025-02-05 01:19:52.697202: Toggled help overlay
+2025-02-05 01:19:52.697525: Toggled help overlay
+2025-02-05 01:19:52.706496: Game started
+2025-02-05 01:19:52.744340: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:52.747882: Toggled help overlay
+2025-02-05 01:19:52.764420: Game started
+2025-02-05 01:19:52.772601: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:19:52.774973: Toggled help overlay
+2025-02-05 01:21:18.938700: Game started
+2025-02-05 01:21:19.032648: Game started
+2025-02-05 01:21:19.066107: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:21:19.066396: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:21:19.076752: Game started
+2025-02-05 01:21:19.106608: Toggled help overlay
+2025-02-05 01:21:19.106896: Toggled help overlay
+2025-02-05 01:21:19.121661: Game started
+2025-02-05 01:21:19.163422: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:21:19.168314: Toggled help overlay
+2025-02-05 01:21:19.185248: Game started
+2025-02-05 01:21:19.206432: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:21:19.208786: Toggled help overlay
+2025-02-05 01:23:35.826011: Game started
+2025-02-05 01:23:36.061746: Game started
+2025-02-05 01:23:36.076951: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:23:36.172951: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:23:36.375636: Game started
+2025-02-05 01:23:36.385862: Toggled help overlay
+2025-02-05 01:23:36.481162: Toggled help overlay
+2025-02-05 01:23:36.677107: Game started
+2025-02-05 01:23:36.686734: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:23:37.041864: Game started
+2025-02-05 01:23:37.147863: Menu 'feedback': moved down (selected: View Previous Feedback)
+2025-02-05 01:23:37.542052: Game started
+2025-02-05 01:23:37.662728: Game started
+2025-02-05 01:24:30.157188: Game started
+2025-02-05 01:24:30.347219: Game started
+2025-02-05 01:24:30.365700: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:24:30.462518: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:24:30.662668: Game started
+2025-02-05 01:24:30.677912: Toggled help overlay
+2025-02-05 01:24:30.775243: Toggled help overlay
+2025-02-05 01:24:30.984576: Game started
+2025-02-05 01:24:31.334097: Game started
+2025-02-05 01:24:31.761513: Game started
+2025-02-05 01:24:31.914675: Game started
+2025-02-05 01:32:14.493886: Game started
+2025-02-05 01:32:14.719732: Game started
+2025-02-05 01:32:14.737154: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:32:14.841819: Menu 'main': moved up (selected: Feedback)
+2025-02-05 01:32:15.046515: Game started
+2025-02-05 01:32:15.060775: Toggled help overlay
+2025-02-05 01:32:15.158619: Toggled help overlay
+2025-02-05 01:32:15.369931: Game started
+2025-02-05 01:32:15.732999: Game started
+2025-02-05 01:32:16.147189: Game started
+2025-02-05 01:32:16.268489: Game started
+2025-02-05 01:32:16.385603: Game started
+2025-02-05 01:32:16.502680: Created character: TestChar
+2025-02-05 01:32:16.734526: Game started
+2025-02-05 01:32:16.763145: Set task name: Test Task
+2025-02-05 01:32:17.079016: Game started
+2025-02-05 01:32:17.098739: Game saved
+2025-02-05 01:32:17.335760: Game started
+2025-02-05 01:32:17.569854: Game started
+2025-02-05 01:32:17.728900: Game started
+2025-02-05 01:32:18.456783: Game started
+2025-02-05 01:32:18.483281: Game loaded
+2025-02-05 01:32:18.688001: Game started
+2025-02-05 01:32:18.713082: Set task name: Test Task
+2025-02-05 01:32:19.151358: Game started
+2025-02-05 01:32:19.489330: Game started
+2025-02-05 01:32:19.641134: Game started
+2025-02-05 01:32:19.776274: Game started
+2025-02-05 01:32:20.973086: Game started
+2025-02-05 01:32:21.126053: Game started
+2025-02-05 01:32:48,722 - village_life.core.task_template_manager - INFO - Loaded 3 task chains
+2025-02-05 01:32:48,723 - village_life.core.task_template_manager - ERROR - Error loading task templates: 'AXE'
+2025-02-05 01:32:48,723 - village_life.core.task_template_manager - INFO - Loaded 1 task templates and 3 task chains
+2025-02-05 01:32:48,723 - village_life.core.task_manager - INFO - Task manager initialized
+2025-02-05 01:32:48,724 - village_life.core.game - INFO - Game initialized
+2025-02-05 01:32:48,796 - village_life.ui.npc_menu - INFO - NPC menu initialized
+2025-02-05 01:32:48.797018: Game started
+2025-02-05 01:32:58.051681: Menu 'main': moved down (selected: New Game)
+2025-02-05 01:32:58.699519: Starting character creation
+2025-02-05 01:33:01.183249: Created character: r
+2025-02-05 01:33:02.031555: Menu 'character_creation': moved down (selected: Start Game)
+2025-02-05 01:33:02.687480: Game started
+2025-02-05 01:33:03.686408: Menu 'game': moved down (selected: Tasks)
+2025-02-05 01:33:04.327455: Menu 'game': moved up (selected: Character)
+2025-02-05 01:33:07.064931: Menu 'character': moved down (selected: View Skills)
+2025-02-05 01:33:08.011687: Menu 'character': moved up (selected: View Stats)
+2025-02-05 01:33:08.824284: Menu 'character': moved down (selected: View Skills)
+2025-02-05 01:33:09.497420: Menu 'character': moved down (selected: View Inventory)
+2025-02-05 01:33:10.198295: Menu 'character': moved down (selected: Back)

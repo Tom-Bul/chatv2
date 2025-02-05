@@ -5,6 +5,7 @@ import uuid
 import logging
 
 from .task import TaskType, ResourceRequirement, ResourceReward, TaskPrerequisite
+from .resource_manager import ResourceType
 
 # Set up logging
 logging.basicConfig(
@@ -52,14 +53,14 @@ class TaskChain:
             id=data["id"],
             name=data["name"],
             description=data["description"],
-            prerequisites=data["prerequisites"],
-            tasks=data["tasks"],
-            village_level_required=data["village_level_required"],
-            reputation_required=data["reputation_required"],
-            is_repeatable=data["is_repeatable"],
-            cooldown=timedelta(seconds=data["cooldown_seconds"]) if data["cooldown_seconds"] else None,
-            season_availability=set(data["season_availability"]),
-            weather_availability=set(data["weather_availability"])
+            prerequisites=data.get("prerequisites", []),
+            tasks=data.get("tasks", []),
+            village_level_required=data.get("village_level_required", 0),
+            reputation_required=data.get("reputation_required", 0.0),
+            is_repeatable=data.get("is_repeatable", False),
+            cooldown=timedelta(seconds=data["cooldown_seconds"]) if data.get("cooldown_seconds") else None,
+            season_availability=set(data.get("season_availability", [])),
+            weather_availability=set(data.get("weather_availability", []))
         )
 
 @dataclass

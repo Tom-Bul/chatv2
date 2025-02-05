@@ -67,6 +67,7 @@ class TimeManager:
     fixed_time_step: float = 1/60  # 60 Hz update rate
     accumulator: float = 0.0
     last_update_time: float = field(default_factory=lambda: datetime.now().timestamp())
+    alpha: float = 0.0  # Interpolation factor
     
     # Time-based effects
     day_night_cycle: Dict[int, str] = field(default_factory=lambda: {
@@ -122,6 +123,9 @@ class TimeManager:
             
             # Consume time step
             self.accumulator -= self.fixed_time_step
+            
+            # Calculate alpha for interpolation
+            self.alpha = self.accumulator / self.fixed_time_step
             return True
             
         return False

@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 from PyQt6.QtWidgets import QApplication
-from ui.game_window import GameWindow
+from village_life.ui.game_window import GameWindow
 
 def main():
     """Main entry point for the game."""
