@@ -5,7 +5,7 @@ import uuid
 import logging
 
 from .task import TaskType, ResourceRequirement, ResourceReward, TaskPrerequisite
-from .resource_manager import ResourceType
+from .resource_types import ResourceType
 
 # Set up logging
 logging.basicConfig(

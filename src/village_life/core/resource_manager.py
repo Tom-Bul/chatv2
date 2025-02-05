@@ -3,7 +3,6 @@ Resource management system implementation.
 Handles resource storage, transformation, and tracking.
 """
 
-from enum import Enum, auto
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Optional, Any
 from datetime import datetime, timedelta
@@ -13,6 +12,7 @@ import uuid
 from .abstractions.base import IResource, IModifier
 from .event_system import publish_event, ResourceEvent
 from .modifiers import create_modifier
+from .resource_types import ResourceType, ResourceCategory
 
 # Set up logging
 logging.basicConfig(
@@ -21,60 +21,6 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
-
-class ResourceCategory(Enum):
-    """Categories of resources."""
-    BASIC = auto()
-    FOOD = auto()
-    CRAFTING = auto()
-    TOOLS = auto()
-    ADVANCED = auto()
-    SPECIAL = auto()
-
-class ResourceType(Enum):
-    """Types of resources available in the game."""
-    # Basic resources
-    WOOD = auto()
-    STONE = auto()
-    METAL = auto()
-    HERBS = auto()
-    WATER = auto()
-    
-    # Food resources
-    FOOD = auto()
-    MEAT = auto()
-    FISH = auto()
-    CROPS = auto()
-    SEEDS = auto()
-    
-    # Crafting materials
-    LEATHER = auto()
-    CLOTH = auto()
-    PAPER = auto()
-    INK = auto()
-    GEMS = auto()
-    GLASS = auto()
-    
-    # Tools and equipment
-    TOOLS = auto()
-    WEAPONS = auto()
-    ARMOR = auto()
-    FURNITURE = auto()
-    CONTAINERS = auto()
-    
-    # Advanced materials
-    REFINED_METAL = auto()
-    REFINED_WOOD = auto()
-    REFINED_STONE = auto()
-    REFINED_GEMS = auto()
-    REFINED_GLASS = auto()
-    
-    # Special resources
-    ARTIFACTS = auto()
-    BOOKS = auto()
-    SCROLLS = auto()
-    POTIONS = auto()
-    DECORATIONS = auto()
 
 @dataclass
 class ResourceProperties:
@@ -159,24 +105,26 @@ class Resource(IResource):
             new_quality
         )
     
-    def split(self, amount: float) -> Tuple['Resource', 'Resource']:
-        """Split this resource stack into two parts."""
-        if amount > self._quantity:
-            raise ValueError(f"Cannot split more than available: {amount} > {self._quantity}")
+    def split(self, quantity: float) -> Tuple['Resource', 'Resource']:
+        """Split this resource into two parts."""
+        if quantity > self._quantity:
+            raise ValueError(f"Cannot split more than available: {quantity} > {self._quantity}")
         
-        remaining = self._quantity - amount
-        
-        publish_event(ResourceEvent(
-            resource_id=self.id,
-            action="split",
-            old_value=self._quantity,
-            new_value=remaining
-        ))
-        
-        return (
-            Resource(self._type, self._properties, amount, self._quality),
-            Resource(self._type, self._properties, remaining, self._quality)
+        remaining = Resource(
+            self._type,
+            self._properties,
+            self._quantity - quantity,
+            self._quality
         )
+        
+        split = Resource(
+            self._type,
+            self._properties,
+            quantity,
+            self._quality
+        )
+        
+        return split, remaining
 
 class ResourceManager:
     """Manages all resources in the game."""
@@ -508,6 +456,78 @@ class ResourceManager:
                 stackable=True,
                 max_stack=10,
                 weight=1.0
+            ),
+            
+            # Tools
+            ResourceType.AXE: ResourceProperties(
+                name="Axe",
+                category=ResourceCategory.TOOLS,
+                base_value=8.0,
+                decay_rate=0.05,
+                quality_impact=1.0,
+                stackable=True,
+                max_stack=5,
+                weight=3.0
+            ),
+            ResourceType.PICKAXE: ResourceProperties(
+                name="Pickaxe",
+                category=ResourceCategory.TOOLS,
+                base_value=8.0,
+                decay_rate=0.05,
+                quality_impact=1.0,
+                stackable=True,
+                max_stack=5,
+                weight=3.0
+            ),
+            ResourceType.SHOVEL: ResourceProperties(
+                name="Shovel",
+                category=ResourceCategory.TOOLS,
+                base_value=6.0,
+                decay_rate=0.05,
+                quality_impact=0.9,
+                stackable=True,
+                max_stack=5,
+                weight=2.5
+            ),
+            ResourceType.HAMMER: ResourceProperties(
+                name="Hammer",
+                category=ResourceCategory.TOOLS,
+                base_value=7.0,
+                decay_rate=0.05,
+                quality_impact=0.9,
+                stackable=True,
+                max_stack=5,
+                weight=2.0
+            ),
+            ResourceType.SAW: ResourceProperties(
+                name="Saw",
+                category=ResourceCategory.TOOLS,
+                base_value=7.0,
+                decay_rate=0.05,
+                quality_impact=0.9,
+                stackable=True,
+                max_stack=5,
+                weight=2.0
+            ),
+            ResourceType.MALLET: ResourceProperties(
+                name="Mallet",
+                category=ResourceCategory.TOOLS,
+                base_value=5.0,
+                decay_rate=0.05,
+                quality_impact=0.8,
+                stackable=True,
+                max_stack=5,
+                weight=1.5
+            ),
+            ResourceType.SMITHING_HAMMER: ResourceProperties(
+                name="Smithing Hammer",
+                category=ResourceCategory.TOOLS,
+                base_value=10.0,
+                decay_rate=0.05,
+                quality_impact=1.0,
+                stackable=True,
+                max_stack=3,
+                weight=3.0
             )
         }
     

@@ -7,7 +7,7 @@ from pathlib import Path
 import uuid
 
 from .task import Task, TaskType, TaskStatus, ResourceRequirement, ResourceReward
-from .resource_manager import ResourceType
+from .resource_types import ResourceType
 from .task_template import TaskTemplate, TaskChain
 from .task_template_manager import TaskTemplateManager
 
@@ -67,134 +67,215 @@ class TaskManager:
         for task_id in completed_tasks:
             del self.active_tasks[task_id]
     
+    def start_task(
+        self,
+        task_id: str,
+        current_time: datetime,
+        available_resources: Dict[ResourceType, Tuple[float, float]],
+        completed_tasks: List[str],
+        current_skills: Dict[str, float],
+        current_season: str,
+        current_weather: str
+    ) -> Tuple[bool, str]:
+        """Start a task if possible."""
+        if task_id in self.active_tasks:
+            return False, "Task already active"
+        
+        # Get task template
+        template = self.template_manager.task_templates.get(task_id)
+        if not template:
+            return False, "Invalid task ID"
+        
+        # Create task instance
+        task = self.template_manager.generate_task(template, current_time)
+        
+        # Check if task can be started
+        can_start, reason = task.can_start(
+            current_time,
+            available_resources,
+            completed_tasks,
+            current_skills,
+            current_season,
+            current_weather
+        )
+        
+        if not can_start:
+            return False, reason
+        
+        # Start task
+        task.start(current_time)
+        self.active_tasks[task_id] = task
+        logger.info(f"Started task: {task.name} ({task_id})")
+        
+        return True, ""
+    
+    def fail_task(self, task_id: str, reason: str) -> bool:
+        """Mark a task as failed."""
+        if task_id not in self.active_tasks:
+            return False
+        
+        task = self.active_tasks[task_id]
+        task.status = TaskStatus.FAILED
+        self.failed_tasks[task_id] = task
+        del self.active_tasks[task_id]
+        
+        logger.info(f"Failed task: {task.name} ({task_id}) - {reason}")
+        return True
+    
     def get_available_tasks(
         self,
         current_time: datetime,
         available_resources: Dict[ResourceType, Tuple[float, float]],
+        completed_tasks: List[str],
         current_skills: Dict[str, float],
-        season: str,
-        weather: str,
-        village_level: int,
-        reputation: float
-    ) -> List[Tuple[Task, str]]:
-        """Get all tasks that can be started."""
+        current_season: str,
+        current_weather: str,
+        village_level: int
+    ) -> List[dict]:
+        """Get list of available tasks."""
         available_tasks = []
-        completed_task_ids = set(self.completed_tasks.keys())
         
-        # Get available chains
-        available_chains = self.template_manager.get_available_chains(
-            village_level=village_level,
-            reputation=reputation,
-            completed_tasks=completed_task_ids,
-            season=season,
-            weather=weather,
-            current_time=current_time
-        )
-        
-        # Get tasks from available chains
-        for chain in available_chains:
-            chain_tasks = self.template_manager.get_chain_tasks(
-                chain_id=chain.id,
-                village_level=village_level,
-                completed_tasks=completed_task_ids
+        for template in self.template_manager.task_templates.values():
+            # Skip hidden tasks
+            if template.is_hidden:
+                continue
+            
+            # Skip tasks in active chains that aren't next
+            if template.chain_id:
+                chain = self.template_manager.task_chains.get(template.chain_id)
+                if chain:
+                    # Check if chain is available
+                    if chain.village_level_required > village_level:
+                        continue
+                    
+                    # Check if chain prerequisites are met
+                    chain_prereqs_met = True
+                    for prereq_chain_id in chain.prerequisites:
+                        if prereq_chain_id not in self.template_manager.completed_chains:
+                            chain_prereqs_met = False
+                            break
+                    
+                    if not chain_prereqs_met:
+                        continue
+                    
+                    # Check if this is the next task in chain
+                    chain_position = 0
+                    for chain_task_id in chain.tasks:
+                        if chain_task_id == template.id:
+                            break
+                        chain_position += 1
+                        if chain_task_id not in completed_tasks:
+                            # Found an uncompleted task before this one
+                            continue
+            
+            # Check if task can be started
+            task = self.template_manager.generate_task(template, current_time)
+            can_start, reason = task.can_start(
+                current_time,
+                available_resources,
+                completed_tasks,
+                current_skills,
+                current_season,
+                current_weather
             )
             
-            for template in chain_tasks:
-                # Skip if task is already active or completed
-                if template.id in self.active_tasks or template.id in self.completed_tasks:
-                    continue
-                
-                # Generate task from template
-                task = self.template_manager.generate_task(template, current_time)
-                
-                # Check if task can be started
-                can_start, reason = task.can_start(
-                    current_time=current_time,
-                    available_resources=available_resources,
-                    completed_task_ids=completed_task_ids,
-                    current_skills=current_skills,
-                    season=season,
-                    weather=weather
-                )
-                
-                if can_start:
-                    available_tasks.append((task, "Ready to start"))
-                elif not template.is_hidden:
-                    available_tasks.append((task, reason))
+            available_tasks.append({
+                "id": template.id,
+                "name": template.name,
+                "description": template.description,
+                "type": template.type.name,
+                "duration": template.base_duration,
+                "can_start": can_start,
+                "reason": reason if not can_start else None,
+                "chain_id": template.chain_id,
+                "position_in_chain": template.position_in_chain
+            })
         
         return available_tasks
     
-    def start_task(
-        self,
-        task_id: str,
-        current_time: datetime
-    ) -> Optional[str]:
-        """Start a task."""
-        # Find task in available tasks
-        available_tasks = [task for task, _ in self.get_available_tasks(
-            current_time=current_time,
-            available_resources={},  # These will be checked by the task itself
-            current_skills={},
-            season="",
-            weather="",
-            village_level=0,
-            reputation=0.0
-        )]
+    def get_task_info(self, task_id: str) -> Optional[dict]:
+        """Get detailed information about a task."""
+        # Check active tasks
+        if task_id in self.active_tasks:
+            task = self.active_tasks[task_id]
+            return {
+                "id": task_id,
+                "name": task.name,
+                "description": task.description,
+                "type": task.type.name,
+                "status": task.status.name,
+                "progress": task.progress,
+                "start_time": task.start_time,
+                "chain_id": task.chain_id,
+                "rewards_claimed": task.rewards_claimed
+            }
         
-        task = None
-        for available_task in available_tasks:
-            if available_task.id == task_id:
-                task = available_task
-                break
+        # Check completed tasks
+        if task_id in self.completed_tasks:
+            task = self.completed_tasks[task_id]
+            return {
+                "id": task_id,
+                "name": task.name,
+                "description": task.description,
+                "type": task.type.name,
+                "status": task.status.name,
+                "progress": task.progress,
+                "start_time": task.start_time,
+                "chain_id": task.chain_id,
+                "rewards_claimed": task.rewards_claimed
+            }
         
-        if not task:
-            return "Task not found or not available"
-        
-        # Start the task
-        task.status = TaskStatus.IN_PROGRESS
-        task.start_time = current_time
-        task.progress = 0.0
-        
-        self.active_tasks[task_id] = task
-        logger.info(f"Started task: {task.name} ({task_id})")
+        # Check failed tasks
+        if task_id in self.failed_tasks:
+            task = self.failed_tasks[task_id]
+            return {
+                "id": task_id,
+                "name": task.name,
+                "description": task.description,
+                "type": task.type.name,
+                "status": task.status.name,
+                "progress": task.progress,
+                "start_time": task.start_time,
+                "chain_id": task.chain_id,
+                "rewards_claimed": task.rewards_claimed
+            }
         
         return None
     
-    def fail_task(self, task_id: str) -> None:
-        """Mark a task as failed."""
-        if task_id in self.active_tasks:
-            task = self.active_tasks[task_id]
-            task.status = TaskStatus.FAILED
-            self.failed_tasks[task_id] = task
-            del self.active_tasks[task_id]
-            logger.info(f"Failed task: {task.name} ({task_id})")
-    
-    def cancel_task(self, task_id: str) -> None:
-        """Cancel an active task."""
-        if task_id in self.active_tasks:
-            task = self.active_tasks[task_id]
-            del self.active_tasks[task_id]
-            logger.info(f"Cancelled task: {task.name} ({task_id})")
-    
-    def claim_task_rewards(
-        self,
-        task_id: str
-    ) -> Optional[Tuple[List[ResourceReward], Dict[str, float], float, float]]:
-        """Claim rewards for a completed task."""
-        task = self.completed_tasks.get(task_id)
-        if not task or task.rewards_claimed:
-            return None
-        
-        task.rewards_claimed = True
-        return (
-            task.resource_rewards,
-            task.skill_rewards,
-            task.reputation_reward,
-            task.village_exp_reward
-        )
+    def get_task_status(self) -> dict:
+        """Get status of all tasks."""
+        return {
+            "active": [
+                {
+                    "id": task_id,
+                    "name": task.name,
+                    "type": task.type.name,
+                    "progress": task.progress,
+                    "start_time": task.start_time
+                }
+                for task_id, task in self.active_tasks.items()
+            ],
+            "completed": [
+                {
+                    "id": task_id,
+                    "name": task.name,
+                    "type": task.type.name,
+                    "rewards_claimed": task.rewards_claimed
+                }
+                for task_id, task in self.completed_tasks.items()
+            ],
+            "failed": [
+                {
+                    "id": task_id,
+                    "name": task.name,
+                    "type": task.type.name
+                }
+                for task_id, task in self.failed_tasks.items()
+            ]
+        }
     
     def save_state(self) -> dict:
-        """Convert manager state to dictionary for saving."""
+        """Save task manager state."""
         return {
             "active_tasks": {
                 task_id: task.to_dict()
@@ -211,23 +292,26 @@ class TaskManager:
             "template_manager": self.template_manager.to_dict()
         }
     
-    def load_state(self, state: dict) -> None:
-        """Load manager state from dictionary."""
+    def load_state(self, data: dict) -> None:
+        """Load task manager state."""
+        # Load tasks
         self.active_tasks = {
             task_id: Task.from_dict(task_data)
-            for task_id, task_data in state.get("active_tasks", {}).items()
+            for task_id, task_data in data.get("active_tasks", {}).items()
         }
         
         self.completed_tasks = {
             task_id: Task.from_dict(task_data)
-            for task_id, task_data in state.get("completed_tasks", {}).items()
+            for task_id, task_data in data.get("completed_tasks", {}).items()
         }
         
         self.failed_tasks = {
             task_id: Task.from_dict(task_data)
-            for task_id, task_data in state.get("failed_tasks", {}).items()
+            for task_id, task_data in data.get("failed_tasks", {}).items()
         }
         
-        self.template_manager.load_state(state.get("template_manager", {}))
+        # Load template manager state
+        if "template_manager" in data:
+            self.template_manager.load_state(data["template_manager"])
         
         logger.info("Loaded task manager state") 

@@ -14,7 +14,7 @@ import uuid
 from .abstractions.base import ITask, IModifier
 from .event_system import publish_event, TaskEvent
 from .modifiers import create_modifier
-from .resource_manager import ResourceType
+from .resource_types import ResourceType
 
 # Set up logging
 logging.basicConfig(
@@ -26,39 +26,14 @@ logger = logging.getLogger(__name__)
 
 class TaskType(Enum):
     """Types of tasks available in the game."""
-    # Resource gathering
     GATHERING = auto()
-    MINING = auto()
-    FARMING = auto()
-    HUNTING = auto()
-    FISHING = auto()
-    
-    # Crafting and construction
     CRAFTING = auto()
-    BUILDING = auto()
     CONSTRUCTION = auto()
-    REPAIR = auto()
-    
-    # Knowledge and research
-    RESEARCH = auto()
-    STUDY = auto()
-    EXPERIMENT = auto()
-    
-    # Commerce and social
-    TRADING = auto()
-    NEGOTIATION = auto()
-    DIPLOMACY = auto()
-    
-    # Village management
     PLANNING = auto()
-    ORGANIZING = auto()
-    TRAINING = auto()
-    
-    # Events and special tasks
-    EVENT = auto()
-    EXPEDITION = auto()
-    DEFENSE = auto()
-    CELEBRATION = auto()
+    COMBAT = auto()
+    SOCIAL = auto()
+    EXPLORATION = auto()
+    RESEARCH = auto()
 
 class TaskStatus(Enum):
     """Status of a task."""
@@ -100,65 +75,176 @@ class TaskPrerequisite:
     time_range: Optional[Tuple[int, int]] = None  # Required time range (hours)
     village_level: Optional[int] = None  # Required village development level
 
-class Task(ITask):
-    """Implementation of a game task."""
-    def __init__(
+@dataclass
+class Task:
+    """A task that can be performed by the player."""
+    id: str
+    name: str
+    description: str
+    type: TaskType
+    duration: timedelta
+    prerequisites: List[TaskPrerequisite]
+    required_resources: List[ResourceRequirement]
+    required_tools: List[ResourceRequirement]
+    resource_rewards: List[ResourceReward]
+    skill_requirements: Dict[str, float]
+    skill_rewards: Dict[str, float]
+    reputation_reward: float
+    village_exp_reward: float
+    valid_time_ranges: List[Tuple[int, int]]
+    season_multipliers: Dict[str, float]
+    weather_requirements: List[str]
+    status: TaskStatus = TaskStatus.AVAILABLE
+    progress: float = 0.0  # Progress from 0.0 to 1.0
+    start_time: Optional[datetime] = None
+    rewards_claimed: bool = False
+    chain_id: Optional[str] = None
+    event_id: Optional[str] = None
+
+    def can_start(
         self,
-        name: str,
-        description: str,
-        task_type: TaskType,
-        duration: timedelta,
-        prerequisites: List[TaskPrerequisite] = None,
-        required_resources: List[ResourceRequirement] = None,
-        required_tools: List[ResourceRequirement] = None,
-        resource_rewards: List[ResourceReward] = None,
-        skill_requirements: Dict[str, float] = None,
-        skill_rewards: Dict[str, float] = None,
-        reputation_reward: float = 0.0,
-        village_exp_reward: float = 0.0,
-        valid_time_ranges: List[Tuple[int, int]] = None,
-        season_multipliers: Dict[str, float] = None,
-        weather_requirements: List[str] = None,
-        chain_id: Optional[str] = None,
-        event_id: Optional[str] = None
-    ):
-        self._id = str(uuid.uuid4())
-        self._name = name
-        self._description = description
-        self._type = task_type
-        self._duration = duration
-        self._prerequisites = prerequisites or []
-        self._required_resources = required_resources or []
-        self._required_tools = required_tools or []
-        self._resource_rewards = resource_rewards or []
-        self._skill_requirements = skill_requirements or {}
-        self._skill_rewards = skill_rewards or {}
-        self._reputation_reward = reputation_reward
-        self._village_exp_reward = village_exp_reward
-        self._valid_time_ranges = valid_time_ranges or []
-        self._season_multipliers = season_multipliers or {}
-        self._weather_requirements = weather_requirements or []
-        self._chain_id = chain_id
-        self._event_id = event_id
+        current_time: datetime,
+        available_resources: Dict[ResourceType, Tuple[float, float]],
+        completed_tasks: List[str],
+        current_skills: Dict[str, float],
+        current_season: str,
+        current_weather: str
+    ) -> Tuple[bool, str]:
+        """Check if task can be started.
+        Returns (can_start, reason_if_cannot)"""
         
-        self._status = TaskStatus.AVAILABLE
-        self._progress = 0.0
-        self._start_time = None
-        self._rewards_claimed = False
-        self._modifiers: List[IModifier] = []
-    
-    @property
-    def id(self) -> str:
-        return self._id
-    
-    @property
-    def status(self) -> str:
-        return self._status.name
-    
-    @property
-    def progress(self) -> float:
-        return self._progress
-    
+        # Check prerequisites
+        for prereq in self.prerequisites:
+            # Check task completion
+            if prereq.task_id and prereq.task_id not in completed_tasks:
+                return False, f"Required task {prereq.task_id} not completed"
+            
+            # Check skill requirements
+            if prereq.skill_name:
+                if prereq.skill_name not in current_skills:
+                    return False, f"Missing required skill: {prereq.skill_name}"
+                if current_skills[prereq.skill_name] < prereq.skill_level:
+                    return False, f"Skill {prereq.skill_name} too low"
+            
+            # Check resource requirements
+            if prereq.resource_type:
+                if prereq.resource_type not in available_resources:
+                    return False, f"Missing required resource: {prereq.resource_type.name}"
+                quantity, quality = available_resources[prereq.resource_type]
+                if quantity < prereq.resource_quantity:
+                    return False, f"Not enough {prereq.resource_type.name}"
+                if quality < prereq.resource_quality:
+                    return False, f"{prereq.resource_type.name} quality too low"
+        
+        # Check required resources
+        for req in self.required_resources:
+            if req.type not in available_resources:
+                return False, f"Missing required resource: {req.type.name}"
+            quantity, quality = available_resources[req.type]
+            if quantity < req.quantity:
+                return False, f"Not enough {req.type.name}"
+            if quality < req.min_quality:
+                return False, f"{req.type.name} quality too low"
+        
+        # Check required tools
+        for tool in self.required_tools:
+            if tool.type not in available_resources:
+                return False, f"Missing required tool: {tool.type.name}"
+            quantity, quality = available_resources[tool.type]
+            if quantity < tool.quantity:
+                return False, f"Not enough {tool.type.name}"
+            if quality < tool.min_quality:
+                return False, f"{tool.type.name} quality too low"
+        
+        # Check skill requirements
+        for skill, level in self.skill_requirements.items():
+            if skill not in current_skills:
+                return False, f"Missing required skill: {skill}"
+            if current_skills[skill] < level:
+                return False, f"Skill {skill} too low"
+        
+        # Check season and weather
+        if current_season not in self.season_multipliers:
+            return False, f"Cannot be done in {current_season}"
+        if current_weather not in self.weather_requirements:
+            return False, f"Cannot be done in {current_weather} weather"
+        
+        # Check time of day
+        current_hour = current_time.hour
+        valid_time = False
+        for start, end in self.valid_time_ranges:
+            if start <= current_hour < end:
+                valid_time = True
+                break
+        if not valid_time:
+            return False, "Not the right time of day"
+        
+        return True, ""
+
+    def start(self, current_time: datetime) -> None:
+        """Start the task."""
+        self.status = TaskStatus.IN_PROGRESS
+        self.start_time = current_time
+        self.progress = 0.0
+        logger.info(f"Started task: {self.name}")
+
+    def update_progress(
+        self,
+        time_passed: timedelta,
+        current_season: str,
+        current_weather: str
+    ) -> None:
+        """Update task progress based on time passed."""
+        if self.status != TaskStatus.IN_PROGRESS:
+            return
+        
+        # Calculate progress increase
+        base_progress = time_passed.total_seconds() / self.duration.total_seconds()
+        
+        # Apply season multiplier
+        season_mult = self.season_multipliers.get(current_season, 0.0)
+        progress_increase = base_progress * season_mult
+        
+        # Update progress
+        self.progress = min(1.0, self.progress + progress_increase)
+        
+        # Check if completed
+        if self.progress >= 1.0:
+            self.status = TaskStatus.COMPLETED
+            logger.info(f"Completed task: {self.name}")
+
+    def claim_rewards(
+        self,
+        skill_levels: Dict[str, float]
+    ) -> Tuple[List[Tuple[ResourceType, float, float]], Dict[str, float], float, float]:
+        """Claim task rewards.
+        Returns (resource_rewards, skill_rewards, reputation, village_exp)"""
+        if self.status != TaskStatus.COMPLETED or self.rewards_claimed:
+            return [], {}, 0.0, 0.0
+        
+        self.rewards_claimed = True
+        
+        # Calculate resource rewards
+        resource_rewards = []
+        for reward in self.resource_rewards:
+            # Apply skill multiplier
+            skill_mult = 1.0
+            for skill, level in skill_levels.items():
+                skill_mult = max(skill_mult, level * reward.skill_multiplier)
+            
+            # Calculate final quantity and quality
+            quantity = reward.base_quantity * skill_mult
+            quality = min(1.0, skill_mult * reward.quality_multiplier)
+            
+            resource_rewards.append((reward.type, quantity, quality))
+        
+        return (
+            resource_rewards,
+            self.skill_rewards,
+            self.reputation_reward,
+            self.village_exp_reward
+        )
+
     def apply_modifier(self, modifier: IModifier) -> 'Task':
         """Apply a modifier to this task."""
         modified = modifier.modify(self)
@@ -169,11 +255,11 @@ class Task(ITask):
     def check_prerequisites(self) -> bool:
         """Check if all prerequisites are met."""
         # This is just a placeholder - actual implementation would need game state
-        return self._status != TaskStatus.LOCKED
+        return self.status != TaskStatus.LOCKED
     
     def apply_effects(self) -> None:
         """Apply task effects when completed."""
-        if self._status != TaskStatus.COMPLETED or self._rewards_claimed:
+        if self.status != TaskStatus.COMPLETED or self.rewards_claimed:
             return
         
         publish_event(TaskEvent(
@@ -184,11 +270,11 @@ class Task(ITask):
             progress=1.0
         ))
         
-        self._rewards_claimed = True
+        self.rewards_claimed = True
     
     def update(self, delta_time: float) -> None:
         """Update task progress."""
-        if self._status != TaskStatus.IN_PROGRESS:
+        if self.status != TaskStatus.IN_PROGRESS:
             return
         
         # Apply modifiers to progress rate
@@ -197,20 +283,20 @@ class Task(ITask):
             rate = modifier.modify(rate)
         
         # Update progress
-        progress_amount = delta_time / self._duration.total_seconds() * rate
-        old_progress = self._progress
-        self._progress = min(1.0, self._progress + progress_amount)
+        progress_amount = delta_time / self.duration.total_seconds() * rate
+        old_progress = self.progress
+        self.progress = min(1.0, self.progress + progress_amount)
         
         # Publish progress event
         publish_event(TaskEvent(
             task_id=self.id,
             action="progress",
-            progress=self._progress
+            progress=self.progress
         ))
         
         # Check for completion
-        if self._progress >= 1.0 and old_progress < 1.0:
-            self._status = TaskStatus.COMPLETED
+        if self.progress >= 1.0 and old_progress < 1.0:
+            self.status = TaskStatus.COMPLETED
             publish_event(TaskEvent(
                 task_id=self.id,
                 action="complete",
@@ -219,123 +305,14 @@ class Task(ITask):
                 progress=1.0
             ))
     
-    def can_start(
-        self,
-        current_time: datetime,
-        available_resources: Dict[ResourceType, Tuple[float, float]],
-        completed_task_ids: Set[str],
-        current_skills: Dict[str, float],
-        season: str,
-        weather: str
-    ) -> Tuple[bool, str]:
-        """Check if task can be started."""
-        # Check prerequisites
-        for prereq in self._prerequisites:
-            if prereq.task_id and prereq.task_id not in completed_task_ids:
-                return False, f"Required task {prereq.task_id} not completed"
-            
-            if prereq.skill_name and prereq.skill_level:
-                if current_skills.get(prereq.skill_name, 0) < prereq.skill_level:
-                    return False, f"Required {prereq.skill_name} level {prereq.skill_level} not met"
-            
-            if prereq.season and season != prereq.season:
-                return False, f"Task requires {prereq.season} season"
-            
-            if prereq.weather_type and weather != prereq.weather_type:
-                return False, f"Task requires {prereq.weather_type} weather"
-            
-            if prereq.time_range:
-                start_hour, end_hour = prereq.time_range
-                current_hour = current_time.hour
-                if not (start_hour <= current_hour < end_hour):
-                    return False, f"Task can only be done between {start_hour}:00 and {end_hour}:00"
-        
-        # Check required resources
-        for req in self._required_resources:
-            if req.type not in available_resources:
-                return False, f"Missing required resource: {req.type.name}"
-            
-            quantity, quality = available_resources[req.type]
-            if quantity < req.quantity:
-                return False, f"Not enough {req.type.name}: need {req.quantity}, have {quantity}"
-            
-            if quality < req.min_quality:
-                return False, f"Quality of {req.type.name} too low: need {req.min_quality}, have {quality}"
-        
-        # Check required tools
-        for tool in self._required_tools:
-            if tool.type not in available_resources:
-                return False, f"Missing required tool: {tool.type.name}"
-            
-            quantity, quality = available_resources[tool.type]
-            if quantity < tool.quantity:
-                return False, f"Not enough {tool.type.name}: need {tool.quantity}, have {quantity}"
-            
-            if quality < tool.min_quality:
-                return False, f"Quality of {tool.type.name} too low: need {tool.min_quality}, have {quality}"
-        
-        # Check skill requirements
-        for skill, required_level in self._skill_requirements.items():
-            if current_skills.get(skill, 0) < required_level:
-                return False, f"Required {skill} level {required_level} not met"
-        
-        # Check time restrictions
-        if self._valid_time_ranges:
-            current_hour = current_time.hour
-            valid_time = False
-            for start_hour, end_hour in self._valid_time_ranges:
-                if start_hour <= current_hour < end_hour:
-                    valid_time = True
-                    break
-            if not valid_time:
-                return False, "Task cannot be done at this time"
-        
-        # Check weather requirements
-        if self._weather_requirements and weather not in self._weather_requirements:
-            return False, f"Task requires specific weather: {', '.join(self._weather_requirements)}"
-        
-        return True, "Ready to start"
-    
-    def start(self, current_time: datetime) -> None:
-        """Start the task."""
-        if self._status != TaskStatus.AVAILABLE:
-            raise ValueError("Task cannot be started")
-        
-        self._status = TaskStatus.IN_PROGRESS
-        self._start_time = current_time
-        self._progress = 0.0
-        
-        publish_event(TaskEvent(
-            task_id=self.id,
-            action="start",
-            old_status=TaskStatus.AVAILABLE.name,
-            new_status=TaskStatus.IN_PROGRESS.name,
-            progress=0.0
-        ))
-    
-    def fail(self, reason: str) -> None:
-        """Mark the task as failed."""
-        if self._status != TaskStatus.IN_PROGRESS:
-            raise ValueError("Only in-progress tasks can fail")
-        
-        self._status = TaskStatus.FAILED
-        
-        publish_event(TaskEvent(
-            task_id=self.id,
-            action="fail",
-            old_status=TaskStatus.IN_PROGRESS.name,
-            new_status=TaskStatus.FAILED.name,
-            progress=self._progress
-        ))
-    
     def to_dict(self) -> dict:
         """Convert task to dictionary for saving."""
         return {
-            "id": self._id,
-            "name": self._name,
-            "description": self._description,
-            "type": self._type.name,
-            "duration_seconds": self._duration.total_seconds(),
+            "id": self.id,
+            "name": self.name,
+            "description": self.description,
+            "type": self.type.name,
+            "duration_seconds": self.duration.total_seconds(),
             "prerequisites": [
                 {
                     "task_id": p.task_id,
@@ -350,7 +327,7 @@ class Task(ITask):
                     "time_range": p.time_range,
                     "village_level": p.village_level
                 }
-                for p in self._prerequisites
+                for p in self.prerequisites
             ],
             "required_resources": [
                 {
@@ -359,7 +336,7 @@ class Task(ITask):
                     "min_quality": r.min_quality,
                     "consumed": r.consumed
                 }
-                for r in self._required_resources
+                for r in self.required_resources
             ],
             "required_tools": [
                 {
@@ -368,7 +345,7 @@ class Task(ITask):
                     "min_quality": t.min_quality,
                     "consumed": t.consumed
                 }
-                for t in self._required_tools
+                for t in self.required_tools
             ],
             "resource_rewards": [
                 {
@@ -378,21 +355,21 @@ class Task(ITask):
                     "skill_multiplier": r.skill_multiplier,
                     "random_bonus": r.random_bonus
                 }
-                for r in self._resource_rewards
+                for r in self.resource_rewards
             ],
-            "skill_requirements": self._skill_requirements,
-            "skill_rewards": self._skill_rewards,
-            "reputation_reward": self._reputation_reward,
-            "village_exp_reward": self._village_exp_reward,
-            "valid_time_ranges": self._valid_time_ranges,
-            "season_multipliers": self._season_multipliers,
-            "weather_requirements": self._weather_requirements,
-            "status": self._status.name,
-            "progress": self._progress,
-            "start_time": self._start_time.isoformat() if self._start_time else None,
-            "rewards_claimed": self._rewards_claimed,
-            "chain_id": self._chain_id,
-            "event_id": self._event_id
+            "skill_requirements": self.skill_requirements,
+            "skill_rewards": self.skill_rewards,
+            "reputation_reward": self.reputation_reward,
+            "village_exp_reward": self.village_exp_reward,
+            "valid_time_ranges": self.valid_time_ranges,
+            "season_multipliers": self.season_multipliers,
+            "weather_requirements": self.weather_requirements,
+            "status": self.status.name,
+            "progress": self.progress,
+            "start_time": self.start_time.isoformat() if self.start_time else None,
+            "rewards_claimed": self.rewards_claimed,
+            "chain_id": self.chain_id,
+            "event_id": self.event_id
         }
     
     @classmethod
@@ -447,9 +424,10 @@ class Task(ITask):
         ]
         
         task = cls(
+            id=data["id"],
             name=data["name"],
             description=data["description"],
-            task_type=TaskType[data["type"]],
+            type=TaskType[data["type"]],
             duration=timedelta(seconds=data["duration_seconds"]),
             prerequisites=prerequisites,
             required_resources=required_resources,
@@ -467,10 +445,9 @@ class Task(ITask):
         )
         
         # Set state
-        task._id = data["id"]
-        task._status = TaskStatus[data["status"]]
-        task._progress = data["progress"]
-        task._start_time = datetime.fromisoformat(data["start_time"]) if data["start_time"] else None
-        task._rewards_claimed = data["rewards_claimed"]
+        task.status = TaskStatus[data["status"]]
+        task.progress = data["progress"]
+        task.start_time = datetime.fromisoformat(data["start_time"]) if data["start_time"] else None
+        task.rewards_claimed = data["rewards_claimed"]
         
         return task 

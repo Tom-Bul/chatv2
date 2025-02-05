@@ -7,286 +7,214 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Set, Tuple
 from unittest.mock import Mock, patch
 
-from src.core.task import (
-    TaskType, TaskStatus, ResourceRequirement,
-    ResourceReward, TaskPrerequisite, Task
+from src.village_life.core.task import (
+    Task,
+    TaskType,
+    TaskStatus,
+    ResourceRequirement,
+    ResourceReward,
+    TaskPrerequisite
 )
-from src.core.resource_manager import ResourceType
-from src.core.modifiers import create_modifier
+from src.village_life.core.resource_types import ResourceType
+from src.village_life.core.task_manager import TaskManager
+from src.village_life.core.task_template import TaskTemplate, TaskChain
 
-class TestTaskPrerequisite(unittest.TestCase):
-    """Test the TaskPrerequisite class."""
+class TestTaskSystem(unittest.TestCase):
+    """Test the task system."""
     def setUp(self):
-        self.prerequisite = TaskPrerequisite(
-            task_id="test_task",
-            skill_name="woodcutting",
-            skill_level=5.0,
-            building_type="sawmill",
-            resource_type=ResourceType.WOOD,
-            resource_quantity=10.0,
-            resource_quality=0.8,
-            season="SUMMER",
-            weather_type="CLEAR",
-            time_range=(8, 16),
-            village_level=2
-        )
+        self.task_manager = TaskManager()
+        self.current_time = datetime.now()
+        self.available_resources = {
+            ResourceType.WOOD: (100.0, 0.8),
+            ResourceType.STONE: (50.0, 0.7),
+            ResourceType.METAL: (20.0, 0.9),
+            ResourceType.TOOLS: (5.0, 0.8),
+            ResourceType.AXE: (2.0, 0.7),
+            ResourceType.HAMMER: (2.0, 0.8),
+            ResourceType.SAW: (1.0, 0.9)
+        }
+        self.current_skills = {
+            "gathering": 10.0,
+            "crafting": 15.0,
+            "construction": 20.0,
+            "planning": 5.0,
+            "survival": 8.0
+        }
+        self.completed_tasks = []
     
-    def test_prerequisite_creation(self):
-        """Test creating task prerequisites."""
-        self.assertEqual(self.prerequisite.task_id, "test_task")
-        self.assertEqual(self.prerequisite.skill_name, "woodcutting")
-        self.assertEqual(self.prerequisite.skill_level, 5.0)
-        self.assertEqual(self.prerequisite.building_type, "sawmill")
-        self.assertEqual(self.prerequisite.resource_type, ResourceType.WOOD)
-        self.assertEqual(self.prerequisite.resource_quantity, 10.0)
-        self.assertEqual(self.prerequisite.resource_quality, 0.8)
-        self.assertEqual(self.prerequisite.season, "SUMMER")
-        self.assertEqual(self.prerequisite.weather_type, "CLEAR")
-        self.assertEqual(self.prerequisite.time_range, (8, 16))
-        self.assertEqual(self.prerequisite.village_level, 2)
-    
-    def test_optional_fields(self):
-        """Test creating prerequisites with optional fields."""
-        prereq = TaskPrerequisite()
-        self.assertIsNone(prereq.task_id)
-        self.assertIsNone(prereq.skill_name)
-        self.assertIsNone(prereq.skill_level)
-        self.assertIsNone(prereq.building_type)
-        self.assertIsNone(prereq.resource_type)
-        self.assertIsNone(prereq.resource_quantity)
-        self.assertIsNone(prereq.resource_quality)
-        self.assertIsNone(prereq.season)
-        self.assertIsNone(prereq.weather_type)
-        self.assertIsNone(prereq.time_range)
-        self.assertIsNone(prereq.village_level)
-
-class TestResourceRequirement(unittest.TestCase):
-    """Test the ResourceRequirement class."""
-    def setUp(self):
-        self.requirement = ResourceRequirement(
-            type=ResourceType.WOOD,
-            quantity=10.0,
-            min_quality=0.8,
-            consumed=True
-        )
-    
-    def test_requirement_creation(self):
-        """Test creating resource requirements."""
-        self.assertEqual(self.requirement.type, ResourceType.WOOD)
-        self.assertEqual(self.requirement.quantity, 10.0)
-        self.assertEqual(self.requirement.min_quality, 0.8)
-        self.assertTrue(self.requirement.consumed)
-    
-    def test_default_values(self):
-        """Test default values for resource requirements."""
-        req = ResourceRequirement(ResourceType.WOOD, 10.0)
-        self.assertEqual(req.min_quality, 0.0)
-        self.assertTrue(req.consumed)
-
-class TestResourceReward(unittest.TestCase):
-    """Test the ResourceReward class."""
-    def setUp(self):
-        self.reward = ResourceReward(
-            type=ResourceType.WOOD,
-            base_quantity=10.0,
-            quality_multiplier=1.2,
-            skill_multiplier=1.5,
-            random_bonus=0.1
-        )
-    
-    def test_reward_creation(self):
-        """Test creating resource rewards."""
-        self.assertEqual(self.reward.type, ResourceType.WOOD)
-        self.assertEqual(self.reward.base_quantity, 10.0)
-        self.assertEqual(self.reward.quality_multiplier, 1.2)
-        self.assertEqual(self.reward.skill_multiplier, 1.5)
-        self.assertEqual(self.reward.random_bonus, 0.1)
-    
-    def test_default_values(self):
-        """Test default values for resource rewards."""
-        reward = ResourceReward(ResourceType.WOOD, 10.0)
-        self.assertEqual(reward.quality_multiplier, 1.0)
-        self.assertEqual(reward.skill_multiplier, 1.0)
-        self.assertEqual(reward.random_bonus, 0.0)
-
-class TestTask(unittest.TestCase):
-    """Test the Task class."""
-    def setUp(self):
-        self.task = Task(
-            name="Test Task",
-            description="A test task",
-            task_type=TaskType.GATHERING,
-            duration=timedelta(hours=1),
-            prerequisites=[
-                TaskPrerequisite(skill_name="woodcutting", skill_level=1.0)
-            ],
-            required_resources=[
-                ResourceRequirement(ResourceType.WOOD, 5.0)
-            ],
-            required_tools=[
-                ResourceRequirement(ResourceType.TOOLS, 1.0, consumed=False)
-            ],
-            resource_rewards=[
-                ResourceReward(ResourceType.WOOD, 10.0)
-            ],
-            skill_requirements={"woodcutting": 1.0},
-            skill_rewards={"woodcutting": 0.1},
-            reputation_reward=5.0,
-            village_exp_reward=10.0,
-            valid_time_ranges=[(8, 16)],
-            season_multipliers={"SUMMER": 1.2},
-            weather_requirements=["CLEAR"]
-        )
-    
-    def test_task_creation(self):
-        """Test creating a task."""
-        self.assertEqual(self.task._name, "Test Task")
-        self.assertEqual(self.task._description, "A test task")
-        self.assertEqual(self.task._type, TaskType.GATHERING)
-        self.assertEqual(self.task._duration, timedelta(hours=1))
-        self.assertEqual(len(self.task._prerequisites), 1)
-        self.assertEqual(len(self.task._required_resources), 1)
-        self.assertEqual(len(self.task._required_tools), 1)
-        self.assertEqual(len(self.task._resource_rewards), 1)
-        self.assertEqual(self.task._skill_requirements["woodcutting"], 1.0)
-        self.assertEqual(self.task._skill_rewards["woodcutting"], 0.1)
-        self.assertEqual(self.task._reputation_reward, 5.0)
-        self.assertEqual(self.task._village_exp_reward, 10.0)
-        self.assertEqual(self.task._valid_time_ranges, [(8, 16)])
-        self.assertEqual(self.task._season_multipliers["SUMMER"], 1.2)
-        self.assertEqual(self.task._weather_requirements, ["CLEAR"])
-    
-    def test_task_status(self):
-        """Test task status management."""
-        self.assertEqual(self.task.status, TaskStatus.AVAILABLE.name)
+    def test_task_template_loading(self):
+        """Test loading task templates."""
+        # Check if templates are loaded
+        self.assertTrue(len(self.task_manager.template_manager.task_templates) > 0)
+        self.assertTrue(len(self.task_manager.template_manager.task_chains) > 0)
         
-        # Start task
-        current_time = datetime.now()
-        self.task.start(current_time)
-        self.assertEqual(self.task.status, TaskStatus.IN_PROGRESS.name)
-        self.assertEqual(self.task.progress, 0.0)
+        # Check specific templates
+        templates = self.task_manager.template_manager.task_templates
+        self.assertIn("scout_location", templates)
+        self.assertIn("clear_land", templates)
+        self.assertIn("build_shelter", templates)
         
-        # Update progress
-        self.task.update(1800.0)  # 30 minutes
-        self.assertEqual(self.task.progress, 0.5)
+        # Check template properties
+        scout_template = templates["scout_location"]
+        self.assertEqual(scout_template.type, TaskType.PLANNING)
+        self.assertEqual(scout_template.base_duration, timedelta(hours=1))
+        self.assertEqual(scout_template.chain_id, "village_establishment_1")
+    
+    def test_task_chain_loading(self):
+        """Test loading task chains."""
+        # Check if chains are loaded
+        chains = self.task_manager.template_manager.task_chains
+        self.assertIn("village_establishment_1", chains)
+        self.assertIn("metal_processing_1", chains)
+        
+        # Check chain properties
+        village_chain = chains["village_establishment_1"]
+        self.assertEqual(len(village_chain.tasks), 4)
+        self.assertEqual(village_chain.village_level_required, 0)
+        self.assertFalse(village_chain.is_repeatable)
+    
+    def test_available_tasks(self):
+        """Test getting available tasks."""
+        available_tasks = self.task_manager.get_available_tasks(
+            self.current_time,
+            self.available_resources,
+            self.completed_tasks,
+            self.current_skills,
+            "spring",
+            "clear",
+            0  # village level
+        )
+        
+        # Should have at least the scout_location task
+        self.assertTrue(len(available_tasks) > 0)
+        scout_task = next(
+            (task for task in available_tasks if task["id"] == "scout_location"),
+            None
+        )
+        self.assertIsNotNone(scout_task)
+        self.assertTrue(scout_task["can_start"])
+    
+    def test_task_progression(self):
+        """Test task progression through a chain."""
+        # Start with scout_location
+        success, reason = self.task_manager.start_task(
+            "scout_location",
+            self.current_time,
+            self.available_resources,
+            self.completed_tasks,
+            self.current_skills,
+            "spring",
+            "clear"
+        )
+        self.assertTrue(success, reason)
+        
+        # Update task to completion
+        task = self.task_manager.active_tasks["scout_location"]
+        self.task_manager.update_tasks(timedelta(hours=2), "spring", "clear")
+        
+        # Task should be completed
+        self.assertNotIn("scout_location", self.task_manager.active_tasks)
+        self.assertIn("scout_location", self.task_manager.completed_tasks)
+        
+        # Clear land should now be available
+        self.completed_tasks.append("scout_location")
+        available_tasks = self.task_manager.get_available_tasks(
+            self.current_time,
+            self.available_resources,
+            self.completed_tasks,
+            self.current_skills,
+            "spring",
+            "clear",
+            0
+        )
+        clear_task = next(
+            (task for task in available_tasks if task["id"] == "clear_land"),
+            None
+        )
+        self.assertIsNotNone(clear_task)
+        self.assertTrue(clear_task["can_start"])
+    
+    def test_task_requirements(self):
+        """Test task requirement checking."""
+        # Try to start build_shelter without prerequisites
+        success, reason = self.task_manager.start_task(
+            "build_shelter",
+            self.current_time,
+            self.available_resources,
+            self.completed_tasks,
+            self.current_skills,
+            "spring",
+            "clear"
+        )
+        self.assertFalse(success)
+        self.assertIn("not completed", reason)
+        
+        # Try with insufficient resources
+        insufficient_resources = {
+            ResourceType.WOOD: (5.0, 0.8),  # Not enough wood
+            ResourceType.STONE: (5.0, 0.7),  # Not enough stone
+            ResourceType.HAMMER: (1.0, 0.8),
+            ResourceType.SAW: (1.0, 0.9)
+        }
+        self.completed_tasks.extend(["scout_location", "clear_land"])
+        success, reason = self.task_manager.start_task(
+            "build_shelter",
+            self.current_time,
+            insufficient_resources,
+            self.completed_tasks,
+            self.current_skills,
+            "spring",
+            "clear"
+        )
+        self.assertFalse(success)
+        self.assertIn("Not enough", reason)
+    
+    def test_task_rewards(self):
+        """Test task reward calculation."""
+        # Start and complete clear_land task
+        success, reason = self.task_manager.start_task(
+            "clear_land",
+            self.current_time,
+            self.available_resources,
+            ["scout_location"],
+            self.current_skills,
+            "spring",
+            "clear"
+        )
+        self.assertTrue(success, reason)
         
         # Complete task
-        self.task.update(1800.0)  # Another 30 minutes
-        self.assertEqual(self.task.status, TaskStatus.COMPLETED.name)
-        self.assertEqual(self.task.progress, 1.0)
-    
-    def test_task_prerequisites(self):
-        """Test checking task prerequisites."""
-        current_time = datetime(2024, 1, 1, 12, 0)  # Noon
-        available_resources = {
-            ResourceType.WOOD: (10.0, 1.0),
-            ResourceType.TOOLS: (1.0, 1.0)
-        }
-        completed_tasks = {"previous_task"}
-        current_skills = {"woodcutting": 2.0}
-        season = "SUMMER"
-        weather = "CLEAR"
+        task = self.task_manager.active_tasks["clear_land"]
+        self.task_manager.update_tasks(timedelta(hours=3), "spring", "clear")
         
-        # Test valid conditions
-        can_start, message = self.task.can_start(
-            current_time,
-            available_resources,
-            completed_tasks,
-            current_skills,
-            season,
-            weather
+        # Check rewards
+        task = self.task_manager.completed_tasks["clear_land"]
+        rewards = task.claim_rewards(self.current_skills)
+        resource_rewards, skill_rewards, reputation, village_exp = rewards
+        
+        # Should get wood and stone
+        wood_reward = next(
+            (r for r in resource_rewards if r[0] == ResourceType.WOOD),
+            None
         )
-        self.assertTrue(can_start)
-        
-        # Test invalid time
-        invalid_time = datetime(2024, 1, 1, 20, 0)  # 8 PM
-        can_start, message = self.task.can_start(
-            invalid_time,
-            available_resources,
-            completed_tasks,
-            current_skills,
-            season,
-            weather
+        stone_reward = next(
+            (r for r in resource_rewards if r[0] == ResourceType.STONE),
+            None
         )
-        self.assertFalse(can_start)
+        self.assertIsNotNone(wood_reward)
+        self.assertIsNotNone(stone_reward)
+        self.assertGreater(wood_reward[1], 0)  # quantity
+        self.assertGreater(stone_reward[1], 0)  # quantity
         
-        # Test insufficient resources
-        insufficient_resources = {
-            ResourceType.WOOD: (1.0, 1.0),
-            ResourceType.TOOLS: (1.0, 1.0)
-        }
-        can_start, message = self.task.can_start(
-            current_time,
-            insufficient_resources,
-            completed_tasks,
-            current_skills,
-            season,
-            weather
-        )
-        self.assertFalse(can_start)
+        # Should get skill rewards
+        self.assertIn("gathering", skill_rewards)
+        self.assertIn("strength", skill_rewards)
+        self.assertGreater(skill_rewards["gathering"], 0)
+        self.assertGreater(skill_rewards["strength"], 0)
         
-        # Test insufficient skills
-        insufficient_skills = {"woodcutting": 0.5}
-        can_start, message = self.task.can_start(
-            current_time,
-            available_resources,
-            completed_tasks,
-            insufficient_skills,
-            season,
-            weather
-        )
-        self.assertFalse(can_start)
-        
-        # Test wrong weather
-        can_start, message = self.task.can_start(
-            current_time,
-            available_resources,
-            completed_tasks,
-            current_skills,
-            season,
-            "RAINY"
-        )
-        self.assertFalse(can_start)
-    
-    def test_task_modification(self):
-        """Test modifying task properties."""
-        modifier = create_modifier("multiply", strength=2.0)
-        modified = self.task.apply_modifier(modifier)
-        
-        self.assertEqual(modified._duration, self.task._duration)  # Duration unchanged
-        self.assertEqual(modified.progress, self.task.progress)  # Progress unchanged
-    
-    def test_task_failure(self):
-        """Test task failure handling."""
-        self.task.start(datetime.now())
-        self.task.update(900.0)  # 15 minutes
-        
-        self.task.fail("Test failure")
-        self.assertEqual(self.task.status, TaskStatus.FAILED.name)
-        
-        # Cannot fail already failed task
-        with self.assertRaises(ValueError):
-            self.task.fail("Another failure")
-    
-    def test_task_serialization(self):
-        """Test task serialization."""
-        # Convert to dict
-        data = self.task.to_dict()
-        
-        # Create new task from dict
-        new_task = Task.from_dict(data)
-        
-        # Compare properties
-        self.assertEqual(new_task._name, self.task._name)
-        self.assertEqual(new_task._type, self.task._type)
-        self.assertEqual(new_task._duration, self.task._duration)
-        self.assertEqual(len(new_task._prerequisites), len(self.task._prerequisites))
-        self.assertEqual(len(new_task._required_resources), len(self.task._required_resources))
-        self.assertEqual(len(new_task._resource_rewards), len(self.task._resource_rewards))
-        self.assertEqual(new_task._skill_requirements, self.task._skill_requirements)
-        self.assertEqual(new_task._skill_rewards, self.task._skill_rewards)
-        self.assertEqual(new_task._status, self.task._status)
-        self.assertEqual(new_task.progress, self.task.progress)
+        # Should get reputation and village exp
+        self.assertGreater(reputation, 0)
+        self.assertGreater(village_exp, 0)
 
 if __name__ == '__main__':
     unittest.main() 
