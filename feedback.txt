@@ -1,0 +1,1 @@
+[2025-02-04 21:45:13] most things works fine, let's focus on developing core mechanics

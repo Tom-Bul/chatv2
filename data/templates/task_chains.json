@@ -1,0 +1,44 @@
+[
+  {
+    "id": "village_establishment_1",
+    "name": "Village Establishment: First Steps",
+    "description": "The first steps in establishing your village, from finding a suitable location to building basic shelter.",
+    "prerequisites": [],
+    "tasks": [
+      "scout_location",
+      "clear_land",
+      "build_shelter",
+      "establish_water"
+    ],
+    "village_level_required": 0,
+    "reputation_required": 0.0,
+    "is_repeatable": false,
+    "cooldown_seconds": null,
+    "season_availability": ["spring", "summer"],
+    "weather_availability": ["clear", "cloudy", "partly_cloudy"]
+  },
+  {
+    "id": "metal_processing_1",
+    "name": "Metal Processing",
+    "description": "Learn to process metal ore into useful materials, starting with mining and progressing to advanced smelting techniques.",
+    "prerequisites": [
+      "resource_production_1",
+      "tool_crafting_1",
+      "stone_processing_1"
+    ],
+    "tasks": [
+      "ore_mining",
+      "ore_sorting",
+      "ore_smelting",
+      "build_forge"
+    ],
+    "village_level_required": 2,
+    "reputation_required": 30.0,
+    "repeatable": true,
+    "cooldown_hours": 24,
+    "reward_scaling": 1.3,
+    "is_hidden": false,
+    "season_availability": ["spring", "summer", "autumn", "winter"],
+    "weather_availability": ["clear", "cloudy", "partly_cloudy"]
+  }
+] 

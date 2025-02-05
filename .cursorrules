@@ -1,0 +1,139 @@
+# Village Life Project Rules
+
+This file serves as the quick reference guide and entry point for all project rules. Detailed rules are stored in the `.cursor/rules` directory.
+
+## Core Game Philosophy
+
+- Long-term progression game with realistic development timelines
+- Natural evolution of village and characters
+- Mixed task system: self-reporting + time tracking
+- AI-driven dynamic NPC interactions and story generation
+- Organic growth and role development
+
+### Key Design Principles
+1. Natural Progression
+   - Realistic timelines and development
+   - Organic role evolution
+   - Population-based growth stages
+   - Dynamic skill advancement
+
+2. Real-World Integration
+   - Tasks tied to real activities
+   - Time tracking and self-reporting
+   - Skill progression reflects actual practice
+   - Long-term engagement design
+
+3. AI-Enhanced Experience
+   - DeepSeek-r1:7b for NPC interactions
+   - Dynamic story generation
+   - Personality-driven behaviors
+   - Contextual memory and relationships
+
+4. System Interconnection
+   - Every system can interact with other systems
+   - Generic programming and flexible interfaces
+   - Event-driven architecture for communication
+   - Modular and extensible components
+   - Examples:
+     * Resources work with any crafting system
+     * Weather affects all outdoor activities
+     * Skills apply to multiple task types
+     * Tools usable in creative ways
+     * NPCs respond to any event type
+     * Quality propagates through transformations
+
+## Rule Directory
+
+### Core Rules
+- [Content Management](.cursor/rules/core/content-management.mdc)
+- [Tools](.cursor/rules/core/tools.mdc)
+- [Lessons](.cursor/rules/core/lessons.mdc)
+
+### Development Rules
+- [Technology Stack](.cursor/rules/dev-stack/tech-stack.mdc)
+- [Testing Best Practices](.cursor/rules/testing/best-practices.mdc)
+- [UI/UX Requirements](.cursor/rules/ui-ux/requirements.mdc)
+- [Performance Guidelines](.cursor/rules/performance/game-loop.mdc)
+- [System Architecture](.cursor/rules/architecture/systems.mdc)
+- [Architecture Principles](.cursor/rules/architecture/principles.mdc)
+
+### Design Rules
+- [Game Design](.cursor/rules/design/game-design.mdc)
+
+### Project Status
+- [Current State](.cursor/rules/project-status/current-state.mdc)
+
+## Quick Reference
+
+### Rule Management
+1. Use write_rule.py to create/update rules:
+   ```bash
+   # Create all rules
+   python tools/write_rule.py
+   
+   # Create specific rule
+   python tools/write_rule.py rule-name
+   ```
+   Available rules: ui-ux, game-loop, systems, testing, project-status, game-design, architecture-principles
+
+2. To add new rule types:
+   - Add new function to write_rule.py
+   - Follow existing pattern for consistency
+   - Include proper YAML frontmatter
+   - Add to main() function
+
+### Essential Tools
+1. Web Search:
+   ```bash
+   python tools/search_engine.py "your query"
+   ```
+
+2. Web Scraping:
+   ```bash
+   python tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+   ```
+
+3. Local AI (DeepSeek):
+   ```bash
+   python tools/llm_api.py --prompt "your prompt" --provider "deepseek"
+   ```
+
+### Core Development Practices
+1. Always use Python venv in ./venv
+2. Include debug information in output
+3. Read files before editing
+4. Check feedback logs after user interactions
+5. Use search tools before making changes
+6. Document solutions in Lessons
+
+### Context Management
+1. Review relevant rules at task start
+2. Load only needed contexts
+3. Update context status on task switch
+4. Document dependencies
+5. Track progress per context
+
+# Scratchpad
+Clear this section before starting a new task. Use it to organize thoughts and track progress.
+
+## Current Task: [Task Name]
+
+### Active Contexts
+- List relevant rule files
+- Note specific sections
+
+### Plan
+[ ] Step 1
+[ ] Step 2
+[ ] Step 3
+
+### Progress
+- Completed:
+- In Progress:
+- Blocked:
+- Next:
+
+### Notes
+- Key decisions
+- Important findings
+- Things to remember

@@ -1,0 +1,84 @@
+---
+description: Testing guidelines and best practices for the project
+globs: ['tests/**/*.py', 'src/**/*_test.py', 'pytest.ini', 'conftest.py']
+---
+
+# Testing Best Practices
+
+## Core Principles
+
+1. Test Organization:
+   - Follow pytest conventions
+   - Keep test files focused
+   - Use appropriate fixtures
+   - Handle timing-sensitive tests
+   - Update dependencies as needed
+
+2. Test Types:
+   - Unit tests for components
+   - Integration tests for systems
+   - UI tests with pytest-qt
+   - Async tests with pytest-asyncio
+   - Performance tests
+
+3. Test Coverage:
+   - Core abstractions: 100%
+   - Modifier system: 100%
+   - Resource system: 100%
+   - Task system: 100%
+   - Weather system: 100%
+   - Integration tests: 80%
+   - Performance tests: Critical paths
+
+## Implementation Guidelines
+
+1. Test Structure:
+   - Use descriptive test names
+   - Follow AAA pattern (Arrange, Act, Assert)
+   - One assertion per test
+   - Clear test documentation
+   - Proper cleanup in fixtures
+
+2. UI Testing:
+   - Use QTest.qWait() for timing
+   - Test focus management
+   - Verify event handling
+   - Check state transitions
+   - Test keyboard navigation
+
+3. Async Testing:
+   - Use proper async fixtures
+   - Test concurrent operations
+   - Handle timeouts properly
+   - Mock long-running operations
+   - Test error conditions
+
+4. Test Environment:
+   - Clean test directory before/after
+   - Use temporary files/directories
+   - Mock external dependencies
+   - Control random seeds
+   - Isolate test state
+
+## Best Practices
+
+1. Test Maintenance:
+   - Keep tests up to date
+   - Refactor with implementation
+   - Remove obsolete tests
+   - Update test documentation
+   - Review test coverage
+
+2. Test Performance:
+   - Optimize slow tests
+   - Parallelize test execution
+   - Cache test results
+   - Profile test suite
+   - Monitor test times
+
+3. Test Quality:
+   - Test edge cases
+   - Verify error handling
+   - Test boundary conditions
+   - Check invalid inputs
+   - Test cleanup code

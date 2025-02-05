@@ -1,0 +1,81 @@
+---
+description: System architecture and design patterns for the project
+globs: ['src/core/**/*.py', 'src/systems/**/*.py', 'src/**/*_system.py']
+---
+
+# System Architecture
+
+## Core Systems
+
+1. Task System:
+   - UUID-based task identification
+   - Template-based generation
+   - Skill-based requirements
+   - Tool requirements
+   - Seasonal effects
+   - Progress tracking
+   - State persistence
+
+2. Weather System:
+   - Enum-based weather types
+   - Seasonal patterns
+   - Smooth transitions
+   - Intensity scaling
+   - Effect application
+   - State persistence
+   - Event generation
+
+3. Resource System:
+   - Quality tracking
+   - Quantity management
+   - Storage limits
+   - Decay rates
+   - Seasonal effects
+   - Value calculation
+   - State persistence
+
+## Design Patterns
+
+1. Event System:
+   - Publisher/Subscriber pattern
+   - Event queuing
+   - Priority handling
+   - Error recovery
+   - State tracking
+
+2. Component System:
+   - Entity composition
+   - Component management
+   - System updates
+   - State synchronization
+   - Resource cleanup
+
+3. Factory System:
+   - Object creation
+   - Template management
+   - Instance pooling
+   - State initialization
+   - Resource management
+
+## Best Practices
+
+1. System Integration:
+   - Clear interfaces
+   - Event-driven communication
+   - State synchronization
+   - Resource sharing
+   - Error handling
+
+2. State Management:
+   - Immutable state
+   - State history
+   - Transaction support
+   - Rollback capability
+   - State validation
+
+3. Performance:
+   - Lazy initialization
+   - Resource pooling
+   - Batch processing
+   - Cache optimization
+   - Memory management

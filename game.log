@@ -1,0 +1,2398 @@
+[2025-02-04 20:22:13] Game started
+[2025-02-04 20:22:17] Starting character creation
+[2025-02-04 20:22:21] Created character: jhvjh
+[2025-02-04 20:27:19] Game started
+[2025-02-04 20:27:33] Starting character creation
+[2025-02-04 20:28:25] Game started
+[2025-02-04 20:28:30] Key pressed: 68
+[2025-02-04 20:28:30] Key pressed: 83
+[2025-02-04 20:28:30] Key pressed: 65
+[2025-02-04 20:28:30] Key pressed: 68
+[2025-02-04 20:28:30] Key pressed: 87
+[2025-02-04 20:28:30] Key pressed: 65
+[2025-02-04 20:28:30] Key pressed: 68
+[2025-02-04 20:28:30] Key pressed: 83
+[2025-02-04 20:28:30] Key pressed: 65
+[2025-02-04 20:28:30] Key pressed: 68
+[2025-02-04 20:28:32] Key pressed: 16777220
+[2025-02-04 20:28:32] Starting character creation
+[2025-02-04 20:28:32] Key pressed: 16777220
+[2025-02-04 20:28:33] Key pressed: 16777220
+[2025-02-04 20:28:33] Key pressed: 74
+[2025-02-04 20:28:34] Key pressed: 72
+[2025-02-04 20:28:34] Key pressed: 75
+[2025-02-04 20:28:34] Key pressed: 74
+[2025-02-04 20:28:34] Key pressed: 85
+[2025-02-04 20:28:34] Key pressed: 16777220
+[2025-02-04 20:28:34] Created character: jhkju
+[2025-02-04 20:29:06] Game started
+[2025-02-04 20:29:09] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Toggled help overlay
+[2025-02-04 20:29:09] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Menu 'main': moved down with J (selected: Load Game)
+[2025-02-04 20:29:09] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Toggled help overlay
+[2025-02-04 20:29:09] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:09] Menu 'main': moved down with J (selected: Help)
+[2025-02-04 20:29:10] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:10] Toggled help overlay
+[2025-02-04 20:29:11] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:12] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:12] Menu 'main': moved up with K (selected: Load Game)
+[2025-02-04 20:29:12] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:12] Menu 'main': moved up with K (selected: New Game)
+[2025-02-04 20:29:12] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:12] Menu 'main': moved up with K (selected: Quit)
+[2025-02-04 20:29:13] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:13] Menu 'main': moved up with K (selected: Help)
+[2025-02-04 20:29:14] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:14] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:14] Menu 'main': moved up with K (selected: Load Game)
+[2025-02-04 20:29:15] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:15] Menu 'main': moved down with J (selected: Help)
+[2025-02-04 20:29:15] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:15] Menu 'main': moved down with J (selected: Quit)
+[2025-02-04 20:29:18] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:18] Menu 'main': moved down with J (selected: New Game)
+[2025-02-04 20:29:18] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:18] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:18] Toggled help overlay
+[2025-02-04 20:29:19] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:19] Menu 'main': moved up with K (selected: Quit)
+[2025-02-04 20:29:20] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:20] Menu 'main': moved up with K (selected: Help)
+[2025-02-04 20:29:21] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:21] Menu 'main': moved down with J (selected: Quit)
+[2025-02-04 20:29:21] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:21] Menu 'main': moved up with K (selected: Help)
+[2025-02-04 20:29:23] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:23] Menu 'main': moved up with K (selected: Load Game)
+[2025-02-04 20:29:23] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:23] Menu 'main': moved down with J (selected: Help)
+[2025-02-04 20:29:23] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:23] Menu 'main': moved up with K (selected: Load Game)
+[2025-02-04 20:29:24] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:24] Menu 'main': moved down with J (selected: Help)
+[2025-02-04 20:29:24] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:24] Menu 'main': moved up with K (selected: Load Game)
+[2025-02-04 20:29:24] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:24] Menu 'main': moved up with K (selected: New Game)
+[2025-02-04 20:29:24] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:24] Menu 'main': moved down with J (selected: Load Game)
+[2025-02-04 20:29:27] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:27] Menu 'main': moved up with K (selected: New Game)
+[2025-02-04 20:29:27] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:27] Starting character creation
+[2025-02-04 20:29:30] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:31] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:32] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:32] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:32] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:33] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:34] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:34] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:34] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:34] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:35] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:35] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:36] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:38] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:38] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:39] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:40] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:41] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:41] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:41] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:41] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:41] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:42] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:29:42] Created character: jandkworksasupanddwonarrow
+[2025-02-04 20:31:33] Game started
+[2025-02-04 20:31:36] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:36] Menu 'main': moved down with J (selected: Load Game)
+[2025-02-04 20:31:37] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:37] Menu 'main': moved down with J (selected: Help)
+[2025-02-04 20:31:37] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:37] Menu 'main': moved down with J (selected: Feedback)
+[2025-02-04 20:31:38] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:38] Opened feedback menu
+[2025-02-04 20:31:39] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:46] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:46] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:46] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:46] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:48] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:49] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:49] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:49] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:50] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:51] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:52] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:52] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:52] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:52] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:54] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:54] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:54] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:54] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:54] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:55] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:55] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:55] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:55] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:58] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:58] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:58] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:58] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:59] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:59] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:31:59] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:00] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:01] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:01] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:01] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:02] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:03] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:03] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:03] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:04] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:04] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:05] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:05] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:05] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:05] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:06] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:06] Feedback submitted
+[2025-02-04 20:32:08] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:08] Menu 'main': moved up with K (selected: Help)
+[2025-02-04 20:32:08] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:08] Menu 'main': moved down with J (selected: Feedback)
+[2025-02-04 20:32:08] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:32:08] Menu 'main': moved down with J (selected: Quit)
+[2025-02-04 20:32:09] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:16] Game started
+[2025-02-04 20:34:19] Key pressed - Code: 16777248, Text: '', Modifiers: KeyboardModifier.ShiftModifier
+[2025-02-04 20:34:21] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:21] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:21] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:22] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:22] Toggled help overlay
+[2025-02-04 20:34:23] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:27] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:28] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:29] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:30] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:31] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:31] Toggled help overlay
+[2025-02-04 20:34:31] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:31] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:31] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:32] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:32] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:33] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:33] Toggled help overlay
+[2025-02-04 20:34:35] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:35] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:35] Toggled help overlay
+[2025-02-04 20:34:36] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:36] Toggled help overlay
+[2025-02-04 20:34:36] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:36] Toggled help overlay
+[2025-02-04 20:34:37] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:37] Toggled help overlay
+[2025-02-04 20:34:39] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:39] Toggled help overlay
+[2025-02-04 20:34:41] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:41] Toggled help overlay
+[2025-02-04 20:34:44] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 88, Text: 'x', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:44] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:45] Key pressed - Code: 93, Text: ']', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:45] Key pressed - Code: 91, Text: '[', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:46] Key pressed - Code: 39, Text: ''', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:46] Key pressed - Code: 92, Text: '\', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:46] Key pressed - Code: 45, Text: '-', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 48, Text: '0', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 57, Text: '9', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 56, Text: '8', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 55, Text: '7', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 54, Text: '6', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 53, Text: '5', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 52, Text: '4', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 51, Text: '3', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 50, Text: '2', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:34:47] Key pressed - Code: 49, Text: '1', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:32] Game started
+[2025-02-04 20:36:35] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:35] Opened feedback menu
+[2025-02-04 20:36:36] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 88, Text: 'x', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:40] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:41] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:42] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:42] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:43] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:43] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:43] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:43] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:44] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:45] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:47] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:48] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:50] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:50] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:51] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:52] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:53] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:54] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:54] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:54] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:54] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:54] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:55] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:55] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:55] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:55] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:55] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:56] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:56] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:56] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:56] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:56] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:59] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:36:59] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:00] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:01] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:01] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:01] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:01] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:02] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:02] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:03] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:04] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:04] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:04] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:04] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:05] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:05] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:06] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:07] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:08] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:09] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:09] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:09] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:10] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:11] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:11] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:11] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:11] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:12] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:16] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:17] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:18] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:19] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:19] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:20] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:20] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:20] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:20] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:22] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:22] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:22] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:23] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:23] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:23] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:24] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:25] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:25] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:25] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:25] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:25] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:29] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:30] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:30] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:30] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:30] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:31] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:32] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:32] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:32] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:33] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:34] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:34] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:34] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:34] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:34] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:35] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:36] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:36] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:36] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:36] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:36] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:37] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:37] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:37] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:39] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:39] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:39] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:40] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:41] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:37:41] Feedback submitted
+[2025-02-04 20:38:52] Game started
+[2025-02-04 20:38:54] Key pressed - Code: 16777248, Text: ''
+[2025-02-04 20:38:55] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:55] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:56] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:56] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:56] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:57] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:57] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:57] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:57] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:58] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:58] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:58] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:38:59] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:59] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:59] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:59] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:38:59] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:39:00] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:39:00] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:39:03] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:04] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:39:04] Opened feedback menu
+[2025-02-04 20:39:06] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:39:07] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:39:08] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:08] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:09] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:39:10] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:10] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:10] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:11] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:11] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:11] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:11] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:11] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:11] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:11] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:39:11] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:12] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:39:12] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:12] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:12] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:12] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:12] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:13] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:13] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:39:14] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:14] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:14] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:39:14] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:39:14] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:14] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:15] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:16] Key pressed - Code: 44, Text: ','
+[2025-02-04 20:39:16] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:16] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:39:17] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:17] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:39:17] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:17] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:17] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:17] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:18] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:18] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:19] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:39:19] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:39:19] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:39:19] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:39:20] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:20] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:20] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:20] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:20] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:20] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:20] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:21] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:21] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:21] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:21] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:21] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:21] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:22] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:39:29] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:39:29] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:29] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:29] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:29] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:29] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:29] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:30] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:30] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:30] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:30] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:30] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:30] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:31] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:31] Key pressed - Code: 44, Text: ','
+[2025-02-04 20:39:34] Key pressed - Code: 89, Text: 'y'
+[2025-02-04 20:39:34] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:34] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:35] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:35] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:35] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:35] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:35] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:35] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:39:36] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:39:36] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:36] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:36] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:39:36] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:37] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:37] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:37] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:37] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:39] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:39:39] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:39] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:39:40] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:42] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:39:42] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:39:43] Key pressed - Code: 86, Text: 'v'
+[2025-02-04 20:39:43] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:44] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:44] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:44] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:46] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:39:47] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:47] Key pressed - Code: 89, Text: 'y'
+[2025-02-04 20:39:47] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:48] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:48] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:48] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:39:48] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:48] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:48] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:54] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:54] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:54] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:54] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:54] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:39:55] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:55] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:55] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:39:55] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:39:56] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:56] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:39:56] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:56] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:39:56] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:57] Key pressed - Code: 66, Text: 'b'
+[2025-02-04 20:39:57] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:39:57] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:39:57] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:57] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:39:58] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:39:58] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:39:58] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:58] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:59] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:59] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:39:59] Key pressed - Code: 77, Text: 'm'
+[2025-02-04 20:39:59] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:39:59] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:39:59] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:00] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:40:07] Key pressed - Code: 44, Text: ','
+[2025-02-04 20:40:16] Key pressed - Code: 77, Text: 'm'
+[2025-02-04 20:40:16] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:16] Key pressed - Code: 89, Text: 'y'
+[2025-02-04 20:40:17] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:17] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:17] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:40:18] Key pressed - Code: 89, Text: 'y'
+[2025-02-04 20:40:18] Key pressed - Code: 66, Text: 'b'
+[2025-02-04 20:40:18] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:18] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:40:19] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:40:19] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:40:20] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:40:20] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:40:20] Key pressed - Code: 77, Text: 'm'
+[2025-02-04 20:40:20] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:20] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:40:20] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:21] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:40:21] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:40:21] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:40:21] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:40:22] Key pressed - Code: 71, Text: 'g'
+[2025-02-04 20:40:22] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:40:22] Key pressed - Code: 77, Text: 'm'
+[2025-02-04 20:40:22] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:40:23] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:23] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:23] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:24] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:25] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:26] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:40:27] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:40:27] Feedback submitted
+[2025-02-04 20:40:29] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:40:29] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:40:29] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:40:31] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:41:29] Game started
+[2025-02-04 20:41:51] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:41:51] Opened feedback menu
+[2025-02-04 20:41:52] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:41:53] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:41:55] Key pressed - Code: 70, Text: 'f'
+[2025-02-04 20:41:55] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:41:55] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:41:55] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:41:56] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:41:56] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:41:56] Key pressed - Code: 89, Text: 'y'
+[2025-02-04 20:41:58] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:41:58] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:41:58] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:41:58] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:41:58] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:41:59] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:41:59] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:41:59] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:42:00] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:42:00] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:42:01] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:01] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:42:01] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:42:01] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:42:01] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:42:02] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:03] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:42:03] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:42:03] Key pressed - Code: 85, Text: 'u'
+[2025-02-04 20:42:04] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:42:04] Key pressed - Code: 76, Text: 'l'
+[2025-02-04 20:42:04] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:42:04] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:42:04] Key pressed - Code: 70, Text: 'f'
+[2025-02-04 20:42:04] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:42:05] Key pressed - Code: 73, Text: 'i'
+[2025-02-04 20:42:05] Key pressed - Code: 77, Text: 'm'
+[2025-02-04 20:42:05] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:42:05] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:42:06] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:42:06] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:42:06] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:42:07] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:42:07] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:42:08] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:42:08] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:42:08] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:42:08] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:08] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:42:08] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:42:09] Key pressed - Code: 79, Text: 'o'
+[2025-02-04 20:42:09] Key pressed - Code: 87, Text: 'w'
+[2025-02-04 20:42:09] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:09] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:42:10] Key pressed - Code: 68, Text: 'd'
+[2025-02-04 20:42:11] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:42:11] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:42:12] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:42:12] Key pressed - Code: 16777219, Text: ''
+[2025-02-04 20:42:13] Key pressed - Code: 84, Text: 't'
+[2025-02-04 20:42:13] Key pressed - Code: 72, Text: 'h'
+[2025-02-04 20:42:14] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:42:14] Key pressed - Code: 78, Text: 'n'
+[2025-02-04 20:42:14] Key pressed - Code: 83, Text: 's'
+[2025-02-04 20:42:14] Key pressed - Code: 80, Text: 'p'
+[2025-02-04 20:42:15] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:15] Key pressed - Code: 67, Text: 'c'
+[2025-02-04 20:42:15] Key pressed - Code: 69, Text: 'e'
+[2025-02-04 20:42:15] Key pressed - Code: 66, Text: 'b'
+[2025-02-04 20:42:15] Key pressed - Code: 65, Text: 'a'
+[2025-02-04 20:42:15] Key pressed - Code: 82, Text: 'r'
+[2025-02-04 20:42:17] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:42:17] Feedback submitted
+[2025-02-04 20:42:19] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:42:20] Key pressed - Code: 75, Text: 'k'
+[2025-02-04 20:42:20] Key pressed - Code: 74, Text: 'j'
+[2025-02-04 20:42:21] Key pressed - Code: 16777220, Text: ''
+[2025-02-04 20:44:23] Game started
+[2025-02-04 20:44:26] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:44:26] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:44:26] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:44:26] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:44:26] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:44:26] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:26] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:44:27] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:27] Menu 'main': moved down (selected: Help)
+[2025-02-04 20:44:27] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:27] Menu 'main': moved up (selected: Load Game)
+[2025-02-04 20:44:27] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:27] Menu 'main': moved up (selected: New Game)
+[2025-02-04 20:44:27] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:27] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:44:28] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:28] Opened feedback menu
+[2025-02-04 20:44:29] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:35] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:35] Added character to input buffer: 'f'
+[2025-02-04 20:44:35] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:35] Added character to input buffer: 'e'
+[2025-02-04 20:44:35] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:35] Added character to input buffer: 'd'
+[2025-02-04 20:44:35] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:35] Added character to input buffer: 'd'
+[2025-02-04 20:44:36] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:37] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:37] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:37] Added character to input buffer: 'e'
+[2025-02-04 20:44:37] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:37] Added character to input buffer: 'd'
+[2025-02-04 20:44:38] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:38] Added character to input buffer: 'b'
+[2025-02-04 20:44:38] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:38] Added character to input buffer: 'a'
+[2025-02-04 20:44:38] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:38] Added character to input buffer: 'c'
+[2025-02-04 20:44:38] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:38] Added character to input buffer: 'k'
+[2025-02-04 20:44:39] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 'h'
+[2025-02-04 20:44:39] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 'a'
+[2025-02-04 20:44:39] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 's'
+[2025-02-04 20:44:39] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 'n'
+[2025-02-04 20:44:39] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 'o'
+[2025-02-04 20:44:39] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:39] Added character to input buffer: 'w'
+[2025-02-04 20:44:41] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:41] Added character to input buffer: 't'
+[2025-02-04 20:44:41] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:41] Added character to input buffer: 'w'
+[2025-02-04 20:44:41] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:41] Added character to input buffer: 'o'
+[2025-02-04 20:44:42] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:42] Added character to input buffer: 'i'
+[2025-02-04 20:44:42] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:42] Added character to input buffer: 'n'
+[2025-02-04 20:44:42] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:42] Added character to input buffer: 'p'
+[2025-02-04 20:44:42] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:42] Added character to input buffer: 'u'
+[2025-02-04 20:44:42] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:42] Added character to input buffer: 't'
+[2025-02-04 20:44:43] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:43] Added character to input buffer: 'f'
+[2025-02-04 20:44:43] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:43] Added character to input buffer: 'i'
+[2025-02-04 20:44:43] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:43] Added character to input buffer: 'e'
+[2025-02-04 20:44:43] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:43] Added character to input buffer: 'l'
+[2025-02-04 20:44:43] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:43] Added character to input buffer: 'd'
+[2025-02-04 20:44:44] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:44] Added character to input buffer: 's'
+[2025-02-04 20:44:47] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:47] Added character to input buffer: 'a'
+[2025-02-04 20:44:47] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:47] Added character to input buffer: 'n'
+[2025-02-04 20:44:48] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:48] Added character to input buffer: 'd'
+[2025-02-04 20:44:50] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:50] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:50] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:51] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:44:51] Added character to input buffer: ','
+[2025-02-04 20:45:02] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:02] Added character to input buffer: 'o'
+[2025-02-04 20:45:02] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:02] Added character to input buffer: 'n'
+[2025-02-04 20:45:02] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:02] Added character to input buffer: 'l'
+[2025-02-04 20:45:02] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:02] Added character to input buffer: 'y'
+[2025-02-04 20:45:03] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:03] Added character to input buffer: 'n'
+[2025-02-04 20:45:03] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:03] Added character to input buffer: 'e'
+[2025-02-04 20:45:03] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:03] Added character to input buffer: 'w'
+[2025-02-04 20:45:04] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:04] Added character to input buffer: 'e'
+[2025-02-04 20:45:04] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:04] Added character to input buffer: 's'
+[2025-02-04 20:45:04] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:04] Added character to input buffer: 't'
+[2025-02-04 20:45:06] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'f'
+[2025-02-04 20:45:06] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'e'
+[2025-02-04 20:45:06] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'd'
+[2025-02-04 20:45:06] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'd'
+[2025-02-04 20:45:06] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'b'
+[2025-02-04 20:45:06] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:06] Added character to input buffer: 'a'
+[2025-02-04 20:45:07] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 'c'
+[2025-02-04 20:45:07] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 'k'
+[2025-02-04 20:45:07] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 'n'
+[2025-02-04 20:45:07] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 'o'
+[2025-02-04 20:45:07] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 't'
+[2025-02-04 20:45:07] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 'e'
+[2025-02-04 20:45:07] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:07] Added character to input buffer: 's'
+[2025-02-04 20:45:08] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'h'
+[2025-02-04 20:45:08] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'o'
+[2025-02-04 20:45:08] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'u'
+[2025-02-04 20:45:08] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'l'
+[2025-02-04 20:45:08] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'd'
+[2025-02-04 20:45:08] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:08] Added character to input buffer: 'b'
+[2025-02-04 20:45:09] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:09] Added character to input buffer: 'e'
+[2025-02-04 20:45:09] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:09] Added character to input buffer: 's'
+[2025-02-04 20:45:09] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:09] Added character to input buffer: 'a'
+[2025-02-04 20:45:10] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:10] Added character to input buffer: 'v'
+[2025-02-04 20:45:10] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:10] Added character to input buffer: 'e'
+[2025-02-04 20:45:10] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:10] Added character to input buffer: 'd'
+[2025-02-04 20:45:12] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:12] Added character to input buffer: ','
+[2025-02-04 20:45:16] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:16] Added character to input buffer: 'f'
+[2025-02-04 20:45:16] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:16] Added character to input buffer: 'i'
+[2025-02-04 20:45:16] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:16] Added character to input buffer: 'r'
+[2025-02-04 20:45:16] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:16] Added character to input buffer: 's'
+[2025-02-04 20:45:17] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:17] Added character to input buffer: 't'
+[2025-02-04 20:45:17] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:17] Added character to input buffer: 'o'
+[2025-02-04 20:45:17] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:17] Added character to input buffer: 'f'
+[2025-02-04 20:45:18] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:18] Added character to input buffer: 'a'
+[2025-02-04 20:45:18] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:18] Added character to input buffer: 'l'
+[2025-02-04 20:45:18] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:18] Added character to input buffer: 'l'
+[2025-02-04 20:45:19] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:19] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:19] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:19] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:19] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:21] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:21] Feedback submitted
+[2025-02-04 20:45:23] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:23] Menu 'main': moved up (selected: Quit)
+[2025-02-04 20:45:23] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:23] Menu 'main': moved up (selected: Help)
+[2025-02-04 20:45:24] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:24] Menu 'main': moved up (selected: Load Game)
+[2025-02-04 20:45:24] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:24] Menu 'main': moved down (selected: Help)
+[2025-02-04 20:45:24] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:45:24] Menu 'main': moved down (selected: Quit)
+[2025-02-04 20:45:25] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:10] Game started
+[2025-02-04 20:46:15] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:15] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:46:15] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:15] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:46:15] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:15] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:46:15] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:15] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:46:24] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:24] Opened feedback menu
+[2025-02-04 20:46:25] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:28] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:28] Added character to input buffer: 'c'
+[2025-02-04 20:46:28] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:28] Added character to input buffer: 'h'
+[2025-02-04 20:46:28] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:28] Added character to input buffer: 'e'
+[2025-02-04 20:46:28] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:28] Added character to input buffer: 'c'
+[2025-02-04 20:46:29] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:29] Added character to input buffer: 'k'
+[2025-02-04 20:46:29] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:29] Added character to input buffer: 't'
+[2025-02-04 20:46:29] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:29] Added character to input buffer: 'h'
+[2025-02-04 20:46:29] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:29] Added character to input buffer: 'e'
+[2025-02-04 20:46:30] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'p'
+[2025-02-04 20:46:30] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'r'
+[2025-02-04 20:46:30] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'e'
+[2025-02-04 20:46:30] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'v'
+[2025-02-04 20:46:30] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'i'
+[2025-02-04 20:46:30] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:30] Added character to input buffer: 'o'
+[2025-02-04 20:46:31] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:31] Added character to input buffer: 'u'
+[2025-02-04 20:46:31] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:31] Added character to input buffer: 's'
+[2025-02-04 20:46:31] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:31] Added character to input buffer: 'l'
+[2025-02-04 20:46:31] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:31] Added character to input buffer: 'o'
+[2025-02-04 20:46:31] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:31] Added character to input buffer: 'g'
+[2025-02-04 20:46:35] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:35] Feedback submitted
+[2025-02-04 20:46:37] Key pressed - Code: 16777216, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:37] Navigated back to main menu
+[2025-02-04 20:46:38] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:38] Menu 'main': moved up (selected: Quit)
+[2025-02-04 20:46:38] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:38] Menu 'main': moved up (selected: Help)
+[2025-02-04 20:46:39] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:46:39] Menu 'main': moved down (selected: Quit)
+[2025-02-04 20:46:39] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:40] Game started
+[2025-02-04 20:53:43] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:53:43] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:53:43] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:53:43] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:53:43] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:53:43] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:53:43] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:53:43] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:43] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:53:44] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:44] Menu 'main': moved down (selected: Help)
+[2025-02-04 20:53:44] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:44] Menu 'main': moved up (selected: Load Game)
+[2025-02-04 20:53:46] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:46] Menu 'main': moved up (selected: New Game)
+[2025-02-04 20:53:47] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:47] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:53:48] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:48] Menu 'main': moved up (selected: New Game)
+[2025-02-04 20:53:48] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:48] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:53:48] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:53:48] Opened feedback menu
+[2025-02-04 20:53:49] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:17] Game started
+[2025-02-04 20:56:20] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:20] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:56:20] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:20] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:56:20] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:20] Menu 'main': moved up (selected: New Game)
+[2025-02-04 20:56:20] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:20] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:56:21] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:21] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:56:21] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:21] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:56:21] Key pressed - Code: 16777234, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:21] Key pressed - Code: 16777236, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:22] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:22] Menu 'main': moved up (selected: New Game)
+[2025-02-04 20:56:24] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:56:24] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 20:56:24] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:24] Opened feedback menu
+[2025-02-04 20:56:25] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:27] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:27] Added character to input buffer: 'a'
+[2025-02-04 20:56:27] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:27] Added character to input buffer: 'r'
+[2025-02-04 20:56:27] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:27] Added character to input buffer: 'o'
+[2025-02-04 20:56:27] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:27] Added character to input buffer: 'o'
+[2025-02-04 20:56:27] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:28] Added character to input buffer: 'w'
+[2025-02-04 20:56:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:28] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:29] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:29] Added character to input buffer: 'o'
+[2025-02-04 20:56:29] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:29] Added character to input buffer: 'w'
+[2025-02-04 20:56:30] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:30] Added space to input buffer
+[2025-02-04 20:56:31] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:31] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:31] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:32] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:32] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:32] Added character to input buffer: 'r'
+[2025-02-04 20:56:32] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:32] Added character to input buffer: 'o'
+[2025-02-04 20:56:32] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:32] Added character to input buffer: 'w'
+[2025-02-04 20:56:33] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:33] Added space to input buffer
+[2025-02-04 20:56:33] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:33] Added character to input buffer: 'k'
+[2025-02-04 20:56:33] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:33] Added character to input buffer: 'e'
+[2025-02-04 20:56:34] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:34] Added character to input buffer: 'y'
+[2025-02-04 20:56:34] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:34] Added character to input buffer: 's'
+[2025-02-04 20:56:35] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:35] Added character to input buffer: 'a'
+[2025-02-04 20:56:35] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:35] Added character to input buffer: 'n'
+[2025-02-04 20:56:35] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:35] Added character to input buffer: 'd'
+[2025-02-04 20:56:35] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:35] Added space to input buffer
+[2025-02-04 20:56:35] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:35] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:36] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:36] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:36] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:36] Added character to input buffer: 'a'
+[2025-02-04 20:56:36] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:36] Added character to input buffer: 'n'
+[2025-02-04 20:56:37] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:37] Added character to input buffer: 'd'
+[2025-02-04 20:56:37] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:37] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:37] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Added space to input buffer
+[2025-02-04 20:56:38] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Added character to input buffer: 'a'
+[2025-02-04 20:56:38] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Added character to input buffer: 'n'
+[2025-02-04 20:56:38] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Added character to input buffer: 'd'
+[2025-02-04 20:56:38] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:38] Added space to input buffer
+[2025-02-04 20:56:39] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:39] Added character to input buffer: 's'
+[2025-02-04 20:56:39] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:39] Added character to input buffer: 'p'
+[2025-02-04 20:56:39] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:39] Added character to input buffer: 'a'
+[2025-02-04 20:56:39] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:39] Added character to input buffer: 'c'
+[2025-02-04 20:56:39] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:39] Added character to input buffer: 'e'
+[2025-02-04 20:56:40] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:40] Added character to input buffer: 'b'
+[2025-02-04 20:56:40] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:40] Added character to input buffer: 'a'
+[2025-02-04 20:56:40] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:40] Added character to input buffer: 'r'
+[2025-02-04 20:56:40] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:40] Added space to input buffer
+[2025-02-04 20:56:40] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:40] Added character to input buffer: 'w'
+[2025-02-04 20:56:41] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:41] Added character to input buffer: 'o'
+[2025-02-04 20:56:41] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:41] Added character to input buffer: 'r'
+[2025-02-04 20:56:41] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:41] Added character to input buffer: 'k'
+[2025-02-04 20:56:41] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:41] Added character to input buffer: 's'
+[2025-02-04 20:56:41] Key pressed - Code: 16777248, Text: '', Modifiers: KeyboardModifier.ShiftModifier
+[2025-02-04 20:56:42] Key pressed - Code: 33, Text: '!', Modifiers: KeyboardModifier.ShiftModifier
+[2025-02-04 20:56:42] Added character to input buffer: '!'
+[2025-02-04 20:56:43] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:43] Added space to input buffer
+[2025-02-04 20:56:46] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added character to input buffer: 't'
+[2025-02-04 20:56:46] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added character to input buffer: 'h'
+[2025-02-04 20:56:46] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added character to input buffer: 'r'
+[2025-02-04 20:56:46] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added character to input buffer: 'e'
+[2025-02-04 20:56:46] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added space to input buffer
+[2025-02-04 20:56:46] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:46] Added character to input buffer: 'i'
+[2025-02-04 20:56:47] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:47] Added character to input buffer: 's'
+[2025-02-04 20:56:47] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:47] Added space to input buffer
+[2025-02-04 20:56:47] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:47] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:47] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Added character to input buffer: 'e'
+[2025-02-04 20:56:48] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Added character to input buffer: 'r'
+[2025-02-04 20:56:48] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Added character to input buffer: 'e'
+[2025-02-04 20:56:48] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Added space to input buffer
+[2025-02-04 20:56:48] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:48] Added character to input buffer: 'i'
+[2025-02-04 20:56:49] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added character to input buffer: 's'
+[2025-02-04 20:56:49] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added space to input buffer
+[2025-02-04 20:56:49] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added character to input buffer: 'n'
+[2025-02-04 20:56:49] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added character to input buffer: 'o'
+[2025-02-04 20:56:49] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added character to input buffer: 't'
+[2025-02-04 20:56:49] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:49] Added space to input buffer
+[2025-02-04 20:56:53] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:53] Added character to input buffer: 't'
+[2025-02-04 20:56:53] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:53] Added character to input buffer: 'e'
+[2025-02-04 20:56:54] Key pressed - Code: 88, Text: 'x', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:54] Added character to input buffer: 'x'
+[2025-02-04 20:56:54] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:54] Added character to input buffer: 't'
+[2025-02-04 20:56:54] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:54] Added space to input buffer
+[2025-02-04 20:56:55] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 'c'
+[2025-02-04 20:56:55] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 'u'
+[2025-02-04 20:56:55] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 'r'
+[2025-02-04 20:56:55] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 's'
+[2025-02-04 20:56:55] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 'o'
+[2025-02-04 20:56:55] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added character to input buffer: 'r'
+[2025-02-04 20:56:55] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:55] Added space to input buffer
+[2025-02-04 20:56:56] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:56] Added character to input buffer: 'i'
+[2025-02-04 20:56:56] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:56] Added character to input buffer: 'n'
+[2025-02-04 20:56:56] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:56] Added character to input buffer: 'd'
+[2025-02-04 20:56:56] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:56] Added character to input buffer: 'i'
+[2025-02-04 20:56:56] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:56] Added character to input buffer: 'c'
+[2025-02-04 20:56:57] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:57] Added character to input buffer: 'a'
+[2025-02-04 20:56:57] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:57] Added character to input buffer: 't'
+[2025-02-04 20:56:57] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:57] Added character to input buffer: 'o'
+[2025-02-04 20:56:57] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:57] Added character to input buffer: 'r'
+[2025-02-04 20:56:57] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:57] Added space to input buffer
+[2025-02-04 20:56:58] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:58] Added character to input buffer: 't'
+[2025-02-04 20:56:59] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:59] Added character to input buffer: 'h'
+[2025-02-04 20:56:59] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:59] Added character to input buffer: 'o'
+[2025-02-04 20:56:59] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:59] Added character to input buffer: 'u'
+[2025-02-04 20:56:59] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:56:59] Added character to input buffer: 'g'
+[2025-02-04 20:57:00] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:00] Added character to input buffer: 'e'
+[2025-02-04 20:57:01] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:01] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:02] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:02] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:02] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:03] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:03] Added character to input buffer: 'h'
+[2025-02-04 20:57:03] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:03] Added character to input buffer: 'o'
+[2025-02-04 20:57:03] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:03] Added character to input buffer: 'e'
+[2025-02-04 20:57:06] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:07] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:07] Added character to input buffer: 'u'
+[2025-02-04 20:57:07] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:07] Added character to input buffer: 'g'
+[2025-02-04 20:57:07] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:07] Added character to input buffer: 'h'
+[2025-02-04 20:57:09] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:09] Added character to input buffer: ','
+[2025-02-04 20:57:09] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:09] Added space to input buffer
+[2025-02-04 20:57:20] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 'c'
+[2025-02-04 20:57:20] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 'o'
+[2025-02-04 20:57:20] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 'n'
+[2025-02-04 20:57:20] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 't'
+[2025-02-04 20:57:20] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 'i'
+[2025-02-04 20:57:20] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:20] Added character to input buffer: 'n'
+[2025-02-04 20:57:22] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added character to input buffer: 'u'
+[2025-02-04 20:57:22] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added character to input buffer: 'e'
+[2025-02-04 20:57:22] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added space to input buffer
+[2025-02-04 20:57:22] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added character to input buffer: 't'
+[2025-02-04 20:57:22] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added character to input buffer: 'o'
+[2025-02-04 20:57:22] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:22] Added space to input buffer
+[2025-02-04 20:57:24] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Added character to input buffer: 'f'
+[2025-02-04 20:57:24] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Added character to input buffer: 'a'
+[2025-02-04 20:57:24] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Added character to input buffer: 'l'
+[2025-02-04 20:57:24] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Added character to input buffer: 'l'
+[2025-02-04 20:57:24] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Added character to input buffer: 'o'
+[2025-02-04 20:57:24] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:24] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Added character to input buffer: 'o'
+[2025-02-04 20:57:25] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Added character to input buffer: 'l'
+[2025-02-04 20:57:25] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:25] Added character to input buffer: 'l'
+[2025-02-04 20:57:26] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added character to input buffer: 'o'
+[2025-02-04 20:57:26] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added character to input buffer: 'w'
+[2025-02-04 20:57:26] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added space to input buffer
+[2025-02-04 20:57:26] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added character to input buffer: 't'
+[2025-02-04 20:57:26] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added character to input buffer: 'h'
+[2025-02-04 20:57:26] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added character to input buffer: 'e'
+[2025-02-04 20:57:26] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:26] Added space to input buffer
+[2025-02-04 20:57:28] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:28] Added character to input buffer: 'p'
+[2025-02-04 20:57:29] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:29] Added character to input buffer: 'r'
+[2025-02-04 20:57:29] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:29] Added character to input buffer: 'o'
+[2025-02-04 20:57:29] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:29] Added character to input buffer: 'j'
+[2025-02-04 20:57:29] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:29] Added character to input buffer: 'e'
+[2025-02-04 20:57:29] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:29] Added character to input buffer: 'c'
+[2025-02-04 20:57:30] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:30] Added character to input buffer: 't'
+[2025-02-04 20:57:30] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:30] Added space to input buffer
+[2025-02-04 20:57:30] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:30] Added character to input buffer: 'p'
+[2025-02-04 20:57:30] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:30] Added character to input buffer: 'l'
+[2025-02-04 20:57:31] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:31] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:33] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:33] Added character to input buffer: 'b'
+[2025-02-04 20:57:34] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'u'
+[2025-02-04 20:57:34] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'i'
+[2025-02-04 20:57:34] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'l'
+[2025-02-04 20:57:34] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'd'
+[2025-02-04 20:57:34] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'i'
+[2025-02-04 20:57:34] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'n'
+[2025-02-04 20:57:34] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'g'
+[2025-02-04 20:57:34] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added space to input buffer
+[2025-02-04 20:57:34] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:34] Added character to input buffer: 'p'
+[2025-02-04 20:57:35] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:35] Added character to input buffer: 'l'
+[2025-02-04 20:57:35] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:35] Added character to input buffer: 'a'
+[2025-02-04 20:57:35] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:35] Added character to input buffer: 'n'
+[2025-02-04 20:57:36] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:36] Feedback submitted
+[2025-02-04 20:57:37] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:57:37] Menu 'main': moved down (selected: New Game)
+[2025-02-04 20:57:37] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:57:37] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 20:57:37] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:57:37] Menu 'main': moved down (selected: Help)
+[2025-02-04 20:57:37] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 20:57:37] Menu 'main': moved down (selected: Quit)
+[2025-02-04 20:57:38] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:41] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:41] Added character to input buffer: 'j'
+[2025-02-04 20:57:41] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:41] Added character to input buffer: 'k'
+[2025-02-04 20:57:42] Key pressed - Code: 74, Text: 'j', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:42] Added character to input buffer: 'j'
+[2025-02-04 20:57:42] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:42] Added character to input buffer: 'k'
+[2025-02-04 20:57:42] Key pressed - Code: 16777216, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:44] Key pressed - Code: 16777216, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:44] Navigated back to main menu
+[2025-02-04 20:57:49] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 20:57:49] Opened feedback menu
+[2025-02-04 21:03:59] Game started
+[2025-02-04 21:04:00] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:04:00] Menu 'main': moved down (selected: New Game)
+[2025-02-04 21:04:01] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:04:01] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 21:04:01] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:01] Opened feedback menu
+[2025-02-04 21:04:02] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:05] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:05] Added character to input buffer: 'i'
+[2025-02-04 21:04:05] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:05] Added character to input buffer: 'n'
+[2025-02-04 21:04:05] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:05] Added character to input buffer: 'd'
+[2025-02-04 21:04:06] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'i'
+[2025-02-04 21:04:06] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'c'
+[2025-02-04 21:04:06] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'a'
+[2025-02-04 21:04:06] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 't'
+[2025-02-04 21:04:06] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'o'
+[2025-02-04 21:04:06] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'r'
+[2025-02-04 21:04:06] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:06] Added character to input buffer: 'e'
+[2025-02-04 21:04:07] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:07] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:07] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:07] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:08] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:08] Added character to input buffer: 't'
+[2025-02-04 21:04:08] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:08] Added character to input buffer: 'o'
+[2025-02-04 21:04:08] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:08] Added character to input buffer: 'r'
+[2025-02-04 21:04:08] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:08] Added space to input buffer
+[2025-02-04 21:04:09] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: 'w'
+[2025-02-04 21:04:09] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: 'o'
+[2025-02-04 21:04:09] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: 'r'
+[2025-02-04 21:04:09] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: 'k'
+[2025-02-04 21:04:09] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: 's'
+[2025-02-04 21:04:09] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:09] Added character to input buffer: ','
+[2025-02-04 21:04:10] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:10] Added space to input buffer
+[2025-02-04 21:04:12] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:12] Added character to input buffer: 'a'
+[2025-02-04 21:04:12] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:12] Added character to input buffer: 'd'
+[2025-02-04 21:04:12] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:12] Added character to input buffer: 'd'
+[2025-02-04 21:04:13] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:13] Added space to input buffer
+[2025-02-04 21:04:13] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:13] Added character to input buffer: 'a'
+[2025-02-04 21:04:13] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:13] Added character to input buffer: 'c'
+[2025-02-04 21:04:13] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:13] Added space to input buffer
+[2025-02-04 21:04:13] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:13] Added character to input buffer: 'c'
+[2025-02-04 21:04:14] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:14] Added character to input buffer: 'h'
+[2025-02-04 21:04:14] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:14] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:14] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:14] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:16] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:16] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:16] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:16] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:18] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:18] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:18] Added character to input buffer: 'm'
+[2025-02-04 21:04:18] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:18] Added character to input buffer: 'o'
+[2025-02-04 21:04:19] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'd'
+[2025-02-04 21:04:19] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'i'
+[2025-02-04 21:04:19] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'f'
+[2025-02-04 21:04:19] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'y'
+[2025-02-04 21:04:19] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added space to input buffer
+[2025-02-04 21:04:19] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'r'
+[2025-02-04 21:04:19] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:19] Added character to input buffer: 'o'
+[2025-02-04 21:04:20] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:20] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:20] Added character to input buffer: 'u'
+[2025-02-04 21:04:21] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added character to input buffer: 'l'
+[2025-02-04 21:04:21] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added character to input buffer: 'e'
+[2025-02-04 21:04:21] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added character to input buffer: 's'
+[2025-02-04 21:04:21] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added space to input buffer
+[2025-02-04 21:04:21] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added character to input buffer: 's'
+[2025-02-04 21:04:21] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added character to input buffer: 'o'
+[2025-02-04 21:04:21] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:21] Added space to input buffer
+[2025-02-04 21:04:22] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 'i'
+[2025-02-04 21:04:22] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 't'
+[2025-02-04 21:04:22] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added space to input buffer
+[2025-02-04 21:04:22] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 's'
+[2025-02-04 21:04:22] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 'a'
+[2025-02-04 21:04:22] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 'y'
+[2025-02-04 21:04:22] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:22] Added character to input buffer: 's'
+[2025-02-04 21:04:23] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added space to input buffer
+[2025-02-04 21:04:23] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added character to input buffer: 't'
+[2025-02-04 21:04:23] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added character to input buffer: 'h'
+[2025-02-04 21:04:23] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added character to input buffer: 'a'
+[2025-02-04 21:04:23] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added character to input buffer: 't'
+[2025-02-04 21:04:23] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:23] Added space to input buffer
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:26] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:27] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added space to input buffer
+[2025-02-04 21:04:28] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added character to input buffer: 'y'
+[2025-02-04 21:04:28] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added character to input buffer: 'o'
+[2025-02-04 21:04:28] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added character to input buffer: 'u'
+[2025-02-04 21:04:28] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added space to input buffer
+[2025-02-04 21:04:28] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added character to input buffer: 'd'
+[2025-02-04 21:04:28] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:28] Added character to input buffer: 'o'
+[2025-02-04 21:04:29] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:29] Added character to input buffer: 'n'
+[2025-02-04 21:04:29] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:29] Added character to input buffer: 't'
+[2025-02-04 21:04:29] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:29] Added space to input buffer
+[2025-02-04 21:04:29] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:29] Added character to input buffer: 'a'
+[2025-02-04 21:04:29] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:29] Added character to input buffer: 'c'
+[2025-02-04 21:04:30] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:30] Added character to input buffer: 'u'
+[2025-02-04 21:04:30] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:30] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:30] Added character to input buffer: 't'
+[2025-02-04 21:04:31] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added character to input buffer: 'u'
+[2025-02-04 21:04:31] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added character to input buffer: 'a'
+[2025-02-04 21:04:31] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added character to input buffer: 'l'
+[2025-02-04 21:04:31] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added character to input buffer: 'l'
+[2025-02-04 21:04:31] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added character to input buffer: 'y'
+[2025-02-04 21:04:31] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:31] Added space to input buffer
+[2025-02-04 21:04:32] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:32] Added character to input buffer: 'u'
+[2025-02-04 21:04:32] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:32] Added character to input buffer: 's'
+[2025-02-04 21:04:32] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:32] Added character to input buffer: 'e'
+[2025-02-04 21:04:32] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:32] Added space to input buffer
+[2025-02-04 21:04:33] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:33] Added character to input buffer: 'w'
+[2025-02-04 21:04:33] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:33] Added character to input buffer: 'e'
+[2025-02-04 21:04:33] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:33] Added character to input buffer: 'b'
+[2025-02-04 21:04:34] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added space to input buffer
+[2025-02-04 21:04:34] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 's'
+[2025-02-04 21:04:34] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'e'
+[2025-02-04 21:04:34] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'a'
+[2025-02-04 21:04:34] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'r'
+[2025-02-04 21:04:34] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'd'
+[2025-02-04 21:04:34] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'c'
+[2025-02-04 21:04:34] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:34] Added character to input buffer: 'h'
+[2025-02-04 21:04:35] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:36] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:36] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:37] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:37] Added character to input buffer: 'c'
+[2025-02-04 21:04:37] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:37] Added character to input buffer: 'h'
+[2025-02-04 21:04:37] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:37] Added space to input buffer
+[2025-02-04 21:04:37] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:37] Added character to input buffer: 'e'
+[2025-02-04 21:04:38] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:38] Added character to input buffer: 'e'
+[2025-02-04 21:04:38] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Added character to input buffer: 'v'
+[2025-02-04 21:04:39] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Added character to input buffer: 'e'
+[2025-02-04 21:04:39] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Added character to input buffer: 'r'
+[2025-02-04 21:04:39] Key pressed - Code: 89, Text: 'y', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:39] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:40] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:40] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:40] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:40] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:40] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:41] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:42] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:43] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:44] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:45] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Added character to input buffer: 'm'
+[2025-02-04 21:04:46] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Added character to input buffer: 'o'
+[2025-02-04 21:04:46] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Added character to input buffer: 'r'
+[2025-02-04 21:04:46] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:46] Added character to input buffer: 'e'
+[2025-02-04 21:04:47] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:47] Added space to input buffer
+[2025-02-04 21:04:47] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:47] Added character to input buffer: 's'
+[2025-02-04 21:04:47] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:47] Added character to input buffer: 'p'
+[2025-02-04 21:04:47] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:47] Added character to input buffer: 'a'
+[2025-02-04 21:04:48] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added character to input buffer: 'c'
+[2025-02-04 21:04:48] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added character to input buffer: 'e'
+[2025-02-04 21:04:48] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added space to input buffer
+[2025-02-04 21:04:48] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added character to input buffer: 'i'
+[2025-02-04 21:04:48] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added character to input buffer: 'n'
+[2025-02-04 21:04:48] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added space to input buffer
+[2025-02-04 21:04:48] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:48] Added character to input buffer: 'f'
+[2025-02-04 21:04:49] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:49] Added character to input buffer: 'e'
+[2025-02-04 21:04:49] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:49] Added character to input buffer: 'e'
+[2025-02-04 21:04:50] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: 'd'
+[2025-02-04 21:04:50] Key pressed - Code: 66, Text: 'b', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: 'b'
+[2025-02-04 21:04:50] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: 'a'
+[2025-02-04 21:04:50] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: 'c'
+[2025-02-04 21:04:50] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: 'k'
+[2025-02-04 21:04:50] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:50] Added character to input buffer: ','
+[2025-02-04 21:04:51] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:51] Added space to input buffer
+[2025-02-04 21:04:56] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'c'
+[2025-02-04 21:04:56] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'o'
+[2025-02-04 21:04:56] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'n'
+[2025-02-04 21:04:56] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 't'
+[2025-02-04 21:04:56] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'i'
+[2025-02-04 21:04:56] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'n'
+[2025-02-04 21:04:56] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'u'
+[2025-02-04 21:04:56] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:56] Added character to input buffer: 'e'
+[2025-02-04 21:04:59] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:04:59] Feedback submitted
+[2025-02-04 21:05:00] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:05:00] Menu 'main': moved down (selected: New Game)
+[2025-02-04 21:05:00] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:05:00] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 21:05:01] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:05:01] Menu 'main': moved down (selected: Help)
+[2025-02-04 21:05:01] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:05:01] Menu 'main': moved down (selected: Quit)
+[2025-02-04 21:05:01] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+2025-02-04 21:42:41,667 - src.ui.npc_menu - INFO - NPC menu initialized
+[2025-02-04 21:42:41] Game started
+[2025-02-04 21:42:43] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:42:43] Menu 'main': moved down (selected: New Game)
+[2025-02-04 21:42:44] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:42:44] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 21:42:47] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:42:47] Menu 'main': moved up (selected: New Game)
+[2025-02-04 21:42:47] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:42:47] Menu 'main': moved up (selected: Feedback)
+[2025-02-04 21:42:48] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:48] Opened feedback menu
+[2025-02-04 21:42:49] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:51] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:51] Added character to input buffer: 'i'
+[2025-02-04 21:42:51] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:51] Added character to input buffer: 't'
+[2025-02-04 21:42:51] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:51] Added character to input buffer: 's'
+[2025-02-04 21:42:52] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added space to input buffer
+[2025-02-04 21:42:52] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'w'
+[2025-02-04 21:42:52] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'o'
+[2025-02-04 21:42:52] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'r'
+[2025-02-04 21:42:52] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'k'
+[2025-02-04 21:42:52] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'i'
+[2025-02-04 21:42:52] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'n'
+[2025-02-04 21:42:52] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:52] Added character to input buffer: 'g'
+[2025-02-04 21:42:53] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:53] Added space to input buffer
+[2025-02-04 21:42:54] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:54] Added character to input buffer: 'f'
+[2025-02-04 21:42:54] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:54] Added character to input buffer: 'i'
+[2025-02-04 21:42:54] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:54] Added character to input buffer: 'n'
+[2025-02-04 21:42:54] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:54] Added character to input buffer: 'e'
+[2025-02-04 21:42:54] Key pressed - Code: 16777248, Text: '', Modifiers: KeyboardModifier.ShiftModifier
+[2025-02-04 21:42:55] Key pressed - Code: 33, Text: '!', Modifiers: KeyboardModifier.ShiftModifier
+[2025-02-04 21:42:55] Added character to input buffer: '!'
+[2025-02-04 21:42:59] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:42:59] Feedback submitted
+[2025-02-04 21:42:59] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:42:59] Menu 'main': moved down (selected: New Game)
+[2025-02-04 21:43:00] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:00] Starting character creation
+[2025-02-04 21:43:03] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:04] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:04] Added character to input buffer: 'a'
+[2025-02-04 21:43:05] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:05] Added character to input buffer: 'e'
+[2025-02-04 21:43:05] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:05] Added character to input buffer: 'r'
+[2025-02-04 21:43:05] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:05] Added character to input buffer: 'o'
+[2025-02-04 21:43:06] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:06] Added character to input buffer: 'n'
+[2025-02-04 21:43:06] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:06] Added character to input buffer: 'i'
+[2025-02-04 21:43:06] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:06] Added character to input buffer: 'u'
+[2025-02-04 21:43:07] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:07] Added character to input buffer: 's'
+[2025-02-04 21:43:07] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:07] Added character to input buffer: 'z'
+[2025-02-04 21:43:07] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:07] Added character to input buffer: 'e'
+[2025-02-04 21:43:07] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:07] Added character to input buffer: 'q'
+[2025-02-04 21:43:09] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:09] Created character: aeroniuszeq
+[2025-02-04 21:43:14] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:14] Menu 'game': moved down (selected: Tasks)
+[2025-02-04 21:43:16] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:17] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:21] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:21] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:21] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:21] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:21] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:22] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:22] Added character to input buffer: 't'
+[2025-02-04 21:43:22] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:22] Added character to input buffer: 'e'
+[2025-02-04 21:43:22] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:22] Added character to input buffer: 'n'
+[2025-02-04 21:43:22] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:22] Added character to input buffer: 'o'
+[2025-02-04 21:43:23] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:23] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:23] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:23] Added character to input buffer: 'm'
+[2025-02-04 21:43:23] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:23] Added character to input buffer: 'o'
+[2025-02-04 21:43:24] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:25] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:25] Added character to input buffer: 'p'
+[2025-02-04 21:43:25] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:25] Set task name: temp
+[2025-02-04 21:43:27] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:27] Menu 'task_creation': moved down (selected: Select Type)
+[2025-02-04 21:43:28] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:28] Selected task type: EXERCISE
+[2025-02-04 21:43:28] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:28] Selected task type: LEARNING
+[2025-02-04 21:43:30] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:30] Selected task type: CRAFTING
+[2025-02-04 21:43:30] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:30] Selected task type: CHORE
+[2025-02-04 21:43:31] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:31] Selected task type: EXERCISE
+[2025-02-04 21:43:32] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:32] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 21:43:33] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:38] Key pressed - Code: 53, Text: '5', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:38] Added character to input buffer: '5'
+[2025-02-04 21:43:38] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:38] Set task duration: 5 minutes
+[2025-02-04 21:43:44] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:44] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 21:43:44] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:44] Created task: temp
+[2025-02-04 21:43:46] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:46] Menu 'tasks': moved down (selected: View Tasks)
+[2025-02-04 21:43:47] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:48] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:49] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:49] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:49] Menu 'tasks': moved up (selected: Add Task)
+[2025-02-04 21:43:50] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:50] Menu 'tasks': moved down (selected: View Tasks)
+[2025-02-04 21:43:50] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:50] Menu 'tasks': moved down (selected: Complete Task)
+[2025-02-04 21:43:51] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:51] Completed task: temp
+[2025-02-04 21:43:55] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:55] Menu 'tasks': moved down (selected: Help)
+[2025-02-04 21:43:55] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:55] Menu 'tasks': moved up (selected: Complete Task)
+[2025-02-04 21:43:56] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:56] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:56] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:57] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:57] Menu 'tasks': moved up (selected: View Tasks)
+[2025-02-04 21:43:58] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:43:58] Menu 'tasks': moved up (selected: Add Task)
+[2025-02-04 21:43:58] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:58] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:43:59] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:00] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:00] Menu 'task_creation': moved up (selected: Set Duration)
+[2025-02-04 21:44:01] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:01] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 21:44:02] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:03] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:03] Menu 'task_creation': moved up (selected: Set Duration)
+[2025-02-04 21:44:04] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:04] Menu 'task_creation': moved up (selected: Select Type)
+[2025-02-04 21:44:05] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:05] Menu 'task_creation': moved up (selected: Enter Task Name)
+[2025-02-04 21:44:06] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:07] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:07] Added character to input buffer: 'a'
+[2025-02-04 21:44:07] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:07] Set task name: a
+[2025-02-04 21:44:08] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:08] Menu 'task_creation': moved down (selected: Select Type)
+[2025-02-04 21:44:08] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:08] Selected task type: EXERCISE
+[2025-02-04 21:44:09] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:09] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 21:44:10] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:11] Key pressed - Code: 49, Text: '1', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:11] Added character to input buffer: '1'
+[2025-02-04 21:44:11] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:11] Set task duration: 1 minutes
+[2025-02-04 21:44:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:12] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 21:44:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:12] Menu 'task_creation': moved down (selected: Help)
+[2025-02-04 21:44:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:12] Menu 'task_creation': moved down (selected: Back)
+[2025-02-04 21:44:13] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:14] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:14] Menu 'tasks': moved down (selected: View Tasks)
+[2025-02-04 21:44:14] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:15] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:15] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:19] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:19] Menu 'tasks': moved down (selected: Complete Task)
+[2025-02-04 21:44:19] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:19] Menu 'tasks': moved down (selected: Help)
+[2025-02-04 21:44:20] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:20] Menu 'tasks': moved down (selected: Back)
+[2025-02-04 21:44:20] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:21] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:22] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:24] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:24] Menu 'game': moved down (selected: Save Game)
+[2025-02-04 21:44:24] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:24] Menu 'game': moved down (selected: Help)
+[2025-02-04 21:44:24] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:44:24] Menu 'game': moved down (selected: Feedback)
+[2025-02-04 21:44:25] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:25] Opened feedback menu
+[2025-02-04 21:44:26] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:54] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:54] Added character to input buffer: 'm'
+[2025-02-04 21:44:54] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:54] Added character to input buffer: 'o'
+[2025-02-04 21:44:54] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:55] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:55] Added character to input buffer: 'o'
+[2025-02-04 21:44:56] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:56] Added character to input buffer: 's'
+[2025-02-04 21:44:56] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:56] Added character to input buffer: 't'
+[2025-02-04 21:44:56] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:56] Added space to input buffer
+[2025-02-04 21:44:57] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 't'
+[2025-02-04 21:44:57] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 'h'
+[2025-02-04 21:44:57] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 'i'
+[2025-02-04 21:44:57] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 'n'
+[2025-02-04 21:44:57] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 'g'
+[2025-02-04 21:44:57] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added character to input buffer: 's'
+[2025-02-04 21:44:57] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:57] Added space to input buffer
+[2025-02-04 21:44:58] Key pressed - Code: 87, Text: 'w', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added character to input buffer: 'w'
+[2025-02-04 21:44:58] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added character to input buffer: 'o'
+[2025-02-04 21:44:58] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added character to input buffer: 'r'
+[2025-02-04 21:44:58] Key pressed - Code: 75, Text: 'k', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added character to input buffer: 'k'
+[2025-02-04 21:44:58] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added character to input buffer: 's'
+[2025-02-04 21:44:58] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:58] Added space to input buffer
+[2025-02-04 21:44:59] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:59] Added character to input buffer: 'f'
+[2025-02-04 21:44:59] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:44:59] Added character to input buffer: 'u'
+[2025-02-04 21:45:00] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:00] Added character to input buffer: 'n'
+[2025-02-04 21:45:00] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:00] Added character to input buffer: 'e'
+[2025-02-04 21:45:00] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:00] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:01] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:01] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:01] Added character to input buffer: 'i'
+[2025-02-04 21:45:01] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:01] Added character to input buffer: 'n'
+[2025-02-04 21:45:01] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:01] Added character to input buffer: 'e'
+[2025-02-04 21:45:03] Key pressed - Code: 44, Text: ',', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:03] Added character to input buffer: ','
+[2025-02-04 21:45:03] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:03] Added space to input buffer
+[2025-02-04 21:45:03] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:03] Added character to input buffer: 'l'
+[2025-02-04 21:45:03] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:03] Added character to input buffer: 'e'
+[2025-02-04 21:45:04] Key pressed - Code: 84, Text: 't', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added character to input buffer: 't'
+[2025-02-04 21:45:04] Key pressed - Code: 39, Text: ''', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added character to input buffer: '''
+[2025-02-04 21:45:04] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added character to input buffer: 's'
+[2025-02-04 21:45:04] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added space to input buffer
+[2025-02-04 21:45:04] Key pressed - Code: 70, Text: 'f', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added character to input buffer: 'f'
+[2025-02-04 21:45:04] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:04] Added character to input buffer: 'o'
+[2025-02-04 21:45:05] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added character to input buffer: 'c'
+[2025-02-04 21:45:05] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added character to input buffer: 'u'
+[2025-02-04 21:45:05] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added character to input buffer: 's'
+[2025-02-04 21:45:05] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added space to input buffer
+[2025-02-04 21:45:05] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added character to input buffer: 'o'
+[2025-02-04 21:45:05] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added character to input buffer: 'n'
+[2025-02-04 21:45:05] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:05] Added space to input buffer
+[2025-02-04 21:45:06] Key pressed - Code: 68, Text: 'd', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:06] Added character to input buffer: 'd'
+[2025-02-04 21:45:06] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:06] Added character to input buffer: 'e'
+[2025-02-04 21:45:06] Key pressed - Code: 86, Text: 'v', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:06] Added character to input buffer: 'v'
+[2025-02-04 21:45:06] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:06] Added character to input buffer: 'e'
+[2025-02-04 21:45:06] Key pressed - Code: 76, Text: 'l', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:06] Added character to input buffer: 'l'
+[2025-02-04 21:45:07] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added character to input buffer: 'o'
+[2025-02-04 21:45:07] Key pressed - Code: 80, Text: 'p', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added character to input buffer: 'p'
+[2025-02-04 21:45:07] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added character to input buffer: 'i'
+[2025-02-04 21:45:07] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added character to input buffer: 'n'
+[2025-02-04 21:45:07] Key pressed - Code: 71, Text: 'g', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added character to input buffer: 'g'
+[2025-02-04 21:45:07] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:07] Added space to input buffer
+[2025-02-04 21:45:11] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'c'
+[2025-02-04 21:45:11] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'o'
+[2025-02-04 21:45:11] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'r'
+[2025-02-04 21:45:11] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'e'
+[2025-02-04 21:45:11] Key pressed - Code: 32, Text: ' ', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added space to input buffer
+[2025-02-04 21:45:11] Key pressed - Code: 77, Text: 'm', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'm'
+[2025-02-04 21:45:11] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:11] Added character to input buffer: 'e'
+[2025-02-04 21:45:12] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'c'
+[2025-02-04 21:45:12] Key pressed - Code: 72, Text: 'h', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'h'
+[2025-02-04 21:45:12] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'a'
+[2025-02-04 21:45:12] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'n'
+[2025-02-04 21:45:12] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'i'
+[2025-02-04 21:45:12] Key pressed - Code: 67, Text: 'c', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 'c'
+[2025-02-04 21:45:12] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:12] Added character to input buffer: 's'
+[2025-02-04 21:45:13] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 21:45:13] Feedback submitted
+[2025-02-04 21:45:15] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:45:15] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 21:45:15] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:45:15] Menu 'main': moved down (selected: Help)
+[2025-02-04 21:45:15] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 21:45:15] Menu 'main': moved down (selected: Quit)
+[2025-02-04 21:45:15] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+2025-02-04 22:31:11,437 - src.core.task_template_manager - INFO - Loaded 1 task chains
+2025-02-04 22:31:11,437 - src.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-04 22:31:11,437 - src.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-04 22:31:11,437 - src.core.task_manager - INFO - Task manager initialized
+2025-02-04 22:31:11,439 - src.core.game - INFO - Game initialized
+2025-02-04 22:31:37,388 - src.core.task_template_manager - INFO - Loaded 1 task chains
+2025-02-04 22:31:37,388 - src.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-04 22:31:37,388 - src.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-04 22:31:37,388 - src.core.task_manager - INFO - Task manager initialized
+2025-02-04 22:31:37,390 - src.core.game - INFO - Game initialized
+2025-02-04 22:31:37,469 - src.ui.npc_menu - INFO - NPC menu initialized
+[2025-02-04 22:31:37] Game started
+[2025-02-04 22:31:40] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:31:40] Menu 'main': moved down (selected: New Game)
+[2025-02-04 22:31:40] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:31:40] Menu 'main': moved down (selected: Load Game)
+[2025-02-04 22:31:42] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:31:42] Menu 'main': moved up (selected: New Game)
+[2025-02-04 22:31:43] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:43] Starting character creation
+[2025-02-04 22:31:45] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:46] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:46] Added character to input buffer: 'a'
+[2025-02-04 22:31:46] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:46] Added character to input buffer: 'e'
+[2025-02-04 22:31:46] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:46] Added character to input buffer: 'r'
+[2025-02-04 22:31:46] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:46] Added character to input buffer: 'o'
+[2025-02-04 22:31:47] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 'n'
+[2025-02-04 22:31:47] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 'i'
+[2025-02-04 22:31:47] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 'u'
+[2025-02-04 22:31:47] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 's'
+[2025-02-04 22:31:47] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 'z'
+[2025-02-04 22:31:47] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:47] Added character to input buffer: 'e'
+[2025-02-04 22:31:48] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:48] Added character to input buffer: 'q'
+[2025-02-04 22:31:49] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:31:49] Created character: aeroniuszeq
+2025-02-04 22:32:11,984 - src.core.task_template_manager - INFO - Loaded 1 task chains
+2025-02-04 22:32:11,984 - src.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-04 22:32:11,984 - src.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-04 22:32:11,984 - src.core.task_manager - INFO - Task manager initialized
+2025-02-04 22:32:11,985 - src.core.game - INFO - Game initialized
+2025-02-04 22:32:12,056 - src.ui.npc_menu - INFO - NPC menu initialized
+[2025-02-04 22:32:12] Game started
+[2025-02-04 22:32:19] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:32:19] Menu 'main': moved down (selected: New Game)
+[2025-02-04 22:32:19] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:19] Starting character creation
+[2025-02-04 22:32:20] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:21] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:21] Added character to input buffer: 'a'
+[2025-02-04 22:32:21] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:21] Added character to input buffer: 'e'
+[2025-02-04 22:32:22] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'r'
+[2025-02-04 22:32:22] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'o'
+[2025-02-04 22:32:22] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'n'
+[2025-02-04 22:32:22] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'i'
+[2025-02-04 22:32:22] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'u'
+[2025-02-04 22:32:22] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 's'
+[2025-02-04 22:32:22] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'z'
+[2025-02-04 22:32:22] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:22] Added character to input buffer: 'e'
+[2025-02-04 22:32:23] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:23] Added character to input buffer: 'q'
+[2025-02-04 22:32:23] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:23] Created character: aeroniuszeq
+2025-02-04 22:32:42,611 - src.core.task_template_manager - INFO - Loaded 1 task chains
+2025-02-04 22:32:42,611 - src.core.task_template_manager - ERROR - Error loading task templates: name 'ResourceType' is not defined
+2025-02-04 22:32:42,611 - src.core.task_template_manager - INFO - Loaded 1 task templates and 1 task chains
+2025-02-04 22:32:42,611 - src.core.task_manager - INFO - Task manager initialized
+2025-02-04 22:32:42,613 - src.core.game - INFO - Game initialized
+2025-02-04 22:32:42,684 - src.ui.npc_menu - INFO - NPC menu initialized
+[2025-02-04 22:32:42] Game started
+[2025-02-04 22:32:45] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:32:45] Menu 'main': moved down (selected: New Game)
+[2025-02-04 22:32:45] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:45] Starting character creation
+[2025-02-04 22:32:46] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:47] Key pressed - Code: 65, Text: 'a', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:47] Added character to input buffer: 'a'
+[2025-02-04 22:32:47] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:47] Added character to input buffer: 'e'
+[2025-02-04 22:32:47] Key pressed - Code: 82, Text: 'r', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:47] Added character to input buffer: 'r'
+[2025-02-04 22:32:47] Key pressed - Code: 79, Text: 'o', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:47] Added character to input buffer: 'o'
+[2025-02-04 22:32:48] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 'i'
+[2025-02-04 22:32:48] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 'n'
+[2025-02-04 22:32:48] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 'i'
+[2025-02-04 22:32:48] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 'u'
+[2025-02-04 22:32:48] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 's'
+[2025-02-04 22:32:48] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:48] Added character to input buffer: 'z'
+[2025-02-04 22:32:48] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:49] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:49] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:49] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:49] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Key pressed - Code: 16777219, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Key pressed - Code: 78, Text: 'n', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Added character to input buffer: 'n'
+[2025-02-04 22:32:50] Key pressed - Code: 73, Text: 'i', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Added character to input buffer: 'i'
+[2025-02-04 22:32:50] Key pressed - Code: 85, Text: 'u', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Added character to input buffer: 'u'
+[2025-02-04 22:32:50] Key pressed - Code: 83, Text: 's', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:50] Added character to input buffer: 's'
+[2025-02-04 22:32:51] Key pressed - Code: 90, Text: 'z', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:51] Added character to input buffer: 'z'
+[2025-02-04 22:32:51] Key pressed - Code: 69, Text: 'e', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:51] Added character to input buffer: 'e'
+[2025-02-04 22:32:51] Key pressed - Code: 81, Text: 'q', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:51] Added character to input buffer: 'q'
+[2025-02-04 22:32:52] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:32:52] Created character: aeroniuszeq
+[2025-02-04 22:32:57] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:32:57] Menu 'game': moved down (selected: Tasks)
+[2025-02-04 22:32:59] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:32:59] Menu 'game': moved up (selected: Character)
+[2025-02-04 22:33:02] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:02] Menu 'game': moved down (selected: Tasks)
+[2025-02-04 22:33:03] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:33:07] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:33:08] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:08] Menu 'task_creation': moved down (selected: Select Type)
+[2025-02-04 22:33:09] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:09] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 22:33:11] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:11] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 22:33:11] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:11] Menu 'task_creation': moved down (selected: Help)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Back)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Enter Task Name)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Select Type)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 22:33:12] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:12] Menu 'task_creation': moved down (selected: Help)
+[2025-02-04 22:33:13] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:13] Menu 'task_creation': moved up (selected: Create Task)
+[2025-02-04 22:33:13] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:13] Menu 'task_creation': moved up (selected: Set Duration)
+[2025-02-04 22:33:14] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:14] Menu 'task_creation': moved up (selected: Select Type)
+[2025-02-04 22:33:18] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:18] Menu 'task_creation': moved up (selected: Enter Task Name)
+[2025-02-04 22:33:18] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:18] Menu 'task_creation': moved down (selected: Select Type)
+[2025-02-04 22:33:19] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:19] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 22:33:19] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:19] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 22:33:20] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:20] Menu 'task_creation': moved up (selected: Set Duration)
+[2025-02-04 22:33:20] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:20] Menu 'task_creation': moved up (selected: Select Type)
+[2025-02-04 22:33:21] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:21] Menu 'task_creation': moved down (selected: Set Duration)
+[2025-02-04 22:33:21] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:21] Menu 'task_creation': moved down (selected: Create Task)
+[2025-02-04 22:33:22] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:33:23] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:23] Menu 'task_creation': moved down (selected: Help)
+[2025-02-04 22:33:23] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:23] Menu 'task_creation': moved down (selected: Back)
+[2025-02-04 22:33:24] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:33:30] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:30] Menu 'tasks': moved down (selected: View Tasks)
+[2025-02-04 22:33:30] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:30] Menu 'tasks': moved down (selected: Complete Task)
+[2025-02-04 22:33:38] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:38] Menu 'tasks': moved up (selected: View Tasks)
+[2025-02-04 22:33:38] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:38] Menu 'tasks': moved up (selected: Add Task)
+[2025-02-04 22:33:40] Key pressed - Code: 16777237, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:40] Menu 'tasks': moved down (selected: View Tasks)
+[2025-02-04 22:33:41] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:41] Menu 'tasks': moved up (selected: Add Task)
+[2025-02-04 22:33:42] Key pressed - Code: 16777220, Text: '', Modifiers: KeyboardModifier.NoModifier
+[2025-02-04 22:33:44] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:44] Menu 'task_creation': moved up (selected: Help)
+[2025-02-04 22:33:44] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:44] Menu 'task_creation': moved up (selected: Create Task)
+[2025-02-04 22:33:45] Key pressed - Code: 16777235, Text: '', Modifiers: KeyboardModifier.KeypadModifier
+[2025-02-04 22:33:45] Menu 'task_creation': moved up (selected: Set Duration)

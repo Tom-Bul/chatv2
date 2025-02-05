@@ -1,0 +1,68 @@
+---
+description: Core rules for managing and organizing project content and documentation
+globs: ['**/*.mdc', '**/*.md', '.cursor/rules/**/*', 'docs/**/*']
+---
+
+# Content Management Rules
+
+## Rule Organization
+
+1. File Structure:
+   - All rules must be stored in `.mdc` files
+   - Rules must be organized in appropriate subdirectories under `.cursor/rules`
+   - Each rule file must have proper YAML frontmatter
+   - Rule files must follow consistent naming conventions
+
+2. YAML Frontmatter Requirements:
+   - description: Brief explanation of the rule's purpose
+   - globs: List of file patterns the rule applies to
+   - version: (optional) Version number of the rule
+   - dependencies: (optional) Other rules this rule depends on
+
+3. Content Preservation:
+   - Never delete existing rules without explicit confirmation
+   - Preserve historical context and lessons learned
+   - Keep track of rule modifications with timestamps
+   - Archive outdated rules instead of deleting them
+   - Mark rules as deprecated rather than removing them
+
+4. Context-Based Organization:
+   - Rules are organized into specific contexts for better accessibility
+   - Each context represents a different aspect of the project
+   - Contexts can be activated or deactivated based on current task
+   - Multiple contexts can be active simultaneously
+   - New contexts can be created as needed
+
+5. Available Contexts:
+   - Core Rules: Fundamental guidelines and principles
+   - Project Status: Current state and progress
+   - Development Stack: Technical requirements and versions
+   - Architecture: System design and patterns
+   - Testing: Quality assurance and validation
+   - UI/UX: Interface and user experience
+   - Performance: Optimization and efficiency
+   - Documentation: Code and project documentation
+   - Deployment: Release and distribution
+   - Maintenance: Updates and bug fixes
+
+6. Context Management:
+   - Review active contexts at the start of each task
+   - Load only relevant contexts for current work
+   - Update context status when switching tasks
+   - Document context dependencies
+   - Track context-specific progress
+
+7. Rule Modification Process:
+   - Document the reason for changes
+   - Update timestamp in frontmatter
+   - Update all affected files
+   - Notify relevant team members
+   - Update documentation as needed
+
+8. Documentation Standards:
+   - Use clear, concise language
+   - Include examples where appropriate
+   - Keep formatting consistent
+   - Use proper markdown syntax
+   - Include links to related rules
+   - Maintain table of contents

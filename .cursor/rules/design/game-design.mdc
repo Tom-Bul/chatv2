@@ -1,0 +1,83 @@
+---
+description: Core gameplay concepts and design requirements
+globs: ['src/**/*.py', 'docs/**/*.md', 'design/**/*.md']
+---
+
+# Game Design
+
+## Project Vision
+A text-based ASCII game and productivity tool for Mac that combines real-life task tracking with village building and character progression. The game uses local AI (Ollama with DeepSeek-r1:7b) for dynamic NPC interactions and story generation.
+
+## Core Gameplay Requirements
+
+1. Task System:
+   - Mixed approach: self-reporting + time tracking
+   - Categories: chores, cleaning, cooking, learning, exercises
+   - Tasks integrated naturally into story and quests
+   - Real-world activities reflect in-game progress
+
+2. Progression System:
+   - Long-term gameplay focus
+   - Realistic development timelines
+   - RuneScape-like skill progression mixed with RPG elements
+   - Skills tied to real activities (e.g., exercise improves stamina)
+   - Equipment/items earned through task completion
+
+3. Village Development:
+   - Natural, organic growth
+   - Realistic population scaling (e.g., 3 villagers = cottage phase)
+   - Dynamic role evolution based on village size
+   - Collaborative building between player and NPCs
+   - Survival focus in early stages
+
+4. NPC System:
+   - Using DeepSeek-r1:7b for AI interactions
+   - Focus on story and personality generation
+   - Natural role development
+   - Random events influence development
+   - Organic relationship building
+
+## User Preferences
+- Natural progression and development
+- Realistic timelines
+- Organic role evolution
+- Focus on story and personality
+- Mixed task tracking approach
+- Long-term engagement design
+
+## Core Systems
+
+1. Time System:
+   - Real-world time tracking
+   - Game time progression
+   - Configurable time scale
+   - Event scheduling
+   - Time-based effects
+
+2. Character System:
+   - Skill progression
+   - Inventory management
+   - Relationship tracking
+   - Task completion history
+   - Achievement system
+
+3. Task System:
+   - Category-based organization
+   - Difficulty scaling
+   - Reward calculation
+   - Progress tracking
+   - Quest integration
+
+4. Village System:
+   - Population management
+   - Resource distribution
+   - Building progression
+   - Event generation
+   - Development tracking
+
+5. NPC System:
+   - Personality traits
+   - Story generation
+   - Role assignment
+   - Daily routines
+   - Relationship development

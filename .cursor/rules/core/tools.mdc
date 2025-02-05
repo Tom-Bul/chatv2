@@ -1,0 +1,70 @@
+---
+description: Documentation and usage guidelines for available project tools
+globs: ['tools/**/*.py', 'src/**/*.py']
+---
+
+# Tools
+
+Note: All tools are in Python. For batch processing, you can consult the Python files and write your own script.
+
+## LLM Integration
+
+### Local AI Model
+- Model: DeepSeek-r1:7b (Qwen/Qwen2.5-32B-Instruct-AWQ)
+- Location: Local deployment via Ollama
+
+### Usage
+```python
+# Simple usage
+venv/bin/python ./tools/llm_api.py --prompt "Your prompt here" --provider "deepseek"
+
+# For more complex interactions, use the API directly from tools/llm_api.py
+```
+
+## Web Tools
+
+### Web Scraper
+```python
+# Scrape multiple URLs concurrently
+venv/bin/python ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+```
+
+### Search Engine
+```python
+# Search the web
+venv/bin/python ./tools/search_engine.py "your search keywords"
+
+# Output format:
+# URL: https://example.com
+# Title: Search result title
+# Snippet: Search result snippet
+```
+
+## Best Practices
+
+1. Tool Selection:
+   - Use the simplest tool that meets your needs
+   - Chain tools together for complex tasks
+   - Write custom scripts for batch operations
+
+2. Error Handling:
+   - Always check tool output for errors
+   - Log unexpected results
+   - Handle rate limits and timeouts
+
+3. Resource Management:
+   - Use concurrent operations carefully
+   - Clean up temporary files
+   - Monitor memory usage for large operations
+
+4. Integration Guidelines:
+   - Keep tools modular and independent
+   - Document tool dependencies
+   - Version control tool configurations
+   - Test tool integrations regularly
+
+5. Security Considerations:
+   - Never hardcode sensitive data
+   - Use environment variables for credentials
+   - Validate and sanitize inputs
+   - Monitor tool access and usage

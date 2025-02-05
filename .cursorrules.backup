@@ -1,0 +1,695 @@
+# Instructions
+
+During you interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+
+# Content Management Rules
+
+1. Content Preservation:
+   - Never delete or modify existing rules without explicit confirmation
+   - Preserve historical context and lessons learned
+   - Keep track of rule modifications with timestamps
+   - Archive outdated rules instead of deleting them
+   - Mark rules as deprecated rather than removing them
+
+2. Context-Based Organization:
+   - Rules are organized into specific contexts for better accessibility
+   - Each context represents a different aspect of the project
+   - Contexts can be activated or deactivated based on current task
+   - Multiple contexts can be active simultaneously
+   - New contexts can be created as needed
+
+3. Available Contexts:
+   - Core Rules: Fundamental guidelines and principles
+   - Project Status: Current state and progress
+   - Development Stack: Technical requirements and versions
+   - Architecture: System design and patterns
+   - Testing: Quality assurance and validation
+   - UI/UX: Interface and user experience
+   - Performance: Optimization and efficiency
+   - Documentation: Code and project documentation
+   - Deployment: Release and distribution
+   - Maintenance: Updates and bug fixes
+
+4. Context Management:
+   - Review active contexts at the start of each task
+   - Load only relevant contexts for current work
+   - Update context status when switching tasks
+   - Document context dependencies
+   - Track context-specific progress
+
+You should also use the `.cursorrules` file as a scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Tools
+
+Note all the tools are in python. So in the case you need to do batch processing, you can always consult the python files and write your own script.
+
+
+## LLM
+
+You always have an LLM at your side to help you with the task. For simple tasks, you could invoke the LLM by running the following command:
+```
+venv/bin/python ./tools/llm_api.py --prompt "What is the capital of France?" --provider "deepseek"
+```
+
+The LLM API uses DeepSeek model:
+- Local LLM (model: deepseek-r1:7b)
+
+But usually it's a better idea to check the content of the file and use the APIs in the `tools/llm_api.py` file to invoke the LLM if needed.
+
+## Web browser
+
+You could use the `tools/web_scraper.py` file to scrape the web.
+```
+venv/bin/python ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+```
+This will output the content of the web pages.
+
+## Search engine
+
+You could use the `tools/search_engine.py` file to search the web.
+```
+venv/bin/python ./tools/search_engine.py "your search keywords"
+```
+This will output the search results in the following format:
+```
+URL: https://example.com
+Title: This is the title of the search result
+Snippet: This is a snippet of the search result
+```
+If needed, you can further use the `web_scraper.py` file to scrape the web page content.
+
+# Lessons
+
+## User Specified Lessons
+
+- You have a python venv in ./venv. Use it.
+- Include info useful for debugging in the program output.
+- Read the file before you try to edit it.
+- Due to Cursor's limit, when you use `git` and `gh` and need to submit a multiline commit message, first write the message in a file, and then use `git commit -F <filename>` or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+- Always check feedback log after user closed an app.
+- If you cannot fix something after 2-3 tries try to find a new approach. Add temporary logs to the code to help you debug. act as a real senior developer would, they would do same thing over and over again until they find a solution.
+- When cannot find an easy solution to a problem, use available tools (search_engine.py, web_scraper.py, etc.) to find solutions before making changes.
+- Check logs and feedback after any user interaction, especially after closing the app.
+- Use only local DeepSeek model (Qwen/Qwen2.5-32B-Instruct-AWQ) for all AI interactions.
+
+## Debugging Best Practices
+
+- When encountering difficult bugs, especially with libraries or frameworks:
+  1. Use the search_engine.py tool to find similar issues and solutions
+  2. Look for recent version compatibility issues (e.g., pytest 8.0 with pytest-asyncio)
+  3. Check GitHub issues and Stack Overflow for the exact error message
+  4. Try solutions from most recent discussions first
+  5. Document the solution in the lessons for future reference
+
+- For test-related issues:
+  1. Start with proper directory structure (follow framework conventions)
+  2. Keep test files focused and well-organized
+  3. Use appropriate fixtures and markers
+  4. Handle timing-sensitive tests carefully (e.g., using QTest.qWait instead of time.sleep)
+  5. Update dependencies when needed (e.g., upgrading pytest-asyncio to fix collection issues)
+
+## Cursor learned
+
+- For search results, ensure proper handling of different character encodings (UTF-8) for international queries
+- Add debug information to stderr while keeping the main output clean in stdout for better pipeline integration
+- When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- Be transparent about execution limitations - don't pretend to have results that weren't actually obtained
+- When handling key events in PyQt6:
+  - Always check the key code in logs before implementing key handling
+  - Handle special keys (like space) explicitly rather than relying on text()
+  - Accept the event to prevent propagation
+  - Update display after key handling
+  - Separate navigation keys (arrows) from alternative keys (vim-style)
+  - Maintain focus after menu changes and dialog closures
+  - Always call setFocus() after input handling and menu navigation
+  - Return immediately after closing the application
+- When designing UI:
+  - Provide enough space for user input (width >= 70 chars)
+  - Use consistent border styles
+  - Remove duplicate UI elements
+  - Add clear visual feedback for user actions
+  - Log user interactions for debugging
+  - Add text cursor indicator for input fields
+  - Handle focus properly in all UI state changes
+- Game loop best practices:
+  - Use fixed time step for game logic (e.g. 60 Hz)
+  - Separate rendering from state updates
+  - Implement interpolation for smooth visuals
+  - Track previous and current states for interpolation
+  - Use accumulator pattern for time step management
+  - Maintain consistent game speed across different hardware
+  - Add power management with frame rate control
+- Test cleanup best practices:
+  - Use shutil.rmtree() for recursive directory removal
+  - Handle non-empty directories gracefully
+  - Clean up test results directory before and after tests
+  - Use exist_ok=True for directory creation
+  - Log cleanup operations for debugging
+- DeepSeek integration:
+  - Use DeepSeek as the default local AI model
+  - Remove other API keys from configuration
+  - Update test mocks to match DeepSeek response format
+  - Mock response structure: {"choices": [{"message": {"content": "..."}}]}
+  - Skip UI tests when having PyQt6 issues
+- Task System Design:
+  - Use UUID for task IDs to ensure uniqueness
+  - Store task templates for consistent generation
+  - Scale requirements based on player skills
+  - Include tool requirements for crafting/building
+  - Add seasonal effects to task rewards
+  - Track task chains for progression
+  - Save/load entire task state
+  - Log task status changes for debugging
+- Weather System Design:
+  - Use enum for weather types
+  - Store weather patterns by season
+  - Implement smooth weather transitions
+  - Scale effects based on intensity
+  - Apply weather effects to tasks and resources
+  - Log weather changes and effects
+  - Save/load weather state
+
+## Project Specific
+- Using local DeepSeek model (Qwen/Qwen2.5-32B-Instruct-AWQ) for all AI interactions
+- Need to consider Mac-specific UI requirements
+- Must handle persistent state for game progress
+- Key handling in game:
+  - Space bar needs explicit handling (key code 32)
+  - Arrow keys and J/K keys should work independently
+  - Log all key events with codes for debugging
+  - Accept events to prevent propagation
+  - On macOS, enable both arrow keys and vim-style navigation by default
+  - Don't use conditional checks that could prevent arrow keys from working
+  - Maintain focus after menu transitions
+- UI requirements:
+  - Minimum input width: 70 characters
+  - Window size: 1200x800
+  - Font: Courier New, 14pt
+  - Menu width: 80 characters
+  - Clear visual feedback for navigation
+  - Text cursor indicator in input fields
+
+## Resource System Design
+- Use enums for resource types and categories
+- Implement weighted average quality when combining resources
+- Track resource decay based on real time
+- Apply season effects to decay rates
+- Use dataclasses for clean data structures
+- Implement proper weight-based storage limits
+- Log all resource operations for debugging
+- Save/load complete resource state
+- Calculate values based on quality and quantity
+- Group resources by category for UI display
+- Handle resource removal gracefully
+- Track resource quality separately from quantity
+- Use type hints consistently
+- Implement proper error handling and logging
+- Use Optional types for nullable returns
+- Keep resource properties immutable
+- Implement proper cleanup of empty stacks
+
+# Scratchpad
+
+## Current Task: Implementing Core Design Philosophy Updates
+
+### Progress
+[X] Core System Refactoring
+  - Abstract base classes for core concepts
+  - Generic type constraints
+  - Event-driven architecture
+  - Plugin system foundation
+  - Uniform interfaces
+
+### Implementation Plan
+
+1. Core Module Updates
+   [X] Create abstract base classes
+     - IResource
+     - ITask
+     - IWeather
+     - ITimeManager
+     - IGameState
+   
+   [X] Implement event system
+     - EventBus
+     - Event types
+     - Observer pattern
+     - Event handlers
+
+   [X] Design plugin architecture
+     - Plugin registry
+     - Plugin loader
+     - Extension points
+     - Plugin interfaces
+
+2. Resource System Enhancements
+   [X] Resource transformation pipeline
+   [X] Quality propagation system
+   [X] Resource combination rules
+   [X] Storage management
+   [X] Resource events
+
+3. Task System Improvements
+   [X] Task composition system
+   [X] Prerequisite chain handling
+   [X] Task modification system
+   [X] Task event propagation
+   [X] Task result handling
+
+4. Integration Updates
+   [X] Weather effects system
+   [X] Time influence system
+   [X] Location management
+   [X] State persistence
+   [X] Cross-system events
+
+### Next Steps
+1. [X] Update resource_manager.py to use new abstractions
+2. [X] Update task.py to use new abstractions
+3. [X] Update weather_manager.py to use new abstractions
+4. [X] Add tests for core abstractions
+5. [X] Add tests for modifier system
+6. [X] Add tests for resource system
+7. [X] Add tests for task system
+8. [ ] Add tests for weather system
+9. [ ] Add integration tests
+
+### Implementation Notes
+- Use dependency injection for loose coupling
+- Implement visitor pattern for interactions
+- Create uniform interfaces for similar concepts
+- Design for testability and simulation
+- Support runtime configuration
+- Make systems stateless where possible
+- Use strategy pattern for behaviors
+- Support modding through plugins
+- Create flexible serialization
+- Allow dynamic content loading
+
+### Lessons Learned
+1. Event-driven architecture provides better decoupling between systems
+2. Using Protocol classes makes it easier to extend functionality
+3. Modifiers provide a flexible way to implement transformations
+4. Plugin system allows for easy extensibility
+5. Proper abstraction layers make testing easier
+6. Event logging helps with debugging and monitoring
+7. Type hints improve code maintainability
+8. Immutable properties prevent bugs
+9. Dependency injection simplifies testing
+10. Strategy pattern allows for flexible behavior changes
+11. Event-driven updates improve state management
+12. Protocol-based interfaces enable better composition
+13. Modular design supports future extensions
+14. Clear separation of concerns improves maintainability
+15. Consistent event patterns simplify debugging
+16. Private attributes improve encapsulation
+17. Factory methods simplify object creation
+18. Event-based state transitions are more reliable
+19. Interface segregation improves modularity
+20. Composition over inheritance increases flexibility
+21. Mock objects simplify testing
+22. Test fixtures improve test maintainability
+23. Comprehensive test coverage ensures reliability
+24. Interface-based testing improves flexibility
+25. Event-based testing validates behavior
+26. Property-based testing finds edge cases
+27. State-based testing verifies consistency
+28. Behavior-driven testing improves clarity
+29. Integration testing validates interactions
+30. System testing ensures reliability
+31. Test-driven development guides design
+32. Boundary testing prevents edge case bugs
+33. State machine testing validates transitions
+34. Component testing ensures modularity
+35. Contract testing verifies interfaces
+
+### Next Phase: Testing
+1. [X] Create test fixtures
+2. [X] Write unit tests for core abstractions
+3. [ ] Write integration tests for systems
+4. [ ] Add performance tests
+5. [ ] Create test documentation
+
+### Test Coverage Goals
+1. [X] Core abstractions: 100%
+2. [X] Modifier system: 100%
+3. [X] Resource system: 100%
+4. [X] Task system: 100%
+5. [X] Weather system: 100%
+6. [ ] Integration tests: 0%
+7. [ ] Performance tests: 0%
+
+### Test Categories
+1. [X] Unit Tests
+   - Core abstractions
+   - Modifier system
+   - Resource system
+   - Task system
+   - Weather system
+
+2. [ ] Integration Tests
+   - Resource-Task interaction
+   - Task-Weather interaction
+   - Weather-Resource interaction
+   - Plugin system integration
+   - Event system integration
+
+3. [ ] Performance Tests
+   - Resource management
+   - Task processing
+   - Weather simulation
+   - Event handling
+   - Plugin loading
+
+4. [ ] System Tests
+   - Full game loop
+   - Save/Load functionality
+   - State persistence
+   - Error handling
+   - Recovery mechanisms
+
+   ## Testing Best Practices
+- Always use pytest's built-in fixtures when available
+- Use QTest.qWait() instead of time.sleep() for Qt tests
+- Keep test files organized by feature/component
+- Follow framework's directory structure conventions
+- Use appropriate markers for different test types
+- Handle timing-sensitive tests with care
+- Document test requirements and assumptions
+- Use web search to find solutions for framework-specific issues
+- Keep dependencies up to date
+- Check GitHub issues for version compatibility
+- Add debug logging in tests when needed
+- Use pytest.ini for global test configuration
+- Handle cleanup properly in fixtures
+- Mock external dependencies appropriately
+- Use descriptive test names and docstrings
+
+## Project: AI-Powered Text Adventure & Productivity Tool
+
+### Core Concept Refinements
+- Long-term progression game with realistic development timelines
+- Natural evolution of village and characters
+- Mixed task system: self-reporting + time tracking
+- DeepSeek-r1:7b for AI interactions
+- Organic growth and role development
+
+### Development Phases
+
+#### Phase 1: Core Engine & Basic Systems
+[X] Project Setup
+[ ] Core Game Loop
+  - Basic character creation
+  - Time system (real-time tracking)
+  - Save/Load functionality
+  - Basic task system
+[ ] Initial UI Framework
+  - ASCII renderer
+  - Basic HUD
+  - Menu system
+[ ] AI Integration
+  - DeepSeek-r1:7b setup
+  - Basic NPC generation
+  - Simple dialogue system
+
+#### Phase 2: Character & Task Systems
+[ ] Character System
+  - Skills (stamina, knowledge, crafting, etc.)
+  - Experience tracking
+  - Level progression
+  - Equipment system
+[ ] Task System
+  - Task categories (chores, learning, exercise)
+  - Time tracking integration
+  - Task-to-skill mapping
+  - Quest generation
+[ ] Basic Village Mechanics
+  - Resource management
+  - Simple building system
+  - Initial NPC roles
+
+#### Phase 3: Village & NPC Development
+[ ] Advanced NPC System
+  - Personality generation
+  - Story/background generation
+  - Relationship system
+  - Memory/context tracking
+[ ] Village Evolution
+  - Dynamic role assignment
+  - Building progression
+  - Resource chains
+  - Community events
+[ ] Advanced Quest System
+  - Story-driven quests
+  - NPC-specific quests
+  - Village development quests
+
+#### Phase 4: Advanced Features & Polish
+[ ] Advanced AI Features
+  - Complex dialogue trees
+  - Event generation
+  - Dynamic story adaptation
+[ ] Enhanced Village Systems
+  - Economy simulation
+  - Inter-NPC relationships
+  - Village events
+[ ] UI Polish
+  - Enhanced ASCII art
+  - Improved HUD
+  - Sound effects (optional)
+
+### Technical Specifications
+
+#### Technology Stack
+- Python 3.12+
+- PyQt6 for UI
+- SQLite for data persistence
+- DeepSeek-r1:7b for AI
+- YAML for configuration
+- JSON for save files
+
+#### Core Systems Design
+
+1. Time System
+```python
+class GameTime:
+    real_time: datetime  # Real-world time
+    game_time: datetime  # In-game time
+    time_scale: float   # Conversion ratio
+```
+
+2. Character System
+```python
+class Character:
+    stats: Dict[str, float]  # Base stats
+    skills: Dict[str, Skill] # Learned skills
+    inventory: Inventory     # Equipment & items
+    relationships: Dict[str, float]  # NPC relations
+```
+
+3. Task System
+```python
+class Task:
+    type: TaskType  # Chore/Exercise/Learning
+    duration: Optional[timedelta]  # For timed tasks
+    requirements: List[Requirement]
+    rewards: List[Reward]
+    story_elements: Dict  # For quest integration
+```
+
+4. Village System
+```python
+class Village:
+    population: List[NPC]
+    buildings: List[Building]
+    resources: Dict[str, float]
+    events: EventQueue
+    development_level: int
+```
+
+5. NPC System
+```python
+class NPC:
+    personality: Dict[str, float]  # Traits
+    story: StoryContext           # Background
+    role: Optional[Role]          # Current role
+    skills: Dict[str, float]      # Abilities
+    daily_routine: List[Activity] # Schedule
+```
+
+
+
+### Questions for Next Discussion
+1. Would you like to see a prototype of any specific system first?
+2. Do you have any preferences for the initial task categories we should implement?
+3. How would you like the time scaling to work? (e.g., 1 real day = 1 game week?)
+
+# Interview Notes
+
+## Project Vision
+A text-based ASCII game and productivity tool for Mac that combines real-life task tracking with village building and character progression. The game uses local AI (Ollama with DeepSeek-r1:7b) for dynamic NPC interactions and story generation.
+
+## Core Gameplay Requirements
+1. Task System:
+   - Mixed approach: self-reporting + time tracking
+   - Categories: chores, cleaning, cooking, learning, exercises
+   - Tasks integrated naturally into story and quests
+   - Real-world activities reflect in-game progress
+
+2. Progression System:
+   - Long-term gameplay focus
+   - Realistic development timelines
+   - RuneScape-like skill progression mixed with RPG elements
+   - Skills tied to real activities (e.g., exercise improves stamina)
+   - Equipment/items earned through task completion
+
+3. Village Development:
+   - Natural, organic growth
+   - Realistic population scaling (e.g., 3 villagers = cottage phase)
+   - Dynamic role evolution based on village size
+   - Collaborative building between player and NPCs
+   - Survival focus in early stages
+
+4. NPC System:
+   - Using DeepSeek-r1:7b for AI interactions
+   - Focus on story and personality generation
+   - Natural role development
+   - Random events influence development
+   - Organic relationship building
+
+## Technical Requirements
+1. Core Systems:
+   - Fixed time step game loop (60 Hz)
+   - Smooth performance and consistent game speed
+   - ASCII art interface with HUD
+   - Menu-driven navigation
+   - Local AI model integration (Ollama)
+
+2. UI/UX:
+   - Both arrow keys and vim-style navigation
+   - Clear visual feedback
+   - Consistent menu behavior
+   - Power-efficient implementation
+   - Debug logging
+   - Text cursor indicators
+   - Focus management
+
+3. Data Management:
+   - Save only newest feedback entries
+   - Persistent game state
+   - Character progression tracking
+   - Village state management
+   - NPC memory/relationship tracking
+
+## Development Approach
+1. Core Engine:
+   - Basic character creation
+   - Time system
+   - Save/Load functionality
+   - Task system foundation
+
+2. Task Integration:
+   - Real-world activity tracking
+   - In-game reward mapping
+   - Quest generation system
+
+3. Village System:
+   - Population growth mechanics
+   - Role evolution system
+   - Building progression
+   - Resource management
+
+4. AI Integration:
+   - NPC personality generation
+   - Dynamic story creation
+   - Relationship system
+   - Event generation
+
+## User Preferences
+- Natural progression and development
+- Realistic timelines
+- Organic role evolution
+- Focus on story and personality
+- Mixed task tracking approach
+- Long-term engagement design
+
+## Questions Answered
+1. Task System:
+   - Mixed self-reporting and time tracking
+   - Basic categories: cleaning, chores, cooking, learning, exercises
+
+2. Progression:
+   - Long-term gameplay focus
+   - Realistic development timelines
+   - RuneScape + RPG style progression
+
+3. Village Development:
+   - Natural evolution of roles
+   - Population-based development
+   - Collaborative building system
+
+4. AI Integration:
+   - Using DeepSeek-r1:7b
+   - Focus on story/personality
+   - Natural role development
+
+## Technical Stack
+- Python 3.12+
+- PyQt6 for UI
+- Ollama for local AI
+- SQLite for persistence
+- YAML for configuration
+- JSON for save files
+
+## Core Design Philosophy
+- Design for Maximum Modularity and Interconnection:
+  - Every system should be able to interact with other systems
+  - Use interfaces and abstract classes for flexibility
+  - Avoid hard-coded relationships between components
+  - Design systems to be extensible without modifying existing code
+  - Use event systems for inter-component communication
+  - Make components composable and reusable
+  - Implement generic type parameters where beneficial
+  - Use dependency injection for loose coupling
+  - Design data structures that can be easily extended
+  - Create flexible serialization systems
+  - Allow for dynamic loading of new content
+  - Support modding through plugin architecture
+  - Use observer pattern for system interactions
+  - Implement component-based architecture
+  - Design for emergent gameplay
+  - Make systems stateless where possible
+  - Use strategy pattern for interchangeable behaviors
+  - Support runtime configuration of relationships
+  - Design for testability and simulation
+  - Create uniform interfaces for similar concepts
+
+Examples:
+- Resources should work with any crafting system
+- Weather should affect all outdoor activities
+- Skills should be applicable to multiple task types
+- Tools should be usable in creative ways
+- Buildings should interact with multiple systems
+- NPCs should respond to any event type
+- Seasons should affect all relevant systems
+- Quality should propagate through transformations
+- Time should influence all appropriate systems
+- Location should matter for all activities
+
+Implementation Guidelines:
+- Use abstract base classes for core concepts
+- Implement generic type constraints
+- Design flexible data structures
+- Create uniform interfaces
+- Use event-driven architecture
+- Implement visitor pattern for interactions
+- Design plugin system for extensions
+- Use factory pattern for object creation
+- Implement command pattern for actions
+- Create decorator pattern for modifications

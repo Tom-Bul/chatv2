@@ -1,0 +1,66 @@
+---
+description: Performance guidelines and best practices for game loop implementation
+globs: ['src/core/game.py', 'src/core/loop.py', 'src/core/time.py', 'src/**/*_loop.py']
+---
+
+# Game Loop Performance Guidelines
+
+## Core Principles
+
+1. Fixed Time Step:
+   - Target 60 Hz for game logic
+   - Decouple rendering from updates
+   - Use accumulator for time steps
+   - Handle variable frame times
+   - Maintain consistent game speed
+
+2. State Management:
+   - Separate state from rendering
+   - Track previous and current states
+   - Use interpolation for smooth visuals
+   - Handle state transitions
+   - Maintain state history
+
+3. Performance Optimization:
+   - Profile critical paths
+   - Optimize hot loops
+   - Minimize allocations
+   - Use efficient data structures
+   - Cache frequently used values
+
+4. Resource Management:
+   - Pool frequently created objects
+   - Clean up unused resources
+   - Monitor memory usage
+   - Handle resource limits
+   - Implement proper cleanup
+
+## Implementation Guidelines
+
+1. Threading and Concurrency:
+   - Use async for I/O
+   - Avoid blocking operations
+   - Handle thread safety
+   - Manage thread pools
+   - Coordinate updates
+
+2. Power Management:
+   - Implement frame limiting
+   - Sleep when inactive
+   - Reduce update frequency
+   - Handle background state
+   - Monitor power usage
+
+3. Debug and Profiling:
+   - Add performance metrics
+   - Log frame times
+   - Track state changes
+   - Monitor resource usage
+   - Profile critical sections
+
+4. Platform Specific:
+   - Handle vsync
+   - Manage refresh rates
+   - Deal with sleep precision
+   - Handle system events
+   - Support power states

@@ -1,0 +1,300 @@
+2025-02-04 21:21:57,631 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:21:57,631 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212157
+2025-02-04 21:21:57,632 - __main__ - INFO - Starting test run
+2025-02-04 21:21:58,654 - __main__ - ERROR - Some tests failed
+2025-02-04 21:21:58,671 - __main__ - INFO - Test run completed in 1.04 seconds
+2025-02-04 21:21:58,673 - __main__ - INFO - Test report generated
+2025-02-04 21:21:58,674 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:22:19,918 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:22:19,918 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212219
+2025-02-04 21:22:19,919 - __main__ - INFO - Starting test run
+2025-02-04 21:22:21,139 - __main__ - ERROR - Some tests failed
+2025-02-04 21:22:21,156 - __main__ - INFO - Test run completed in 1.24 seconds
+2025-02-04 21:22:21,158 - __main__ - INFO - Test report generated
+2025-02-04 21:22:21,158 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:22:39,646 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:22:39,646 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212239
+2025-02-04 21:22:39,646 - __main__ - INFO - Starting test run
+2025-02-04 21:22:39,805 - __main__ - ERROR - Some tests failed
+2025-02-04 21:22:39,813 - __main__ - INFO - Test run completed in 0.17 seconds
+2025-02-04 21:22:39,815 - __main__ - INFO - Test report generated
+2025-02-04 21:22:39,815 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:23:01,944 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:23:01,944 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212301
+2025-02-04 21:23:01,944 - __main__ - INFO - Starting test run
+2025-02-04 21:23:03,643 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:23:03,662 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:23:03,662 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:23:03,692 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x111c8fa40>
+2025-02-04 21:23:03,692 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x111c76550> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:23:03,710 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x111b72930>
+2025-02-04 21:23:03,710 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:23:03,711 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:23:03,711 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:23:03,711 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:23:03,711 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:23:03,901 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:23:03 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_1c8d76899284ebfcd864c94b43918242'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=YCupwzZI2vPSudI0.s0BiRGb1vTdADXHM235xJHtMSs-1738700583-1.0.1.1-91GgUmESaXkS3ovPZOqgTeExsECiliTeOHg4ygA7L4Gmjxt1oMpv3J_tKrl5NRf6SAAeDqsx2ftnozr43kAFOw; path=/; expires=Tue, 04-Feb-25 20:53:03 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=oGoLCpnM1lEWSvJvmZSTzO5Z3v2WnwnUNT_omeu7l9w-1738700583949-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd60589942bf80-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:23:03,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:23:03,903 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:23:03,903 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:23:03,903 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:23:03,903 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:23:03,904 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:23:03 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_1c8d76899284ebfcd864c94b43918242'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=YCupwzZI2vPSudI0.s0BiRGb1vTdADXHM235xJHtMSs-1738700583-1.0.1.1-91GgUmESaXkS3ovPZOqgTeExsECiliTeOHg4ygA7L4Gmjxt1oMpv3J_tKrl5NRf6SAAeDqsx2ftnozr43kAFOw; path=/; expires=Tue, 04-Feb-25 20:53:03 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=oGoLCpnM1lEWSvJvmZSTzO5Z3v2WnwnUNT_omeu7l9w-1738700583949-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd60589942bf80-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:23:03,904 - openai._base_client - DEBUG - request_id: req_1c8d76899284ebfcd864c94b43918242
+2025-02-04 21:23:03,904 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:23:03,905 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:23:03,905 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:23:04,008 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:23:04,009 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:23:04,095 - __main__ - ERROR - Some tests failed
+2025-02-04 21:23:04,136 - __main__ - INFO - Test run completed in 2.19 seconds
+2025-02-04 21:23:04,143 - __main__ - INFO - Test report generated
+2025-02-04 21:23:04,143 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:25:04,337 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:25:04,338 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212504
+2025-02-04 21:25:04,338 - __main__ - INFO - Starting test run
+2025-02-04 21:25:05,429 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:25:05,443 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:25:05,444 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:25:05,470 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x113d43710>
+2025-02-04 21:25:05,470 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x113f22dd0> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:25:05,489 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x113eabfb0>
+2025-02-04 21:25:05,489 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:25:05,489 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:25:05,490 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:25:05,490 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:25:05,490 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:25:05,654 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:25:05 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_1ac00603650134cf3ee450658016dede'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=FXrrKPC1HWxhQN.VM.wJw1Nu14_CTQCAy9CUV6_ifDw-1738700705-1.0.1.1-sgp.WxjHm9sjkDDaCTngq2YuazG.4TREL0IsiWPByLEcHxD6Z7oLQoE_RlN.q3FUaN8sXc4GvJsyx_dJyFBtBQ; path=/; expires=Tue, 04-Feb-25 20:55:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=dkgXJvM32fcqbzOBKNvMHBlIVfH92kUrwisKvtKH7To-1738700705704-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd6351ba29bf8f-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:25:05,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:25:05,658 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:25:05,658 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:25:05,659 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:25:05,659 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:25:05,659 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:25:05 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_1ac00603650134cf3ee450658016dede'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=FXrrKPC1HWxhQN.VM.wJw1Nu14_CTQCAy9CUV6_ifDw-1738700705-1.0.1.1-sgp.WxjHm9sjkDDaCTngq2YuazG.4TREL0IsiWPByLEcHxD6Z7oLQoE_RlN.q3FUaN8sXc4GvJsyx_dJyFBtBQ; path=/; expires=Tue, 04-Feb-25 20:55:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=dkgXJvM32fcqbzOBKNvMHBlIVfH92kUrwisKvtKH7To-1738700705704-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd6351ba29bf8f-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:25:05,660 - openai._base_client - DEBUG - request_id: req_1ac00603650134cf3ee450658016dede
+2025-02-04 21:25:05,660 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:25:05,664 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:25:05,665 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:25:05,684 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:25:05,685 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:25:05,844 - __main__ - ERROR - Some tests failed
+2025-02-04 21:25:05,912 - __main__ - INFO - Test run completed in 1.57 seconds
+2025-02-04 21:25:05,919 - __main__ - INFO - Test report generated
+2025-02-04 21:25:05,919 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:26:05,643 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:26:05,643 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212605
+2025-02-04 21:26:05,644 - __main__ - INFO - Starting test run
+2025-02-04 21:26:06,584 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:26:06,597 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:26:06,598 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:26:06,616 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11b1c0e30>
+2025-02-04 21:26:06,616 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x11b1234d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:26:06,630 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11b1c0a40>
+2025-02-04 21:26:06,631 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:26:06,631 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:26:06,632 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:26:06,632 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:26:06,632 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:26:06,794 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:26:06 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_d7ca3213e19e736676bd9dd47479f7ad'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=MccI_bYzDzQcrlVJLm6_H.OvlJTu3cDQ5fxPqyP_5Qk-1738700766-1.0.1.1-o3eqqOTONrluFLmmAUWymv8lfSAvhfhug.fpliuqt5TQjiFM3ziHEQafnRFblMfRiYGPD6OIHtGvCf10aNwhYA; path=/; expires=Tue, 04-Feb-25 20:56:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Ap..MjIyj3A3VqbR4TV71vAQqAisPX1Q0r4mWLwgVLE-1738700766844-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd64cfdfbb0296-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:26:06,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:26:06,797 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:26:06,797 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:26:06,797 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:26:06,797 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:26:06,798 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:26:06 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_d7ca3213e19e736676bd9dd47479f7ad'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=MccI_bYzDzQcrlVJLm6_H.OvlJTu3cDQ5fxPqyP_5Qk-1738700766-1.0.1.1-o3eqqOTONrluFLmmAUWymv8lfSAvhfhug.fpliuqt5TQjiFM3ziHEQafnRFblMfRiYGPD6OIHtGvCf10aNwhYA; path=/; expires=Tue, 04-Feb-25 20:56:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=Ap..MjIyj3A3VqbR4TV71vAQqAisPX1Q0r4mWLwgVLE-1738700766844-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd64cfdfbb0296-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:26:06,798 - openai._base_client - DEBUG - request_id: req_d7ca3213e19e736676bd9dd47479f7ad
+2025-02-04 21:26:06,798 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:26:06,800 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:26:06,800 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:26:06,964 - __main__ - ERROR - Some tests failed
+2025-02-04 21:26:06,997 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:26:06,998 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:26:07,028 - __main__ - INFO - Test run completed in 1.38 seconds
+2025-02-04 21:26:07,035 - __main__ - INFO - Test report generated
+2025-02-04 21:26:07,035 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:27:52,742 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:27:52,743 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212752
+2025-02-04 21:27:52,743 - __main__ - INFO - Starting test run
+2025-02-04 21:27:52,768 - __main__ - ERROR - Some tests failed
+2025-02-04 21:27:52,771 - __main__ - INFO - Test run completed in 0.03 seconds
+2025-02-04 21:27:52,771 - __main__ - INFO - Test report generated
+2025-02-04 21:27:52,772 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:28:27,067 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:28:27,067 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212827
+2025-02-04 21:28:27,068 - __main__ - INFO - Starting test run
+2025-02-04 21:28:28,041 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:28:28,055 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:28:28,056 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:28:28,074 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10e8a7b00>
+2025-02-04 21:28:28,074 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x11d147dd0> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:28:28,092 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10ec8f2c0>
+2025-02-04 21:28:28,092 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:28:28,093 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:28:28,093 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:28:28,093 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:28:28,093 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:28:28,252 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:28:28 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_a87d8e7400447a42a40c672127cfa5b0'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=wxeil3XPP4KQH3QVTHUXkArTgGpcSC0O2V97ppCTBd0-1738700908-1.0.1.1-itTjcSvwTAl0qvLXUkWFSHsLE5b3Wlz9VxYhcYUrsmAqn7wHAlDgCXWRCrByHu0z91ZckYtms9nlzCosmw3Qqg; path=/; expires=Tue, 04-Feb-25 20:58:28 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=EGCoMVabC1_NVaArK4SER2EHVhEnu06hFKaieEIS_Lk-1738700908302-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd6843ff80c048-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:28:28,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:28:28,255 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:28:28,255 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:28:28,255 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:28:28,255 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:28:28,256 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:28:28 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_a87d8e7400447a42a40c672127cfa5b0'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=wxeil3XPP4KQH3QVTHUXkArTgGpcSC0O2V97ppCTBd0-1738700908-1.0.1.1-itTjcSvwTAl0qvLXUkWFSHsLE5b3Wlz9VxYhcYUrsmAqn7wHAlDgCXWRCrByHu0z91ZckYtms9nlzCosmw3Qqg; path=/; expires=Tue, 04-Feb-25 20:58:28 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=EGCoMVabC1_NVaArK4SER2EHVhEnu06hFKaieEIS_Lk-1738700908302-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd6843ff80c048-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:28:28,256 - openai._base_client - DEBUG - request_id: req_a87d8e7400447a42a40c672127cfa5b0
+2025-02-04 21:28:28,256 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:28:28,258 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:28:28,258 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:28:28,375 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:28:28,375 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:28:28,449 - __main__ - ERROR - Some tests failed
+2025-02-04 21:28:28,490 - __main__ - INFO - Test run completed in 1.42 seconds
+2025-02-04 21:28:28,497 - __main__ - INFO - Test report generated
+2025-02-04 21:28:28,497 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:29:38,641 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:29:38,641 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212938
+2025-02-04 21:29:38,641 - __main__ - INFO - Starting test run
+2025-02-04 21:29:39,461 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:29:39,474 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:29:39,475 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:29:39,493 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x118ce6750>
+2025-02-04 21:29:39,493 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x118cb04d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:29:39,510 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x118c13170>
+2025-02-04 21:29:39,510 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:29:39,511 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:29:39,511 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:29:39,511 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:29:39,511 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:29:39,649 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:29:39 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_afc8b68e34634867a1831990cdb9e403'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=DQYXARb0DVjOL_R8qbyhJD_OsTCi9x.VRhdIfmoU_s4-1738700979-1.0.1.1-.eGcffY6dXThd23WtgUX5IVgcUJEFTzkxcSpnTAiGFQVVopetsfMH73WrskaPBOM3V2sgdDD2jf2JFERFEreXg; path=/; expires=Tue, 04-Feb-25 20:59:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=V3gviddYz14ZfazAWK1XCj7qsJUIPJF9WcghqzX8.UA-1738700979700-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd6a0259deef8e-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:29:39,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:29:39,650 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:29:39,650 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:29:39,650 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:29:39,651 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:29:39,651 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:29:39 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_afc8b68e34634867a1831990cdb9e403'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=DQYXARb0DVjOL_R8qbyhJD_OsTCi9x.VRhdIfmoU_s4-1738700979-1.0.1.1-.eGcffY6dXThd23WtgUX5IVgcUJEFTzkxcSpnTAiGFQVVopetsfMH73WrskaPBOM3V2sgdDD2jf2JFERFEreXg; path=/; expires=Tue, 04-Feb-25 20:59:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=V3gviddYz14ZfazAWK1XCj7qsJUIPJF9WcghqzX8.UA-1738700979700-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd6a0259deef8e-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:29:39,651 - openai._base_client - DEBUG - request_id: req_afc8b68e34634867a1831990cdb9e403
+2025-02-04 21:29:39,651 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:29:39,652 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:29:39,652 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:29:39,665 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:29:39,665 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:29:39,800 - __main__ - ERROR - Some tests failed
+2025-02-04 21:29:39,837 - __main__ - INFO - Test run completed in 1.20 seconds
+2025-02-04 21:29:39,838 - __main__ - INFO - Test report generated
+2025-02-04 21:29:39,838 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:29:56,489 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:29:56,490 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_212956
+2025-02-04 21:29:56,490 - __main__ - INFO - Starting test run
+2025-02-04 21:29:59,464 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': [{'type': 'text', 'text': 'test'}]}], 'model': 'gpt-4o', 'temperature': 0.7}}
+2025-02-04 21:29:59,478 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-04 21:29:59,478 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-04 21:29:59,498 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1117ea3f0>
+2025-02-04 21:29:59,498 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1117956d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-04 21:29:59,513 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11155e870>
+2025-02-04 21:29:59,513 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-04 21:29:59,513 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-04 21:29:59,513 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-04 21:29:59,513 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-04 21:29:59,513 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-04 21:29:59,670 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Tue, 04 Feb 2025 20:29:59 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'274'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_76a77a9d7af669cb345829793a7f9649'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Xh1yD5zR1AqxzT59K22.3l8lDR9PleKQdNlAZDWU2jY-1738700999-1.0.1.1-koGZNT9MiSoLfww3Gjz47A65fUVbzX9ThC2ITEdjO4WuVQ7LgxAQHT4dV0bEyMR5vmDvSp.LM2_DuS3zj1iz_Q; path=/; expires=Tue, 04-Feb-25 20:59:59 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Ww42fE5HJVkljrdmkaoMl5YV33gFArrUQgIryRfLY9M-1738700999719-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'90cd6a7f5b9234ee-WAW'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-04 21:29:59,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-04 21:29:59,673 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-04 21:29:59,674 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-04 21:29:59,674 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-04 21:29:59,674 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-04 21:29:59,675 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Tue, 04 Feb 2025 20:29:59 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '274'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_76a77a9d7af669cb345829793a7f9649'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=Xh1yD5zR1AqxzT59K22.3l8lDR9PleKQdNlAZDWU2jY-1738700999-1.0.1.1-koGZNT9MiSoLfww3Gjz47A65fUVbzX9ThC2ITEdjO4WuVQ7LgxAQHT4dV0bEyMR5vmDvSp.LM2_DuS3zj1iz_Q; path=/; expires=Tue, 04-Feb-25 20:59:59 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=Ww42fE5HJVkljrdmkaoMl5YV33gFArrUQgIryRfLY9M-1738700999719-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '90cd6a7f5b9234ee-WAW'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-04 21:29:59,675 - openai._base_client - DEBUG - request_id: req_76a77a9d7af669cb345829793a7f9649
+2025-02-04 21:29:59,676 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1043, in _request
+    response.raise_for_status()
+  File "/Users/tomaszbulat/Desktop/dev/chatv2/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-04 21:29:59,679 - openai._base_client - DEBUG - Not retrying
+2025-02-04 21:29:59,679 - openai._base_client - DEBUG - Re-raising status error
+2025-02-04 21:29:59,847 - __main__ - ERROR - Some tests failed
+2025-02-04 21:29:59,893 - httpcore.connection - DEBUG - close.started
+2025-02-04 21:29:59,893 - httpcore.connection - DEBUG - close.complete
+2025-02-04 21:29:59,925 - __main__ - INFO - Test run completed in 3.43 seconds
+2025-02-04 21:29:59,933 - __main__ - INFO - Test report generated
+2025-02-04 21:29:59,934 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:33:21,457 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:33:21,457 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213321
+2025-02-04 21:33:21,457 - __main__ - INFO - Starting test run
+2025-02-04 21:33:22,483 - __main__ - ERROR - Some tests failed
+2025-02-04 21:33:22,548 - __main__ - INFO - Test run completed in 1.09 seconds
+2025-02-04 21:33:22,553 - __main__ - INFO - Test report generated
+2025-02-04 21:33:22,553 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:33:32,954 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:33:32,954 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213332
+2025-02-04 21:33:32,955 - __main__ - INFO - Starting test run
+2025-02-04 21:33:35,489 - __main__ - ERROR - Some tests failed
+2025-02-04 21:33:35,560 - __main__ - INFO - Test run completed in 2.61 seconds
+2025-02-04 21:33:35,566 - __main__ - INFO - Test report generated
+2025-02-04 21:33:35,566 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:34:10,758 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:34:10,758 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213410
+2025-02-04 21:34:10,759 - __main__ - INFO - Starting test run
+2025-02-04 21:34:13,169 - __main__ - ERROR - Some tests failed
+2025-02-04 21:34:13,238 - __main__ - INFO - Test run completed in 2.48 seconds
+2025-02-04 21:34:13,243 - __main__ - INFO - Test report generated
+2025-02-04 21:34:13,244 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:34:39,305 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:34:39,305 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213439
+2025-02-04 21:34:39,306 - __main__ - INFO - Starting test run
+2025-02-04 21:34:39,306 - __main__ - INFO - Test environment cleaned up
+2025-02-04 21:35:03,178 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:35:03,178 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213503
+2025-02-04 21:35:03,178 - __main__ - INFO - Starting test run
+2025-02-04 21:35:03,178 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213503
+2025-02-04 21:35:06,321 - __main__ - INFO - Test run completed with exit code 1
+2025-02-04 21:35:06,613 - __main__ - INFO - Test report generated
+2025-02-04 21:35:27,398 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:35:27,398 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213527
+2025-02-04 21:35:27,398 - __main__ - INFO - Starting test run
+2025-02-04 21:35:27,398 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213527
+2025-02-04 21:35:30,610 - __main__ - INFO - Test run completed with exit code 1
+2025-02-04 21:35:30,895 - __main__ - INFO - Test report generated
+2025-02-04 21:35:48,831 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-04 21:35:48,831 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213548
+2025-02-04 21:35:48,832 - __main__ - INFO - Starting test run
+2025-02-04 21:35:48,832 - __main__ - INFO - Test environment set up in /Users/tomaszbulat/Desktop/dev/chatv2/test_results/20250204_213548
+2025-02-04 21:35:52,038 - __main__ - INFO - Test run completed with exit code 1
+2025-02-04 21:35:52,308 - __main__ - INFO - Test report generated
+2025-02-04 21:35:52,311 - __main__ - INFO - Test environment cleaned up

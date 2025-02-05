@@ -1,0 +1,29 @@
+{
+  "time": {
+    "real_time": "2025-02-04T20:12:26.418506",
+    "game_time": "2025-02-04T20:12:26.418517",
+    "time_scale": 1.0
+  },
+  "character": {
+    "name": "Player",
+    "stats": {
+      "health": 100.0,
+      "energy": 100.0,
+      "happiness": 50.0
+    },
+    "skills": {
+      "STRENGTH": 0.0,
+      "STAMINA": 0.0,
+      "KNOWLEDGE": 0.0,
+      "CRAFTING": 0.0,
+      "SOCIAL": 0.0
+    },
+    "inventory": [],
+    "relationships": {}
+  },
+  "tasks": {
+    "active": [
+      {
+        "name": "Clean Room",
+        "description": "Clean and organize your room",
+        "type": 

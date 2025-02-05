@@ -1,0 +1,64 @@
+game:
+  name: "Village Life"
+  version: "0.1.0"
+
+time:
+  scale: 1.0  # 1 real hour = 1 game hour
+
+character:
+  initial_stats:
+    health: 100.0
+    energy: 100.0
+    happiness: 50.0
+  
+  max_stats:
+    health: 100.0
+    energy: 100.0
+    happiness: 100.0
+
+tasks:
+  types:
+    - name: CHORE
+      base_rewards:
+        STAMINA: 2.0
+        CRAFTING: 1.0
+    
+    - name: EXERCISE
+      base_rewards:
+        STRENGTH: 3.0
+        STAMINA: 2.0
+    
+    - name: LEARNING
+      base_rewards:
+        KNOWLEDGE: 3.0
+        SOCIAL: 1.0
+    
+    - name: CRAFTING
+      base_rewards:
+        CRAFTING: 3.0
+        KNOWLEDGE: 1.0
+
+  examples:
+    - name: "Clean Room"
+      type: CHORE
+      description: "Clean and organize your room"
+      duration: null  # Manual completion
+      rewards:
+        STAMINA: 5.0
+        CRAFTING: 2.0
+    
+    - name: "Morning Exercise"
+      type: EXERCISE
+      description: "Do a morning workout routine"
+      duration: "PT30M"  # 30 minutes
+      rewards:
+        STRENGTH: 8.0
+        STAMINA: 5.0
+    
+    - name: "Study Programming"
+      type: LEARNING
+      description: "Learn and practice programming"
+      duration: "PT1H"  # 1 hour
+      rewards:
+        KNOWLEDGE: 10.0
+        SOCIAL: 2.0 

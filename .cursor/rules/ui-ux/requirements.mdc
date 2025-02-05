@@ -1,0 +1,96 @@
+---
+description: UI/UX requirements and guidelines for the project
+globs: ['src/ui/**/*.py', 'src/**/*_ui.py', 'src/**/*_view.py', 'tests/ui/**/*.py']
+---
+
+# UI/UX Requirements
+
+## Core Requirements
+
+### Window Properties
+- Minimum size: 1200x800 pixels
+- Font: Courier New, 14pt
+- Menu width: 80 characters
+- Input field width: ≥70 characters
+
+### Navigation
+- Support both arrow keys and vim-style (h,j,k,l) navigation
+- Space bar for action/confirmation
+- Escape for cancel/back
+- Tab for field navigation
+- Enter for confirmation
+
+### Visual Feedback
+- Clear cursor indication in input fields
+- Highlight current selection
+- Visual feedback for all actions
+- Consistent border styles
+- Clear menu hierarchy
+
+## Game Interface
+
+### Main Display
+- ASCII art for game visualization
+- Clear separation of game areas
+- Status indicators
+- Resource counters
+- Time display
+
+### Menu System
+- Hierarchical navigation
+- Keyboard shortcuts
+- Context-sensitive help
+- Quick access to common actions
+- Persistent state display
+
+### Input Handling
+1. Key Events:
+   - Log all key codes for debugging
+   - Handle special keys explicitly
+   - Accept events to prevent propagation
+   - Update display after key handling
+   - Maintain focus after transitions
+
+2. Focus Management:
+   - Clear focus indicators
+   - Logical tab order
+   - Focus restoration after dialogs
+   - No focus traps
+   - Keyboard accessibility
+
+## Best Practices
+
+1. User Feedback:
+   - Immediate response to actions
+   - Clear error messages
+   - Status updates
+   - Progress indicators
+   - Success confirmations
+
+2. Error Prevention:
+   - Confirm destructive actions
+   - Validate input
+   - Provide default values
+   - Clear error recovery
+   - Undo/redo support
+
+3. Performance:
+   - Smooth animations
+   - Quick response times
+   - No UI freezes
+   - Efficient redraws
+   - Background processing
+
+4. Accessibility:
+   - Keyboard navigation
+   - High contrast
+   - Clear text
+   - Consistent layout
+   - Error announcements
+
+5. Testing:
+   - UI component tests
+   - Integration tests
+   - User interaction tests
+   - Focus management tests
+   - Event handling tests

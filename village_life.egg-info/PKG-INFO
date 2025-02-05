@@ -1,0 +1,80 @@
+Metadata-Version: 2.2
+Name: village_life
+Version: 0.1.0
+Summary: A text-based village life simulation game
+Home-page: https://github.com/yourusername/village-life
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment :: Simulation
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6>=6.8.0
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: pytest-qt>=4.2.0
+Requires-Dist: pytest-asyncio>=0.23.3
+Requires-Dist: pytest-timeout>=2.3.1
+Requires-Dist: pytest-benchmark>=5.1.0
+Requires-Dist: pytest-cov>=6.0.0
+Requires-Dist: pytest-xdist>=3.6.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Village Life
+
+A text-based ASCII game and productivity tool that combines real-life task tracking with village building and character progression.
+
+## Features
+
+- Text-based ASCII interface with smooth transitions and animations
+- Real-time task tracking and management
+- Character progression and skill development
+- Village building and resource management
+- NPC interactions with AI-powered dialogue
+- Weather and season effects
+- Plugin system for extensibility
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/village-life.git
+cd village-life
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the package in development mode:
+```bash
+pip install -e .
+```
+
+## Development
+
+1. Run tests:
+```bash
+python -m pytest tests/
+```
+
+2. Run the game:
+```bash
+python -m village_life
+```
+
+## License
+
+MIT License 

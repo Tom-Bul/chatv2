@@ -1,0 +1,57 @@
+---
+description: Lessons learned from user feedback and system experience
+globs: ['**/*', 'src/**/*.py', 'tests/**/*.py', 'tools/**/*.py', '.cursor/rules/**/*.mdc']
+---
+
+# Lessons
+
+## User Specified Lessons
+
+- You have a python venv in ./venv. Use it.
+- Include info useful for debugging in the program output.
+- Read the file before you try to edit it.
+- Due to Cursor's limit, when you use `git` and `gh` and need to submit a multiline commit message, first write the message in a file, and then use `git commit -F <filename>` or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+- Always check feedback log after user closed an app.
+- If you cannot fix something after 2-3 tries try to find a new approach. Add temporary logs to the code to help you debug. act as a real senior developer would, they would do same thing over and over again until they find a solution.
+- When cannot find an easy solution to a problem, use available tools (search_engine.py, web_scraper.py, etc.) to find solutions before making changes.
+- Check logs and feedback after any user interaction, especially after closing the app.
+- Use only local DeepSeek model (Qwen/Qwen2.5-32B-Instruct-AWQ) for all AI interactions.
+
+## Debugging Best Practices
+- When encountering difficult bugs, especially with libraries or frameworks:
+  1. Use the search_engine.py tool to find similar issues and solutions
+  2. Look for recent version compatibility issues (e.g., pytest 8.0 with pytest-asyncio)
+  3. Check GitHub issues and Stack Overflow for the exact error message
+  4. Try solutions from most recent discussions first
+  5. Document the solution in the lessons for future reference
+
+## UI/UX Lessons
+- When handling key events in PyQt6:
+  - Always check the key code in logs before implementing key handling
+  - Handle special keys (like space) explicitly rather than relying on text()
+  - Accept the event to prevent propagation
+  - Update display after key handling
+  - Separate navigation keys (arrows) from alternative keys (vim-style)
+  - Maintain focus after menu changes and dialog closures
+  - Always call setFocus() after input handling and menu navigation
+  - Return immediately after closing the application
+
+## Game Development Lessons
+- Task System Design:
+  - Use UUID for task IDs to ensure uniqueness
+  - Store task templates for consistent generation
+  - Scale requirements based on player skills
+  - Include tool requirements for crafting/building
+  - Add seasonal effects to task rewards
+  - Track task chains for progression
+  - Save/load entire task state
+  - Log task status changes for debugging
+
+- Weather System Design:
+  - Use enum for weather types
+  - Store weather patterns by season
+  - Implement smooth weather transitions
+  - Scale effects based on intensity
+  - Apply weather effects to tasks and resources
+  - Log weather changes and effects
+  - Save/load weather state

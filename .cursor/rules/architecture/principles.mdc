@@ -1,0 +1,75 @@
+---
+description: Core architectural principles and design philosophy
+globs: ['src/**/*.py', 'tests/**/*.py', 'docs/architecture/**/*']
+---
+
+# Architecture Principles
+
+## Core Philosophy
+
+Design for Maximum Modularity and Interconnection:
+- Every system should be able to interact with other systems
+- Use interfaces and abstract classes for flexibility
+- Avoid hard-coded relationships between components
+- Design systems to be extensible without modifying existing code
+- Use event systems for inter-component communication
+
+## Design Principles
+
+1. Component Design:
+   - Make components composable and reusable
+   - Implement generic type parameters where beneficial
+   - Use dependency injection for loose coupling
+   - Design data structures that can be easily extended
+   - Create flexible serialization systems
+
+2. System Architecture:
+   - Allow for dynamic loading of new content
+   - Support modding through plugin architecture
+   - Use observer pattern for system interactions
+   - Implement component-based architecture
+   - Design for emergent gameplay
+
+3. State Management:
+   - Make systems stateless where possible
+   - Use strategy pattern for interchangeable behaviors
+   - Support runtime configuration of relationships
+   - Design for testability and simulation
+   - Create uniform interfaces for similar concepts
+
+## System Interactions
+
+Examples:
+- Resources should work with any crafting system
+- Weather should affect all outdoor activities
+- Skills should be applicable to multiple task types
+- Tools should be usable in creative ways
+- Buildings should interact with multiple systems
+- NPCs should respond to any event type
+- Seasons should affect all relevant systems
+- Quality should propagate through transformations
+- Time should influence all appropriate systems
+- Location should matter for all activities
+
+## Implementation Guidelines
+
+1. Code Organization:
+   - Use abstract base classes for core concepts
+   - Implement generic type constraints
+   - Design flexible data structures
+   - Create uniform interfaces
+   - Use event-driven architecture
+
+2. Design Patterns:
+   - Implement visitor pattern for interactions
+   - Design plugin system for extensions
+   - Use factory pattern for object creation
+   - Implement command pattern for actions
+   - Create decorator pattern for modifications
+
+3. Best Practices:
+   - Follow SOLID principles
+   - Use dependency injection
+   - Implement event-driven design
+   - Create clear interfaces
+   - Support extensibility

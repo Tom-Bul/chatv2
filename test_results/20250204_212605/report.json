@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-02-04T21:26:07.034764",
+  "args": {
+    "test_pattern": null,
+    "profile": true,
+    "monitor": true,
+    "keep_temp": false,
+    "no_ui": true
+  },
+  "performance": {
+    "test_times": {},
+    "memory_usage": {
+      "1738700765.644264": {
+        "rss": 31326208,
+        "vms": 420195303424
+      },
+      "1738700766.6452968": {
+        "rss": 142262272,
+        "vms": 420842504192
+      }
+    },
+    "cpu_usage": {
+      "1738700765.644276": 0.0,
+      "1738700766.645344": 78.3
+    },
+    "ai_calls": {},
+    "errors": [],
+    "total_run_time": 1.3839919567108154
+  },
+  "system_info": {
+    "python_version": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "darwin",
+    "cpu_count": 8,
+    "memory_total": 17179869184
+  }
+}

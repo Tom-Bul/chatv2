@@ -1,0 +1,8 @@
+---
+description: Test rule to verify globs formatting
+globs: ['src/**/*.py', 'tests/**/*.py', '*.json', '.env*']
+---
+
+# Test Rule
+
+This is a test rule to verify the YAML frontmatter formatting, especially the globs field.

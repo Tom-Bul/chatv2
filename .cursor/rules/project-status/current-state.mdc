@@ -1,0 +1,139 @@
+---
+description: Current state and progress of the project
+globs: ['**/*', '.cursor/rules/**/*.mdc']
+---
+
+# Project Status
+
+## Development Phases
+
+### Phase 1: Core Engine & Basic Systems
+[X] Project Setup
+[ ] Core Game Loop
+  - Basic character creation
+  - Time system (real-time tracking)
+  - Save/Load functionality
+  - Basic task system
+[ ] Initial UI Framework
+  - ASCII renderer
+  - Basic HUD
+  - Menu system
+[ ] AI Integration
+  - DeepSeek-r1:7b setup
+  - Basic NPC generation
+  - Simple dialogue system
+
+### Phase 2: Character & Task Systems
+[ ] Character System
+  - Skills (stamina, knowledge, crafting, etc.)
+  - Experience tracking
+  - Level progression
+  - Equipment system
+[ ] Task System
+  - Task categories (chores, learning, exercise)
+  - Time tracking integration
+  - Task-to-skill mapping
+  - Quest generation
+[ ] Basic Village Mechanics
+  - Resource management
+  - Simple building system
+  - Initial NPC roles
+
+### Phase 3: Village & NPC Development
+[ ] Advanced NPC System
+  - Personality generation
+  - Story/background generation
+  - Relationship system
+  - Memory/context tracking
+[ ] Village Evolution
+  - Dynamic role assignment
+  - Building progression
+  - Resource chains
+  - Community events
+[ ] Advanced Quest System
+  - Story-driven quests
+  - NPC-specific quests
+  - Village development quests
+
+### Phase 4: Advanced Features & Polish
+[ ] Advanced AI Features
+  - Complex dialogue trees
+  - Event generation
+  - Dynamic story adaptation
+[ ] Enhanced Village Systems
+  - Economy simulation
+  - Inter-NPC relationships
+  - Village events
+[ ] UI Polish
+  - Enhanced ASCII art
+  - Improved HUD
+  - Sound effects (optional)
+
+## Current Phase
+- Core System Refactoring
+  - Abstract base classes
+  - Generic type constraints
+  - Event-driven architecture
+  - Plugin system foundation
+  - Uniform interfaces
+
+## Implementation Progress
+
+1. Core Module Updates
+   [X] Create abstract base classes
+     - IResource
+     - ITask
+     - IWeather
+     - ITimeManager
+     - IGameState
+   
+   [X] Implement event system
+     - EventBus
+     - Event types
+     - Observer pattern
+     - Event handlers
+
+   [X] Design plugin architecture
+     - Plugin registry
+     - Plugin loader
+     - Extension points
+     - Plugin interfaces
+
+2. Resource System Enhancements
+   [X] Resource transformation pipeline
+   [X] Quality propagation system
+   [X] Resource combination rules
+   [X] Storage management
+   [X] Resource events
+
+3. Task System Improvements
+   [X] Task composition system
+   [X] Prerequisite chain handling
+   [X] Task modification system
+   [X] Task event propagation
+   [X] Task result handling
+
+4. Integration Updates
+   [X] Weather effects system
+   [X] Time influence system
+   [X] Location management
+   [X] State persistence
+   [X] Cross-system events
+
+## Next Steps
+1. [X] Update resource_manager.py to use new abstractions
+2. [X] Update task.py to use new abstractions
+3. [X] Update weather_manager.py to use new abstractions
+4. [X] Add tests for core abstractions
+5. [X] Add tests for modifier system
+6. [X] Add tests for resource system
+7. [X] Add tests for task system
+8. [ ] Add tests for weather system
+9. [ ] Add integration tests
+
+## Known Issues
+1. Performance optimization needed for large resource collections
+2. Weather transition smoothing needs improvement
+3. Task chain visualization pending
+4. Resource decay rate tuning required
+5. Plugin hot-reload system incomplete

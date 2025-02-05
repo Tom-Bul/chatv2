@@ -1,0 +1,35 @@
+# Web scraping
+playwright>=1.41.0
+html5lib>=1.1
+
+# Search engine
+duckduckgo-search>=7.2.1
+
+# LLM integration
+openai>=1.59.8 # o1 support
+anthropic>=0.42.0
+python-dotenv==1.0.0
+
+# Testing
+unittest2>=1.1.0
+pytest>=8.0.0
+pytest-asyncio==0.23.3
+pytest-cov>=4.1.0  # Coverage reporting
+pytest-xdist>=3.5.0  # Parallel test execution
+pytest-timeout>=2.2.0  # Test timeouts
+pytest-benchmark>=4.0.0  # Performance benchmarking
+psutil>=5.9.8  # System monitoring
+
+# Google Generative AI
+google-generativeai
+
+# gRPC, for Google Generative AI preventing WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+grpcio==1.60.1
+
+PyQt6==6.6.1
+PyYAML==6.0.1
+requests==2.31.0
+SQLAlchemy==2.0.25
+aiosqlite==0.19.0
+pytest-qt==4.2.0
+rich==13.7.0  # For beautiful terminal output

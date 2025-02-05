@@ -1,0 +1,39 @@
+---
+description: Technology stack and development requirements
+globs: ['**/*.py', 'requirements.txt', 'setup.py', 'pyproject.toml', 'poetry.lock', '.env', 'src/**/*']
+---
+
+# Technology Stack
+
+## Core Technologies
+- Python 3.12+
+- PyQt6 for UI
+- SQLite for data persistence
+- DeepSeek-r1:7b for AI
+- YAML for configuration
+- JSON for save files
+
+## AI Integration
+- Using local DeepSeek model (Qwen/Qwen2.5-32B-Instruct-AWQ) for all AI interactions
+- Remove other API keys from configuration
+- Update test mocks to match DeepSeek response format
+- Mock response structure: {"choices": [{"message": {"content": "..."}}]}
+- Skip UI tests when having PyQt6 issues for now
+
+## Platform Requirements
+- macOS specific UI requirements
+- Handle persistent state for game progress
+- Support for both keyboard navigation styles
+- Power management considerations
+- Local file system access
+- Local model inference
+
+## Development Tools
+- Python virtual environment in ./venv
+- Git for version control
+- GitHub for collaboration
+- pytest for testing
+- black for code formatting
+- mypy for type checking
+- pylint for code quality
+- Coverage.py for test coverage
